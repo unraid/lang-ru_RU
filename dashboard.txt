@@ -101,3 +101,6 @@ User count %s with %s unprotected=User count: %s with %s unprotected
 utilization warning=
 View Running Processes=
 Virtual Machines=
+
+; New entries - 2021-03-14
+Temp=

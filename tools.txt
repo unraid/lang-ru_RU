@@ -300,3 +300,11 @@ is not unique (this is common with USB card readers).
 
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
+
+; New entries - 2021-03-14
+Delete all notifications=
+Downloading=
+Install Language=
+please configure=
+Uploaded=
+PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
