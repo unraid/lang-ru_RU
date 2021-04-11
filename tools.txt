@@ -1,181 +1,193 @@
 A registration replacement key has been created for USB Flash GUID=
-About=
-alert=
-An email has been sent to=
-and=
-Anonymize diagnostics=
-Anytime=
-Archived Notifications=
-Are you sure=
-Array has been Reset=Array has been **Reset**
-Array must be Started to change permissions=Array must be **Started** to change permissions
-Array must be Stopped to change=Array must be **Stopped** to change
-Array=
-Author=
-Blacklisted USB Flash GUID=
-Branch=
-By using this software, you agree with our=
-Cache slots=
-Cannot connect to key-server=
-Check for Updates=
-click Install Key=click <i>Install Key</i>
-collecting diagnostic information this may take several minutes=collecting diagnostic information (this may take several minutes)
-Component=
-Credits=
+About=Об системе
+alert=тревога
+An email has been sent to=E-mail был отправлен
+and=и
+Anonymize diagnostics=Анонимная диагностика
+Anytime=Любое время
+Archived Notifications=Архивные уведомления
+Are you sure=Вы уверены
+Array has been Reset=Массив **сброшен**
+Array must be Started to change permissions=Чтобы изменить разрешения, массив должен быть **запущен**
+Array must be Stopped to change=Массив должен быть **остановлен** для изменений
+Array slots=Слоты массива
+Array=Массив
+Author=Автор
+Beta=
+Blacklisted USB Flash GUID=GUID флэш-памяти USB, занесён в черный список
+Branch=Ветка
+By using this software, you agree with our=Используя это программное обеспечение, вы соглашаетесь с нашими
+Cache slots=Слоты для кеша
+Cannot connect to key-server=Не удается подключиться к серверу ключей
+Check for Updates=Проверить обновления
+click Install Key=нажмите <i>Установить ключ</i>
+collecting diagnostic information this may take several minutes=сбор диагностической информации (это может занять несколько минут)
+Component=Компонент
+Credits=Титры
 Data slots=
-Delete notification=
-Developer=
-Diagnostics=
-Disks=
-Display Settings=
-End-User License Agreement=
-Enter URL of language pack XML file=
+Delete all notifications=Удалить все уведомления
+Delete notification=Удалить уведомление
+Developer=Разработчик
+Diagnostics=Диагностика
+Disks=Диски
+Display Settings=Настройки отображения
+Downloading=Скачивание
+End-User License Agreement=Лицензионное соглашение конечного пользователя
+Enter URL of language pack XML file=ведите URL-адрес XML-файла языкового пакета
 Error accessing your physical USB Flash boot device=
-EULA=
-Event=
-Expiration=
-Extend=
-extended=
-Get Trial Key=
-Hardware Profile=
-Hide Details=
-If you do not receive an email, please check your spam or junk-email folder=
-Importance=
-Important=
-Install=
-Installed languages=
+EULA=Пользовательское соглашение
+Event=Событие
+Expiration=Срок действия
+Extend=Продлить
+extended=расширенный
+Get Trial Key=Получить пробный ключ
+Hardware Profile=Профиль оборудования
+Hide Details=Скрыть детали
+If you do not receive an email, please check your spam or junk-email folder=Если вы не получили письмо, проверьте папку со спамом или нежелательной почтой.
+Importance=Важность
+Important=Важное
+Install Language=Установить язык
+Install=Установить
+Installed languages=Установленные языки
 Invalid Trial Installation=Invalid *Trial* Installation
 It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=
-Key file URL=
-Language support added=
-Language support deleted=
-Language=
-Missing Key File=
-Missing Language=
-Network Settings=
-New Config=
-New Permissions=
-No notifications present=
+Key file URL=URL-адрес файла ключа
+Language support added=Добавлена языковая поддержка
+Language support deleted=Языковая поддержка удалена
+Language=Язык
+Missing Key File=Отсутствует файл ключа
+Missing Language=Отсутствует язык
+Network Settings=Настройки сети
+New Config=Новая конфигурация
+New Permissions=Новые разрешения
+Next=
+No notifications present=Уведомлений нет
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=No personal information such as user names, passwords, or any other file contents is included in the hardware profile
-normal=
-Only ZIP files are allowed=
-Page Map=
-Parity slots=
-Please check your=
-Please select a language before proceeding=
-Please=
-Preserve current assignments=
-previous=
-Privacy Policy=
-Processes=
-Purchase Key=
+normal=обычное
+Only ZIP files are allowed=Разрешены только ZIP-файлы
+Page Map=Карта страниц
+Parity slots=Слоты четности
+Please check your=Пожалуйста, проверьте свой
+please configure=пожалуйста, настройте
+Please select a language before proceeding=Пожалуйста, выберите язык, прежде чем продолжить
+Please=Пожалуйста
+Pool slots=
+Preserve current assignments=Сохранить текущие назначения
+previous=предыдущий
+Privacy Policy=Политика конфиденциальности
+Processes=Процессы
+Purchase Key=Купить ключ
 Registered GUID=
-Registered on=
-Registered to=
+Registered on=Дата регистрации
+Registered to=Зарегистрировано
 registering USB Flash GUID=
-Release has been withdrawn=
-Remove the installed language=
-Replaceable=
-Request Extension=
-Request Trial Extension=
-Restore=
-See=
-Select language file=
-Select language=
-Show Details=
-slots=
-Subject=
-System Devices=
-System Update Check=
-Text=
-Thank you for choosing Unraid OS=
+Release has been withdrawn=Релиз был отозван
+Remove the installed language=Удалите установленный язык
+Replaceable=Заменяемый
+Request Extension=Запросить продление
+Request Trial Extension=Запросить продление пробной версии
+Restore=Восстановить
+See=Посетите
+Select language file=Выберите языковой файл
+Select language=Выберите язык
+Show Details=Показать детали
+slots=слоты
+Stable=
+Subject=Тема
+System Devices=Системные устройства
+System Update Check=Проверка обновлений системы
+Text=Текст
+Thank you for choosing Unraid OS=Спасибо, что выбрали Unraid OS
 Thank you for registering USB Flash GUID=
-Thank you for trying Unraid OS=
+Thank you for trying Unraid OS=Спасибо, что попробовали Unraid OS
 The registered GUID does not match the USB Flash boot device GUID=
 There is a physical problem accessing your USB Flash boot device=
-this may take several minutes=
+this may take several minutes=это займет несколько минут
 This release has been withdrawn for use with Trial keys=This release has been withdrawn for use with *Trial* keys
-This server has %s attached storage device=
-This server has %s attached storage devices=
-This utility is used for troubleshooting purposes=
-This will delete all notification files=
-This will update folder file permissions=This will update folder & file permissions
-Time=
-To install a registration key, paste the key file URL in the box below and click Install Key=To install a registration key, paste the key file URL in the box below and click **Install Key**
-to select your language=
-To support more storage devices as your server grows, click Upgrade Key below=To support more storage devices as your server grows, click *Upgrade Key* below
-Trial key expires on=***Trial*** key expires on
-Trial=
-Update OS=
-Upgrade Key=
-uploading hardware information=
+This server has %s attached storage device=К этому серверу подключено %s запоминающее устройство
+This server has %s attached storage devices=К этому серверу подключено %s запоминающих устройств
+This utility is used for troubleshooting purposes=Эта утилита используется для устранения неполадок.
+This will delete all notification files=Это удалит все файлы уведомлений.
+This will update folder file permissions=Это обновит права доступа к папкам и файлам
+Time=Время
+To install a registration key, paste the key file URL in the box below and click Install Key=Чтобы установить регистрационный ключ, вставьте URL-адрес файла ключа в поле ниже и нажмите **Установить ключ**.
+to select your language=чтобы выбрать свой язык
+To support more storage devices as your server grows, click Upgrade Key below=Чтобы поддерживать больше устройств хранения по мере роста вашего сервера, нажмите *Обновить ключ* ниже.
+Trial key expires on=Срок действия ***пробной*** версии истекает
+Trial=Пробная
+Update OS=Обновление ОС
+Upgrade Key=Обновление ключа
+Uploaded=
+uploading hardware information=загрузка информации об оборудовании
 Uploading=
-Use this to develop language packs=
-Use this to install official language packs=
+Use this to develop language packs=Используйте это для разработки языковых пакетов
+Use this to install official language packs=Используйте это для установки официальных языковых пакетов
 User Shares=
-User=
-Vars=
-warning=
-webGUI=
-When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the <i>Key file</i> URL box and
-Wrong File Extension=
-You havent sent Limetech your hardware profile yet=You haven't sent Limetech your hardware profile yet
+User=Пользователь
+Vars=Переменные
+VFIO-PCI Log=
+View VFIO-PCI Log=
+warning=предупреждение
+webGUI=Веб-интерфейс
+When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the *Key file URL* box and
+Wrong File Extension=Неверное расширение файла
+You havent sent Limetech your hardware profile yet=Вы ещё не отправили в Limetech свой профиль оборудования
 Your hardware profile was last submitted on=
-Your Trial key has expired=Your *Trial* key has expired
-Your Trial key requires an internet connection=Your *Trial* key requires an internet connection
+Your Trial key has expired=Срок действия вашего *пробного* ключа истек
+Your Trial key requires an internet connection=Ваш *пробный* ключ требует подключения к Интернету
 
 ; Sysdevs text - added May 18, 2020
-A reboot is required to apply changes=
-ALERT=
+A reboot is required to apply changes=Для применения изменений требуется перезагрузка.
+ALERT=ТРЕВОГА
 Bind selected to VFIO at Boot=
-CPU Thread Pairings=
-Changes saved=
+CPU Thread Pairings=Сопряжение потоков ЦП
+Changes saved=Изменения сохранены
 Function Level Reset FLR supported=Function Level Reset (FLR) supported
-In use by Unraid=
-Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
-No changes=
-PCI Devices and IOMMU Groups=
-Reboot to take effect=
-SCSI Devices=
+In use by Unraid=Используется Unraid
+Kernel driver in use vfio-pci=Используемый драйвер ядра: vfio-pci
+No changes=Без изменений
+PCI Devices and IOMMU Groups=Устройства PCI и группы IOMMU
+PCI Devices No IOMMU Groups Available=Устройства PCI (группы IOMMU отсутствуют)
+Reboot to take effect=Перезагрузите, чтобы вступили в силу
+SCSI Devices=SCSI-устройства
 The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
 This controller is bound to vfio, connected USB devices are not visible=
 This controller is bound to vfio, connected drives are not visible=
 To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
-USB Devices=
-Your system has booted with the PCIe ACS Override setting enabled=
+USB Devices=USB-устройства
+Your system has booted with the PCIe ACS Override setting enabled=Ваша система загрузилась с включенной настройкой PCIe ACS Override.
 
 :diagnostics_1_plug:
-This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
-Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
+Эта утилита используется для устранения неполадок. Она соберёт всю системную информацию,файлы конфигурации и упакует эти файлы в один ZIP-файл, который можно сохранить локально.
+В дальнейшем этот файл можно будет включить в вашу переписку с Limetech или форумом Unraid.
 
-This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
-and configuration files are collected:
+Это поможет другим быстро получить внутреннюю информацию о вашей системе и обеспечит лучшую поддержку в решении вашей проблемы.
+Собирается следующая информация и файлы конфигурации:
 :end
 
 :diagnostics_2_plug:
 + */config*
-  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
+  <br>копируются все *\*.cfg файлы*, *go* файл и *super.dat* файл. Это файлы конфигурации.
 + */config/shares*
-  <br>copy all *\*.cfg* files. These are user share settings files.
+  <br>копируются все  *\*.cfg* файлы. Это файлы настроек общего доступа пользователей.
 + *Syslog file(s)*
-  <br>copy the current *syslog* file and any previous existing *syslog* files.
+  <br>копируется текущий *syslog* файл и любые предыдущие существующие *syslog* файлы.
 + *System*
-  <br>save output of the following commands:
+  <br>сохраняется вывод следующих команд:
   <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
-  <br>display of iommu groups.
-  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).
-  <br>save system variables.
+  <br>отображение групп iommu.
+  <br>отображение параметров командной строки (например, pcie acs override, pci stubbing, etc).
+  <br>сохраняются системные переменные.
 + *SMART reports*
-  <br>save a SMART report of each individual disk present in your system.
+  <br>сохраняется отчет SMART для каждого отдельного диска, присутствующего в вашей системе.
 + *Docker*
-  <br>save files *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* and *vfio-pci*.
+  <br>сохраняются файлы *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* и *vfio-pci*.
 :end
 
 :diagnostics_3_plug:
-Clicking **Download** will start the collection process and then instruct your browser to save the zip file locally.
+Нажмите **Скачать**, это запустит процесс сбора, а затем даст указание вашему браузеру сохранить zip-файл локально.
 
-*No personal information such as user names, passwords, or any other file contents not specified above is included
-by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
+*Никакая личная информация, такая как имена пользователей, пароли или любое другое содержимое файлов, не указанное выше, не включается в Unraid OS; тем не менее, ваше имя сервера, IP-адрес и имена общих пользователей **будут** включены*.
 
 *Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
 to the system log.*
@@ -243,11 +255,11 @@ Note: USB memory card readers are generally **not** supported because most do no
 :end
 
 :registration_3_plug:
-Your *Trial* key includes all the functionality and device support of a *Pro* Registration key.
+Ваш *Пробный* ключ включает в себя все функции и поддержку устройств, как и регистрационный ключ *Pro*.
 
-After your *Trial* key has reached expiration, your server **still functions normally** until the next time you **Stop** the array.
+После того, как срок действия вашего *пробного* ключа истечёт, ваш сервер **по-прежнему будет работать нормально** до следующей **остановки** массива.
 
-At that point, you may either purchase a Registration key, or request a *Trial* extension.
+На этом этапе вы можете либо приобрести регистрационный ключ, либо запросить продление *пробной* версии.
 :end
 
 :registration_4_plug:
@@ -265,12 +277,12 @@ For more information, please [Contact Support](https://lime-technology.com/conta
 :end
 
 :registration_6_plug:
-It appears that your Registration key file is corrupted or missing.  The key file should be located in the
-[config](/Registration/Browse?dir&#61;/boot/config) directory on your USB Flash boot device.
+Похоже, что ваш файл регистрационного ключа поврежден или отсутствует. Файл ключа должен находиться в каталоге
+[config](/Registration/Browse?dir&#61;/boot/config) на загрузочном устройстве USB Flash.
 
-If you do not have a backup copy of your Registration key file, [Contact Support](https://lime-technology.com/contact).
+Если у вас нет резервной копии файла регистрационного ключа, [Contact Support](https://lime-technology.com/contact).
 
-If this was a *Trial* installation, you may purchase a Registration key.
+Если это была *пробная установка*, вы можете приобрести регистрационный ключ.
 :end
 
 :registration_7_plug:
@@ -300,17 +312,3 @@ is not unique (this is common with USB card readers).
 
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
-
-; New entries - 2021-03-14
-Delete all notifications=
-Downloading=
-Install Language=
-please configure=
-Uploaded=
-PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
-
-; New entries - 2021-03-14
-Array slots=
-Pool slots=
-VFIO-PCI Log=
-View VFIO-PCI Log=

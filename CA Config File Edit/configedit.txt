@@ -1,0 +1,12 @@
+Select File=Выберите файл
+Error reading file=Ошибка чтения файла
+No Backup File Found=Файл резервной копии не найден
+Select a file to edit=Выберите файл для редактирования
+note editing a binary file could have unintended consequences=обратите внимание, что редактирование двоичного файла может иметь непредвиденные последствия
+No file selected=Файл не выбран
+Backup File=Файл резервной копии
+Editing=Редактирование
+Generally, it is not recommended to change the format=Как правило, менять формат не рекомендуется.
+Credits=
+No Backup File Found=Файл резервной копии не найден
+File Format=Формат файла
