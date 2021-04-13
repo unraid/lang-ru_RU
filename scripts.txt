@@ -1,5 +1,6 @@
 A new version of %s is available=
 Docker=
-Language=
-Notice %s - Version update %s=
-Plugin=
+Language=Язык
+Notice %s - Version update %s=Уведомление %s - Обновление версии %s
+Plugin=Плагин
+
