@@ -1,8 +1,8 @@
 Cancel=
 
 ; My PSAs / banners
-Happy New Year=
-Happy Holidays from Andrew, Tracey, and family=
+Happy New Year=С Новым Годом
+Happy Holidays from Andrew, Tracey, and family=Поздравления с праздником от Эндрю, Трейси и семьи
 Please Enjoy Responsibly=
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=
@@ -44,28 +44,28 @@ No Matching Applications Found On Docker Hub=
 No Matching Applications Found=Подходящих приложений не найдено
 
 ; Repository Related
-Removed favourite repository=
-%s set as favourite repository=
-Click to remove favourite repository=
-Click to set %s as favourite repository=
-Search for apps in repository=
-No description present=
-Go to the forum page=
-Go to the webpage=
-Go to reddit=
-Go to facebook=
-Go to discord=
-Go to forum profile=
-Show Profile=
-Read more=
-Favourite Repository=
-Set as favourite repository=
+Removed favourite repository=Удален избранный репозиторий
+%s set as favourite repository=%s установлен как избранный репозиторий
+Click to remove favourite repository=Нажмите, чтобы удалить избранный репозиторий
+Click to set %s as favourite repository=Нажмите, чтобы установить %s в качестве избранного репозитория
+Search for apps in repository=Поиск приложения в репозитории
+No description present=Нет описания
+Go to the forum page=Перейти на страницу форума
+Go to the webpage=Перейти на веб-страницу
+Go to reddit=Перейти на Reddit
+Go to facebook=Перейти на facebook
+Go to discord=Перейти в Discord
+Go to forum profile=Перейти к профилю форума
+Show Profile=Показать профиль
+Read more=Читать далее
+Favourite Repository=Bзбранный репозиторий
+Set as favourite repository=Сделать избранным репозиторием
 Total Applications=Всего приложений
 Total Known Downloads=Всего известных загрузок
 Total Docker Applications=
-Total Plugin Applications=
+Total Plugin Applications=Всего приложений плагинов
 Total Languages=Всего языков
-Average Downloads Per App=
+Average Downloads Per App=Среднее количество загрузок приложения
 Web Page=Веб-страница
 Forum=Форум
 Forum Profile=Профиль форума
@@ -77,7 +77,7 @@ Search Apps=Искать в приложениях
 Profile=Профиль
 
 ; Install Plugin title of openbox
-Install Plugin=
+Install Plugin=Установить плагин
 
 ; Remove App from previously installed
 Delete Template=Удалить шаблон
@@ -105,10 +105,10 @@ Install Selected Applications=Установить выбранные прило
 Yes, install it=Да, установить
 
 ; Multi-install popup
-Yes, install them=
+Yes, install them=Да, установить их
 Cookies not enabled Plugins must be separately installed from docker applications=
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=
-Updating Support Links=
+Updating Support Links=Обновление ссылок поддержки
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=
 
 ; error messages
@@ -127,11 +127,11 @@ This usually means your flash drive is corrupted or has dropped offline The rest
 
 
 ; CA Sections Keep the length reasonable
-MENU=
+MENU=МЕНЮ
 Installed Apps=Установленные приложения
 Previous Apps=Предыдущие приложения
 Pinned Apps=Закрепленные приложения
-Favourite Repo=
+Favourite Repo=Избранный репозиторий
 CATEGORIES=КАТЕГОРИИ
 FILTERS=ФИЛЬТРЫ
 New Apps=Новые приложения
@@ -177,14 +177,14 @@ Number Of Blacklisted Apps=
 Number Of Incompatible Applications=
 Number Of Deprecated Applications=
 Number Of Moderation Entries=
-Primary Server=
-Backup Server=
+Primary Server=Основной сервер
+Backup Server=Резервный сервер
 
 ; Statistics Popup Titles
-Repository List=
-All Invalid Templates Found=
-Template Errors=
-All Moderation Entries=
+Repository List=Список репозиториев
+All Invalid Templates Found=Обнаружены все недопустимые шаблоны
+Template Errors=Ошибки шаблона
+All Moderation Entries=Все записи на модерацию
 
 ; Statistics Popup
 No invalid templates found=
@@ -205,36 +205,36 @@ Community Applications Changelog=
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
-Backup=
-Cloud=
-Downloaders=
-Drivers=
-Game Servers=
-Home Automation=
-Media Applications=
-Books=
-Music=
-Photos=
-Video=
-Other=
-Media Servers=
-Network Services=
+Backup=Резервное копирование
+Cloud=Облако
+Downloaders=Загрузчики
+Drivers=Драйверы
+Game Servers=Игровые серверы
+Home Automation=Домашняя автоматизация
+Media Applications=Медиа-приложения
+Books=Книги
+Music=Музыка
+Photos=Фото
+Video=Видео
+Other=Прочее
+Media Servers=Медиа-серверы
+Network Services=Сетевые службы
 DNS=
 FTP=
-Management=
+Management=Управление
 Messenger=
-Proxy=
+Proxy=Прокси
 VOIP=
 VPN=
 Web=
-Productivity=
-Security=
-Tools Utilities=Tools / Utilities
-System=
-Themes=
-Utilities=
-Private Apps=
-Uncategorized=
+Productivity=Продуктивность
+Security=Безопасность
+Tools Utilities=Инструменты / Утилиты
+System=Система
+Themes=Темы
+Utilities=Утилиты
+Private Apps=Частные приложения
+Uncategorized=Без категории
 
 ; Categories displayed within a popup or on the card.  Where an entry exists after the "=" it is not translated, but rather how it should look
 GameServers=
@@ -268,60 +268,60 @@ OtherUncategorized=Other:Uncategorized
 and %s more=
 
 ; App Popup Related
-Donate To Author=
-Donate To Maintainer=
-Author=
-Maintainer=
+Donate To Author=Пожертвовать автору
+Donate To Maintainer=Пожертвовать сопровождающему
+Author=Автор
+Maintainer=Сопровождающий
 DockerHub=
-Application Template=
-Base OS=
+Application Template=Шаблон приложения
+Base OS=Базовая ОС
 DockerHub Stars=
 Added to CA=
-Date Updated=
-Current Version=
-Minimum OS=
-Max OS=
-Total Downloads=
-Licence=
-30 Day Trend=
-Ranked #%s=
+Date Updated=Дата обновления
+Current Version=Текущая версия
+Minimum OS=Минимальная ОС
+Max OS=Максимальная ОС
+Total Downloads=Всего скачиваний
+Licence=Лицензия
+30 Day Trend=30-дневный тренд
+Ranked #%s=Рейтинг #%s
 ; as in Trending up or down arrow
-Trending %s=
+Trending %s=В тренде %s
 ; as in As of some date
-As of %s=(As of %s)
-This application template has been blacklisted=This application / template has been blacklisted
-This application template has been deprecated=This application / template has been deprecated
-This application is not compatible with your version of Unraid=
-Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
-Reinstall default=Reinstall (default)
+As of %s=(По состоянию на %s) 
+This application template has been blacklisted=Это приложение/шаблон занесён в чёрный список
+This application template has been deprecated=Это приложение/шаблон устарело
+This application is not compatible with your version of Unraid=Это приложение несовместимо с вашей версией Unraid
+Another browser tab or device has updated the displayed templates Some actions are not available=Другая вкладка браузера или устройство обновили отображаемые шаблоны. Некоторые действия недоступны
+Reinstall default=Переустановить (по умолчанию)
 WebUI=
-Reinstall=
-Install=
-Project=
+Reinstall=Переустановить
+Install=Установить
+Project=Проект
 Install Using The Templates Default Tag=Install Using The Template's Default Tag
-Moderator Comments=Moderator Comments:
-Note not all authors keep up to date on change logs=
-Note not all maintainers keep up to date on change logs=
+Moderator Comments=Комментарии модератора:
+Note not all authors keep up to date on change logs=Обратите внимание, что не все авторы следят за обновлениями журналов.
+Note not all maintainers keep up to date on change logs=Обратите внимание, что не все сопровождающие обновляют журналы изменений.
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
-Donate=
-Currently Installed Version=
-Install The Update=
+Donate=Пожертвовать
+Currently Installed Version=Текущая установленная версия
+Install The Update=Установить обновление
 ; as in you have the latest version already installed
-Latest Version=
-Multi Language Support=
+Latest Version=Последняя версия
+Multi Language Support=Поддержка нескольких языков
 ; as in more than 100000
-More than %s=
+More than %s=Более %s
 
 ; Graphs
 Trend Per Month=
 Downloads Per Month=
-Total Downloads=
+Total Downloads=Всего скачиваний
 
 ; Multi install script
 Installing docker applications %s=
-Starting %s=
+Starting %s=Запуск  %s
 %s failed to start You should install it by itself to fix the errors=
-Setting installed applications to autostart=
+Setting installed applications to autostart=Настройка автозапуска установленных приложений
 Docker Application Installation finished=
 
 ; Application Cards
@@ -352,19 +352,19 @@ Search For Containers From %s=
 Search for similar containers=
 
 ; Page Navigation
-Displaying %s - %s of %s=Displaying %1$s - %2$s (of %3$s)
+Displaying %s - %s of %s=Отображение %1$s - %2$s (из %3$s)
 
-Updating Content=
-Language=
-Switch to this language=
-Country Code=
-Install Language Pack=
-Remove Language Pack=
-Update Language Pack=
-Installed Version=
-A note about translations=
-Click here to view the language changelog=
-View Missing Translations=
+Updating Content=Обновление содержимого
+Language=Язык
+Switch to this language=Переключиться на этот язык
+Country Code=Код страны
+Install Language Pack=Установить языковой пакет
+Remove Language Pack=Удалить языковой пакет
+Update Language Pack=Обновить языковой пакет
+Installed Version=Установленная версия
+A note about translations=Примечание о переводах
+Click here to view the language changelog=Щелкните здесь, чтобы просмотреть журнал изменений языка
+View Missing Translations=Просмотреть отсутствующие переводы
 
 ; Help Text
 This chooses how to sort the results=
