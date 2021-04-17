@@ -1,0 +1,37 @@
+File Activity=Файловая активность
+File Activity Logging=Журнал файловой активности
+Start File Activity=
+Stop File Activity Logging=
+Clear the File Activity log=
+Refresh log=Обновить журнал
+Enable File Activity Logging=Включить ведение журнала активности файлов
+Enable for Unassigned Devices=
+Enable for Cache and Pool=
+;
+; Help
+;
+:file_activity_loggging_plug:
+> Журнал активности файлов:
+>
+> Операции чтения/записи/изменения файлов отслеживаются и регистрируются в массиве с помощью inotify и отображают активность на диске, UD-дисках и кеша.
+> Вам необходимо запустить файловую активность, чтобы регистрировать активность диска.
+> Файловая активность предназначена для работы в течение коротких периодов времени, чтобы вы могли проверить активность диска.
+> Сервер с большой файловой активностью может заполнить пространство журнала.
+> Каталог 'appdata' исключен.
+>
+> Примечание: Ведение журнала активности файлов останавливается, если остановлен массив.
+:end
+
+:file_activity_enable_logging_plug:
+> Установите значение 'Да', чтобы включить ведение журнала активности файлов при запуске сервера.
+:end
+
+:file_activity_enable_ud_plug:
+> Set to 'Yes' to enable File Activity logging for Unassigned Devices if the Unassigned Devices plugin is installed.
+> Установите значение 'Да', чтобы включить ведение журнала активности файлов для неназначенных устройств, если установлен подключаемый модуль 'Неназначенные устройства'.
+:end
+
+:file_activity_enable_cache_plug:
+	> Set to 'Yes' to enable File Activity logging for the Cache and Pool Disks.  Pool disks only apply in Unraid 6.9.
+	> Установите значение 'Да', чтобы включить ведение журнала активности файлов для дисков кэша и пула. Диски пула применяются только в Unraid 6.9.
+:end
