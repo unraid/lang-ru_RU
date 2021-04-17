@@ -1,5 +1,5 @@
 A registration replacement key has been created for USB Flash GUID=
-About=
+About=Об системе
 alert=тревога
 An email has been sent to=E-mail был отправлен
 and=и
@@ -8,7 +8,7 @@ Anytime=Любое время
 Archived Notifications=Архивные уведомления
 Are you sure=Вы уверены
 Array has been Reset=Массив **сброшен**
-Array must be Started to change permissions=Array must be **Started** to change permissions
+Array must be Started to change permissions=Чтобы изменить разрешения, массив должен быть **запущен**
 Array must be Stopped to change=Массив должен быть **остановлен** для изменений
 Array slots=Слоты массива
 Array=Массив
@@ -22,7 +22,7 @@ Check for Updates=Проверить обновления
 click Install Key=нажмите <i>Установить ключ</i>
 collecting diagnostic information this may take several minutes=сбор диагностической информации (это может занять несколько минут)
 Component=Компонент
-Credits=
+Credits=Титры
 Data slots=
 Delete all notifications=Удалить все уведомления
 Delete notification=Удалить уведомление
@@ -34,7 +34,7 @@ Downloading=Скачивание
 End-User License Agreement=Лицензионное соглашение конечного пользователя
 Enter URL of language pack XML file=ведите URL-адрес XML-файла языкового пакета
 Error accessing your physical USB Flash boot device=
-EULA=
+EULA=Пользовательское соглашение
 Event=Событие
 Expiration=Срок действия
 Extend=Продлить
@@ -61,10 +61,10 @@ New Config=Новая конфигурация
 New Permissions=Новые разрешения
 No notifications present=Уведомлений нет
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=No personal information such as user names, passwords, or any other file contents is included in the hardware profile
-normal=
+normal=обычное
 Only ZIP files are allowed=Разрешены только ZIP-файлы
-Page Map=
-Parity slots=
+Page Map=Карта страниц
+Parity slots=Слоты четности
 Please check your=Пожалуйста, проверьте свой
 please configure=пожалуйста, настройте
 Please select a language before proceeding=Пожалуйста, выберите язык, прежде чем продолжить
@@ -121,11 +121,11 @@ Use this to develop language packs=Используйте это для разр
 Use this to install official language packs=Используйте это для установки официальных языковых пакетов
 User Shares=
 User=Пользователь
-Vars=
+Vars=Переменные
 VFIO-PCI Log=
 View VFIO-PCI Log=
 warning=предупреждение
-webGUI=
+webGUI=Веб-интерфейс
 When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the *Key file URL* box and
 
 Wrong File Extension=Неверное расширение файла
@@ -169,7 +169,7 @@ Your system has booted with the PCIe ACS Override setting enabled=Ваша си�
 + */config/shares*
   <br>копируются все  *\*.cfg* файлы. Это файлы настроек общего доступа пользователей.
 + *Syslog file(s)*
-  <br>уопируется текущий *syslog* файл и любые предыдущие существующие *syslog* файлы.
+  <br>копируется текущий *syslog* файл и любые предыдущие существующие *syslog* файлы.
 + *System*
   <br>сохраняется вывод следующих команд:
   <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
@@ -183,9 +183,9 @@ Your system has booted with the PCIe ACS Override setting enabled=Ваша си�
 :end
 
 :diagnostics_3_plug:
-Нажмите **Загрузить**, это запустит процесс сбора, а затем даст указание вашему браузеру сохранить zip-файл локально.
+Нажмите **Скачать**, это запустит процесс сбора, а затем даст указание вашему браузеру сохранить zip-файл локально.
 
-*Никакая личная информация, такая как имена пользователей, пароли или любое другое содержимое файлов, не указанное выше, не включается в Unraid OS; тем не менее, ваше имя сервера, IP-адрес и имена общих пользователей **будут** *включены*.
+*Никакая личная информация, такая как имена пользователей, пароли или любое другое содержимое файлов, не указанное выше, не включается в Unraid OS; тем не менее, ваше имя сервера, IP-адрес и имена общих пользователей **будут** включены*.
 
 *Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
 to the system log.*
