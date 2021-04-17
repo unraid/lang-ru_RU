@@ -703,16 +703,16 @@ Select the desired destinations and press **Write** to copy the NFS security set
 :end
 
 :user_add_username_help:
-Usernames may be up to 40 characters long and must start with a **lower case letter** or an underscore,
-followed by **lower case letters**, digits, underscores, or dashes. They can end with a dollar sign.
+Имена пользователей могут содержать до 40 символов и должны начинаться со **строчной буквы** или символа подчеркивания,
+за которым следуют **строчные буквы**, цифры, символы подчеркивания или тире. Могут заканчиваться знаком доллара.
 :end
 
 :user_add_description_help:
-Up to 64 characters. The characters ampersand (&amp;) quote (&quot;) and colon (:) are not allowed.
+До 64 символов. Символы амперсанда (&amp;), кавычки (&quot;) и двоеточия (:) недопустимы.
 :end
 
 :user_add_custom_image_help:
-Изображение будет уменьшено до размера 48x48 пикселей. Максимальный размер загружаемого изображения составляет 95 КБ (97 280 байт).
+Изображение будет масштабировано до размера 48x48 пикселей. Максимальный размер загружаемого изображения составляет 95 КБ (97 280 байт).
 :end
 
 :user_password_help:
@@ -720,11 +720,11 @@ Up to 64 characters. The characters ampersand (&amp;) quote (&quot;) and colon (
 :end
 
 :user_edit_description_help:
-Up to 64 characters. The characters ampersand (&amp;) quote (&quot;) and colon (:) are not allowed.
+До 64 символов. Символы амперсанда (&amp;), кавычки (&quot;) и двоеточия (:) недопустимы.
 :end
 
 :user_edit_custom_image_help:
-The image will be scaled to 48x48 pixels in size. The maximum image file upload size is 512 kB (524,288 bytes).
+Изображение будет масштабировано до размера 48x48 пикселей. Максимальный размер загружаемого изображения составляет 512 КБ (524 288 байт).
 :end
 
 :cpu_vms_help:
