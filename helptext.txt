@@ -1423,17 +1423,17 @@ Choose if stopping the array needs a confirmation checkbox.
 :end
 
 :display_settings_help:
-The display settings below determine how items are displayed on screen. Use these settings to tweak the visual effects to your likings.
+Приведенные ниже параметры отображения определяют способ отображения элементов на экране. Используйте эти настройки, чтобы настроить визуальные эффекты по своему вкусу.
 
-You can experiment with these settings as desired, they only affect visual properties.
+Вы можете поэкспериментировать с этими настройками по своему желанию, они влияют только на визуальные свойства.
 :end
 
 :display_font_size_help:
-This is a per device setting
+Это настройка для каждого устройства
 :end
 
 :display_wwn_device_id_help:
-World Wide Name (WWN) is a unique identifier used for SAS attached devices.
+Всемирное имя (WWN) - это уникальный идентификатор, используемый для устройств, подключенных к SAS.
 
 Select *Disabled* to suppress the appending of WWN to the device identification
 
@@ -1449,7 +1449,7 @@ Overrule the default background color in the header. This can be used to match t
 :end
 
 :display_custom_banner_help:
-Image will be scaled to 1920x90 pixels. The maximum image file upload size is 512 kB (524,288 bytes).
+Изображение будет масштабировано до 1920x90 пикселей. Максимальный размер загружаемого файла изображения составляет 512 КБ (524 288 байт).
 :end
 
 :display_temperature_unit_help:
@@ -1639,7 +1639,7 @@ This is useful in Active Directory configurations where you need to set the firs
 :end
 
 :eth_ipv4_dns_server_help:
-This is the primary IPv4 DNS server to use. Enter a IPv4 address.
+Это основной DNS-сервер IPv4 для использования. Введите адрес IPv4.
 
 Note: for *Active Directory* you **must** ensure this is set to the IP address of your AD Domain server.
 :end
