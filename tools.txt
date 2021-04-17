@@ -85,7 +85,7 @@ Replaceable=Заменяемый
 Request Extension=Запросить продление
 Request Trial Extension=Запросить продление пробной версии
 Restore=Восстановить
-See=
+See=Посетите
 Select language file=Выберите языковой файл
 Select language=Выберите язык
 Show Details=Показать детали
@@ -108,12 +108,12 @@ This will delete all notification files=Это удалит все файлы у
 This will update folder file permissions=This will update folder & file permissions
 Time=Время
 To install a registration key, paste the key file URL in the box below and click Install Key=To install a registration key, paste the key file URL in the box below and click **Install Key**
-to select your language=выбрать свой язык
+to select your language=чтобы выбрать свой язык
 To support more storage devices as your server grows, click Upgrade Key below=To support more storage devices as your server grows, click *Upgrade Key* below
 Trial key expires on=***Trial*** key expires on
 Trial=Пробная
 Update OS=Обновление ОС
-Upgrade Key=
+Upgrade Key=Обновление ключа
 Uploaded=
 uploading hardware information=загрузка информации об оборудовании
 Uploading=
@@ -156,37 +156,36 @@ USB Devices=USB-устройства
 Your system has booted with the PCIe ACS Override setting enabled=Ваша система загрузилась с включенной настройкой PCIe ACS Override.
 
 :diagnostics_1_plug:
-This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
-Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
+Эта утилита используется для устранения неполадок. Она соберёт всю системную информацию,файлы конфигурации и упакует эти файлы в один ZIP-файл, который можно сохранить локально.
+В дальнейшем этот файл можно будет включить в вашу переписку с Limetech или форумом Unraid.
 
-This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
-and configuration files are collected:
+Это поможет другим быстро получить внутреннюю информацию о вашей системе и обеспечит лучшую поддержку в решении вашей проблемы.
+Собирается следующая информация и файлы конфигурации:
 :end
 
 :diagnostics_2_plug:
 + */config*
-  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
+  <br>копируются все *\*.cfg файлы*, *go* файл и *super.dat* файл. Это файлы конфигурации.
 + */config/shares*
-  <br>copy all *\*.cfg* files. These are user share settings files.
+  <br>копируются все  *\*.cfg* файлы. Это файлы настроек общего доступа пользователей.
 + *Syslog file(s)*
-  <br>copy the current *syslog* file and any previous existing *syslog* files.
+  <br>уопируется текущий *syslog* файл и любые предыдущие существующие *syslog* файлы.
 + *System*
-  <br>save output of the following commands:
+  <br>сохраняется вывод следующих команд:
   <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
-  <br>display of iommu groups.
-  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).
-  <br>save system variables.
+  <br>отображение групп iommu.
+  <br>отображение параметров командной строки (например, pcie acs override, pci stubbing, etc).
+  <br>сохраняются системные переменные.
 + *SMART reports*
-  <br>save a SMART report of each individual disk present in your system.
+  <br>сохраняется отчет SMART для каждого отдельного диска, присутствующего в вашей системе.
 + *Docker*
-  <br>save files *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* and *vfio-pci*.
+  <br>сохраняются файлы *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* и *vfio-pci*.
 :end
 
 :diagnostics_3_plug:
-Clicking **Download** will start the collection process and then instruct your browser to save the zip file locally.
+Нажмите **Загрузить**, это запустит процесс сбора, а затем даст указание вашему браузеру сохранить zip-файл локально.
 
-*No personal information such as user names, passwords, or any other file contents not specified above is included
-by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
+*Никакая личная информация, такая как имена пользователей, пароли или любое другое содержимое файлов, не указанное выше, не включается в Unraid OS; тем не менее, ваше имя сервера, IP-адрес и имена общих пользователей **будут** *включены*.
 
 *Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
 to the system log.*
