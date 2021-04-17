@@ -110,24 +110,23 @@ it may only be exported using SMB protocol.
 :end
 
 :array_status_help:
-**Colored Status Indicator** the significance of the color indicator of the *Array* is as follows:
+**Цветной индикатор состояния** значение цветового индикатора *массива* следующее:
 
-<i class='fa fa-circle orb green-orb'></i>Array is Started and Parity is valid.
+<i class='fa fa-circle orb green-orb'></i>Массив запущен, четность действительна.
 
-<i class='fa fa-circle orb grey-orb'></i>Array is Stopped, Parity is valid.
+<i class='fa fa-circle orb grey-orb'></i>Массив запущен, четность действительна.
 
-<i class='fa fa-warning orb yellow-orb'></i>Array is Started, but Parity is invalid.
+<i class='fa fa-warning orb yellow-orb'></i>Массив запущен, но четность недействительна.
 
-<i class='fa fa-warning orb grey-orb'></i>Array is Stopped, Parity is invalid.
+<i class='fa fa-warning orb grey-orb'></i>Массив остановлен, четность недействительна.
 
 :end
 
 :array_devices_help:
-#### Assigning Devices
+#### Назначение устройств
 
-An unRAID disk array consists of a single parity disk and a number of data disks. The data
-disks are exclusively used to store user data, and the parity disk provides the redundancy necessary
-to recover from any single disk failure.
+Дисковый массив unRAID состоит из одного диска четности и нескольких дисков с данными. 
+Диски с данными используются исключительно для хранения пользовательских данных, а диск четности обеспечивает избыточность, необходимую для восстановления после любого сбоя отдельного диска.
 
 Note that we are careful to use the term *disk* when referring to an array storage device.  We
 use the term *hard drive* (or sometimes just *drive*) when referring to an actual hard disk drive (HDD)
@@ -152,32 +151,32 @@ and
 
 * given a choice, the parity disk should be the fastest disk in your collection.
 
-#### Guidelines
+#### Методические рекомендации
 
-Here are the steps you should follow when designing your unRAID disk array:
+Вот шаги, которые вы должны выполнить при проектировании дискового массива unRAID:
 
-1. Decide which hard drive you will use for parity, and which hard drives you will use for
-data disk1, disk2, etc., and label them in some fashion. Also, find the serial number of each hard
-drive and jot it down somewhere; you will need this information later.
+1. Решите, какой жесткий диск вы будете использовать для проверки четности и какие жесткие диски
+вы будете использовать для данных disk1, disk2 и т.д., и пометьте их каким-либо образом.
+Кроме того, найдите серийный номер каждого жесткого диска и где-нибудь запишите его; 
+эта информация понадобится вам позже.
 
-2. Install your hard drive devices, boot unRAID Server and bring up the webGui. If this is a fresh system
-build, then the Main page will show no disks installed. This doesn't mean the system can't detect your
-hard drives; it just means that none have been assigned yet.
+2. Установите жесткие диски, загрузите unRAID Server и запустите webGui. Если это новая сборка системы,
+то на главной странице не будут установлены диски. Это не означает, что система не может обнаружить
+ваши жесткие диски; это просто означает, что они ещё не назначены.
 
-3. Remember the serial numbers you recorded back in step 1? For parity and each data disk, select the
-proper hard drive based on its serial number from the drop down list.
+3. Помните серийные номера, которые вы записали на шаге 1? Для контроля четности и каждого диска с данными
+выберите соответствующий жесткий диск на основе его серийного номера из раскрывающегося списка.
 
-#### Hot Plug
+#### Горячее подключение
 
 You may also *hot plug* hard drives into your server if your hardware supports it. For example,
 if you are using hard drive cages, you may simply plug them into your server while powered on and
 with array Stopped. Refresh the Main page to have new unassigned devices appear in the assignment
 dropdown lists.
 
-#### Next Steps
+#### Дальнейшие шаги
 
-Once you have assigned all of your hard drives, refer to the Array Status section below
-and Start the array.
+После того, как вы назначили все свои жесткие диски, перейдите в раздел «Состояние массива» ниже и запустите массив.
 :end
 
 :encryption_help:
@@ -713,11 +712,11 @@ Up to 64 characters. The characters ampersand (&amp;) quote (&quot;) and colon (
 :end
 
 :user_add_custom_image_help:
-The image will be scaled to 48x48 pixels in size. The maximum image file upload size is 95 kB (97,280 bytes).
+Изображение будет уменьшено до размера 48x48 пикселей. Максимальный размер загружаемого изображения составляет 95 КБ (97 280 байт).
 :end
 
 :user_password_help:
-Up to 128 characters.
+Используйте пароль до 128 символов
 :end
 
 :user_edit_description_help:
@@ -767,34 +766,34 @@ the host OS can still utilize those same cores as the guest VM needs for things 
 :end
 
 :timezone_help:
-Select your applicable time zone from the drop-down list.
+Выберите подходящий часовой пояс из раскрывающегося списка.
 :end
 
 :use_ntp_help:
-Select 'Yes' to use Network Time Protocol to keep your server time accurate.
-We **highly** recommend the use of a network time server, especially if you plan on using Active Directory.
+Выберите 'Да', чтобы использовать протокол сетевого времени (NTP), чтобы время на сервере было точным.
+Мы **настоятельно** рекомендуем использовать сетевой сервер времени, особенно если вы планируете использовать Active Directory.
 
-Note: if using `pool.ntp.org` time servers, please also refer to [their documentation](http://www.pool.ntp.org/en/use.html).
+Примечание: при использовании серверов времени `pool.ntp.org` также ознакомьтесь с их документацией (http://www.pool.ntp.org/en/use.html).
 :end
 
 :ntp_server1_help:
-This is the primary NTP server to use.  Enter a FQDN or an IP address.
+Это основной сервер NTP. Введите полное доменное имя или IP-адрес.
 :end
 
 :ntp_server2_help:
-This is the alternate NTP server to use if NTP Server 1 is down.
+Это альтернативный сервер NTP, который будет использоваться, если сервер NTP 1 не работает.
 :end
 
 :ntp_server3_help:
-This is the alternate NTP Server to use if NTP Servers 1 and 2 are both down.
+Это альтернативный сервер NTP, который будет использоваться, если оба сервера NTP 1 и 2 не работают.
 :end
 
 :ntp_server4_help:
-This is the alternate NTP Server to use if NTP Servers 1, 2, and 3 are all down.
+Это альтернативный сервер NTP, который будет использоваться, если все серверы NTP 1, 2 и 3 не работают.
 :end
 
 :current_time_help:
-Enter the current time-of-day.  Use format YYYY-MM-DD HH:MM:SS. Greyed out when using NTP.
+Введите текущее время суток. Используйте формат YYYY-MM-DD HH:MM:SS. Неактивен при использовании NTP.
 :end
 
 :disk_enable_autostart_help:
