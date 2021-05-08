@@ -55,3 +55,10 @@ Unmounting disks=
 Autostart disabled=
 Missing encryption key=
 Opening encrypted volumes=
+
+; New entries (5) - 2021-05-08
+Container Path=
+Container Port=
+Container Variable=
+Container Label=
+Container Device=
