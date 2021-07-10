@@ -1,27 +1,26 @@
-Tips=
-Tweaks=
-The Tips below are suggestions, workarounds for known problems, and potential fixes=
-It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=
-Support for older versions of Unraid is being phased out=
-Many plugins are no longer compatible with older Unraid versons=
-All versions=
-Install the Fix Common Problems plugin and resolve any Unraid configuration problems=
+Tips=Советы
+Tweaks=Твики
+The Tips below are suggestions, workarounds for known problems, and potential fixes=Приведённые ниже советы - это предложения, обходные пути для известных проблем и возможные исправления.
+It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=Рекомендуется обновить Unraid до последней стабильной версии, чтобы получить последние функции, исправления ошибок и обновления безопасности.
+Support for older versions of Unraid is being phased out=Поддержка старых версий Unraid постепенно прекращается
+Many plugins are no longer compatible with older Unraid versons=Многие плагины больше не совместимы со старыми версиями Unraid.
+Install the Fix Common Problems plugin and resolve any Unraid configuration problems=Установите плагин Fix Common Problems и устраните любые проблемы с конфигурацией Unraid.
 Use the Update Assistant that is part of the Fix Common Problems plugin=
-This will identify potential problems to be solved before you upgrade the Unraid OS=
-Check the=
-Tips and Tweaks wiki=
-for additional ideas on improving your Unraid performance and solving problems=
+This will identify potential problems to be solved before you upgrade the Unraid OS=Это позволит определить потенциальные проблемы, которые необходимо решить перед обновлением ОС Unraid.
+Check the=Проверить
+Tips and Tweaks wiki=Советы и Твики в ВиКи
+for additional ideas on improving your Unraid performance and solving problems=для дополнительных идей по улучшению вашей производительности Unraid и решению проблем
 Some have reported better VM performance with media streaming and gaming VMs with the suggestions on this=
 post=
 Some have reported faster and more consistent network performance by making changes in networking parameters on the Tweaks tab of this plugin=
 If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=
-Read this=
-for information on the issue=
+Read this=Прочитайте это
+for information on the issue=для информации по проблеме
 If you set the 'Power Save' CPU Governor, you may see your processors stuck at 800 MHz=
 It is recommended you use the 'Performance' Governor for best performance and power savings=
 It is recommended to use the pstate driver on Intel processors if you want the most performance=
-Note=
-You can check CPU frequencies on the command line with=
+Note=Примечание
+You can check CPU frequencies on the command line with=Вы можете проверить частоту процессора в командной строке с помощью
 The dashboard shows CPU loading and not CPU frequency=
 If you configure VLANs on Unraid, you should make Unraid the Master Browser=
 If you dont Unraid may not detect the Master Browser for all network interfaces correctly=
@@ -47,13 +46,13 @@ Ethernet NIC Rx Buffer=
 Ethernet NIC Tx Buffer=
 Ethernet NICS=
 Dont change the Disk Cache settings until you read and understand this=
-Guide=
-Disk Cache=
+Guide=Гид
+Disk Cache=Дисковый кэш
 Max Watches=
 CPU Scaling Governor=
 Enable Intel TurboAMD Performance Boost=
 Time to set=
-Disable FTP Server=
+Disable FTP Server=Отключить FTP-сервер
 Enable syslog Archiving=
 Number of syslogs to Archive=
 Processes to kill before Array is Stopped=
@@ -68,7 +67,7 @@ NIC Tx Buffer=
 The feature is not available on any of your NICs=
 Current Disk Cache Settings=
 Current Inotify Settings=
-Driver=
+Driver=Драйвер
 Governor=
 ;
 ; Help
@@ -88,6 +87,7 @@ Governor=
 > have a managed switch, flow control can generally be turned on and off on the switch.  If you have
 > a consumer grade switch, you won't have that level of control.  Flow Control has been known to create
 > network issues in certain circumstances.  It is recommended to disable Flow Control if you experience network issues.
+>
 > Changing from any setting to 'Default' requires a reboot.
 :end
 
@@ -96,16 +96,19 @@ Governor=
 > to the NIC and off the main CPU and deal with large packets.  This was intended to save some CPU processing
 > load and increase network throughput.  TSO offload has been known to cause network issues in certain circumstances.
 > It is recommended to disable NIC Offloads if you experience network issues.
+>
 > Changing from any setting to 'Default' requires a reboot.
 :end
 
 :tips_tweaks_rx_buffer_plug:
 > Select the size of the NIC Rx ring buffer.  Some NICs have a limit on the size of the Rx ring buffer.  The default value of 256 is recommended.
+>
 > Changing from any setting to 'Default' requires a reboot.
 :end
 
 :tips_tweaks_tx_buffer_plug:
 > Select the size of the NIC Tx ring buffer.  Some NICs have a limit on the size of the Tx ring buffer.  The default value of 256 is recommended.
+>
 > Changing from any setting to 'Default' requires a reboot.
 :end
 
