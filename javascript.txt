@@ -55,3 +55,10 @@ Unmounting disks=
 Autostart disabled=Автозапуск отключен
 Missing encryption key=Отсутствует ключ шифрования
 Opening encrypted volumes=Открытие зашифрованных томов
+
+; docker variables
+Container Path=
+Container Port=
+Container Variable=
+Container Label=
+Container Device=
