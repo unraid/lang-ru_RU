@@ -29,6 +29,7 @@ Container=Контейнер
 CPU Memory load=Загрузка процессора и памяти
 CPU Pinning=
 Created=Созданный
+Crypto Currency=
 Default Value=Значение по умолчанию
 Device=Устройство
 Display=Отображать
