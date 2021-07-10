@@ -9,17 +9,17 @@ Remove aged files from the Recycle Bin=Удалить устаревшие фа�
 Empty All Trash=Очистить всю корзину
 Remove all files from the Recycle Bin=Удалить все файлы из корзины
 Refresh the Recycle Bin page=Обновить страницу корзины
-Enable Recycle Bin for deleted files=
-Update Recycle Bin Size in Background=
+Enable Recycle Bin for deleted files=Включить корзину для удалённых файлов
+Update Recycle Bin Size in Background=Обновить размер корзины в фоновом режиме
 Enable on Unassigned Devices for Deleted Files=
-Recycle Bin parameters=
-Excluded Directories=
-Excluded Files=
+Recycle Bin parameters=Параметры корзины
+Excluded Directories=Исключённые каталоги
+Excluded Files=Исключённые файлы
 Excluded Shares=
 Age Days=
-Remove Aged Files on Schedule=
-Remove Aged Files Notification=
-Log Deleted Files=
+Remove Aged Files on Schedule=Удаление устаревших файлов по расписанию
+Remove Aged Files Notification=Уведомление об удалении устаревших файлов
+Log Deleted Files=Журнал удалённых файлов
 Empty=Пусто
 Array is stopped=Массив остановлен
 SMB Share=
@@ -28,11 +28,11 @@ Trash Size=Размер корзины
 Empty Trash=Пустая корзина
 Array=Массив
 Browse the Share Recycle Bin=
-Empty the=
-Recycle Bin=
-Deleted Files Log=
-Recycle Bin Log=
-Yes I want to do this=
+Empty the=Очистить
+Recycle Bin=Корзина
+Deleted Files Log=Журнал удаленных файлов
+Recycle Bin Log=Журнал корзины
+Yes I want to do this=Да я хочу это сделать
 to remove deleted files older than the 'Age Days' setting=
 Empty All Trash=Очистить всю корзину
 to remove all deleted files=
@@ -54,15 +54,15 @@ These actions apply to all shares:
 :end
 
 :recycle_bin_enable_plug:
-> Set to 'Yes' to enable the Recycle Bin functionality for deleted files when the server is started.
+> Set to **Yes** to enable the Recycle Bin functionality for deleted files when the server is started.
 :end
 
 :recycle_bin_background_plug:
-> Set to 'Yes' to enable the Recycle Bin Size to be updated in the background every minute.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to a minute to refresh when this is enabled.
+> Set to **Yes** to enable the Recycle Bin Size to be updated in the background every minute.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to a minute to refresh when this is enabled.
 :end
 
 :recycle_bin_ud_plug:
-> Set to 'Yes' to enable the Recycle Bin deleted file functionality on Unassigned Devices drive shares when the Unassigned Devices plugin is installed.  SMB/NFS mounts and iso mounts are excluded from the Recycle Bin functionality on this server.  Enable the Recycle Bin on the remote server where the remote share originates if it is an Unraid server.
+> Set to **Yes** to enable the Recycle Bin deleted file functionality on Unassigned Devices drive shares when the Unassigned Devices plugin is installed.  SMB/NFS mounts and iso mounts are excluded from the Recycle Bin functionality on this server.  Enable the Recycle Bin on the remote server where the remote share originates if it is an Unraid server.
 :end
 
 :recycle_bin_parameters_plug:
@@ -111,11 +111,11 @@ These actions apply to all shares:
 :end
 
 :recycle_bin_age_files_notification_plug:
-> When set to "Yes" a notification will be sent when the scheduled remove files task runs.
+> When set to **Yes** a notification will be sent when the scheduled remove files task runs.
 :end
 
 :recycle_bin_log_deleted_files_plug:
-> When set to "Yes" deleted files will be logged.
+> When set to **Yes** deleted files will be logged.
 :end
 
 :recycle_bin_show_log_plug:
