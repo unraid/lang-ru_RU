@@ -313,3 +313,8 @@ This Unraid OS release has been withdrawn and may no longer be used Please=This 
 This will ERASE ALL device content=
 This will ERASE content of ALL devices in the pool=
 To confirm your action type %s=To confirm your action type: %s
+
+; New entries (3) - 2021-07-11
+enter disk index and device name as applicable to your controller=
+next device=
+previous device=
