@@ -1,4 +1,4 @@
-Click the 'Default' button to select the default Script File=
+Click the 'Default Script' button to select the default Script File=
 Default Script=Сценарий по умолчанию
 Delete Script File=Удалить файл сценария
 Edit Script=Редактировать сценарий
