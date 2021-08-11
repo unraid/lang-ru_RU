@@ -39,6 +39,7 @@ Formatting=Форматирование
 Free=Свободно
 from disk=с диска
 Historical Devices=
+ISO File is=
 ISO File Shares=
 Identification=Идентификация
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=
@@ -46,13 +47,13 @@ Leave blank to use the array passwordpassphrase=
 Load Shares=
 Loading=Загрузка
 Log=Журнал
-missing=
 Mount=
 Mounting=
 NFS Shares=
 Next=Дальше
 No Remote SMBNFS or ISO File Shares configured=
 No Unassigned Disks available=
+not installed=не установлено
 Note=Примечание
 Open=Открыть
 Partition and Format Disk=Разбиение на разделы и форматирование диска
@@ -61,6 +62,7 @@ Password=Пароль
 Read only=Только чтение
 Refresh Disks and Configuration=Обновить диски и конфигурацию
 Remember your password It cannot be recovered=Запомните свой пароль, его невозможно восстановить
+Remote Share is=
 Remote share mounts are dependent on a solid and reliable network connection and that is difficult to achieve=
 Remove Device configuration=Удалить конфигурацию устройства
 Remove ISO File Share=
@@ -70,7 +72,6 @@ Remove partition=Удалить раздел
 Run with CORRECT flag=
 Running=
 Shares=
-SMART Attributes on=
 SMB Shares=
 Script=Сценарий
 Search For Servers=Поиск серверов
@@ -81,11 +82,11 @@ Serial Number Mountpoint=
 share for=
 Simple=
 Source=Источник
+SSD cannot be spun down=
 Success=
-Switch On to Show SMB/NFS/ISO Shares=
-Switch On to Show Historical Devices=
-Switch On to Show SMB/NFS/ISO Shares=
-Switch On to Show Disk Devices=
+Show Historical Devices=
+Show SMB/NFS/ISO Shares=
+Show Disk Devices=
 This will remove the ISO file share for=
 This will remove the remote=
 This will remove the saved configuration of=
@@ -99,6 +100,7 @@ Username=Имя пользователя
 View Device Script Log=
 View ISO File Script Log=
 View Remote SMBNFS Script Log=
+You must enable the Destructive Mode in UD Settings before you can Format this disk=
 WARNING: Do NOT use a remote share local mount in a Docker container or VM for critical data=
 You WILL have problems if you do=
 You will need to enter credentials for Windows 10 shares just to list them=
@@ -152,13 +154,15 @@ You will need to enter credentials for Windows 10 shares just to list them=
 >
 > UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
 >
-> + '/usr/local/sbin/rc.unassigned mount auto' - all devices and SMB/NFS mounts set to auto mount will be mounted.
+> + '/usr/local/sbin/rc.unassigned mount autodevices' - all devices set to auto mount will be mounted.
+> + '/usr/local/sbin/rc.unassigned mount autoshares' - all SMB/NFS mounts set to auto mount will be mounted.
 > + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to auto mount will be unmounted.
 > + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - mount device sdX where 'X' is the device designator.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - unmount device sdX where 'X' is the device designator. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned refresh /dev/sdX' - used at the end of the 'ADD' case of a script so the 'Running...' indicator will be updated.
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - mount device sdX where 'X' is the device designator.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to mount.
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - unmount device sdX where 'X' is the device designator. The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to unmount. You can use this command in a UD script to unmount the device when the script has completed.
 > + '/usr/local/sbin/rc.unassigned spindown devX' - spin down a disk.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to spin down.  SSDs will not spin down.
+> + '/usr/local/sbin/rc.unassigned mount SOURCE' - where SOURCE is the SMB/NFS source.
+> + '/usr/local/sbin/rc.unassigned umount SOURCE' - where SOURCE is the SMB/NFS source.
 >
 > Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
