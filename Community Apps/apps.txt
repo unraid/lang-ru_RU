@@ -1,4 +1,4 @@
-Cancel=
+Cancel=Отмена
 
 ; My PSAs / banners
 Happy New Year=С Новым Годом
@@ -108,7 +108,7 @@ Yes, install them=Да, установить их
 Cookies not enabled Plugins must be separately installed from docker applications=
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=
 Updating Support Links=Обновление ссылок поддержки
-Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=
+Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Установка завершена. Если кнопка ГОТОВО не появилась, вам нужно будет нажать красный крестик в правом верхнем углу.
 
 ; error messages
 No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=
@@ -139,7 +139,7 @@ Trending Apps=Популярные приложения
 All Apps=Все приложения
 OTHER=ДРУГИЕ
 Statistics=Статистика
-Credits=
+Credits=Авторы
 Support=Служба поддержки
 VERSION=ВЕРСИЯ
 Change Log=Журнал изменений
@@ -147,9 +147,9 @@ Debugging=Отладка
 
 ; Credits
 Development=Разработка
-Additional Contributions=Дополнительные вклады
-GUI Layout Design=
-Application Feed=
+Additional Contributions=Дополнительный вклад
+GUI Layout Design=Дизайн макета графического интерфейса
+Application Feed=Лента приложений
 Additional Testing=Дополнительное тестирование
 Moderation=Модерация
 Additional Libraries=Дополнительные библиотеки
@@ -158,22 +158,22 @@ Translation=Перевод
 
 ; Statistics page
 Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=
-The following applications are blacklisted CA will never allow you to install or reinstall these applications=
+The following applications are blacklisted CA will never allow you to install or reinstall these applications=Следующие приложения занесены в черный список ПС и никогда не позволит вам установить или переустановить эти приложения
 While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=
 This display is informational ONLY=
-unknown=
-Last Change To Application Feed=
+unknown=неизвестно
+Last Change To Application Feed=Последнее изменение в фиде приложений
 Number Of Docker Applications=
-Number Of Plugin Applications=
-Number Of Templates=
-Number Of Repositories=
+Number Of Plugin Applications=Количество приложений-плагинов
+Number Of Templates=Количество шаблонов
+Number Of Repositories=Количество репозиториев
 Number Of Private Docker Applications=
-Number Of Invalid Templates=
+Number Of Invalid Templates=Количество недействительных шаблонов
 Number Of Template Errors=
-Number Of Blacklisted Apps=
-Number Of Incompatible Applications=
-Number Of Deprecated Applications=
-Number Of Moderation Entries=
+Number Of Blacklisted Apps=Количество заблокированных приложений
+Number Of Incompatible Applications=Количество несовместимых приложений
+Number Of Deprecated Applications=Количество устаревших приложений
+Number Of Moderation Entries=Количество записей модерации
 Primary Server=Основной сервер
 Backup Server=Резервный сервер
 
@@ -198,12 +198,13 @@ Applied to all applications=(Applied to all applications)
 Individual Application Moderation=
 
 ; Misc
-Community Applications Changelog=
+Community Applications Changelog=Журнал изменений приложений сообщества
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
 Backup=Резервное копирование
 Cloud=Облако
+Crypto Currency=Криптовалюта
 Downloaders=Загрузчики
 Drivers=Драйверы
 Game Servers=Игровые серверы
@@ -265,6 +266,8 @@ OtherUncategorized=Other:Uncategorized
 and %s more=
 
 ; App Popup Related
+This application has additional requirements=Это приложение имеет дополнительные требования
+Additional Requirements=Дополнительные требования
 Donate To Author=Пожертвовать автору
 Donate To Maintainer=Пожертвовать сопровождающему
 Author=Автор
@@ -273,7 +276,7 @@ DockerHub=
 Application Template=Шаблон приложения
 Base OS=Базовая ОС
 DockerHub Stars=
-Added to CA=
+Added to CA=Дата добавления
 Date Updated=Дата обновления
 Current Version=Текущая версия
 Minimum OS=Минимальная ОС
@@ -310,8 +313,8 @@ Multi Language Support=Поддержка нескольких языков
 More than %s=Более %s
 
 ; Graphs
-Trend Per Month=
-Downloads Per Month=
+Trend Per Month=Тенденция за месяц
+Downloads Per Month=Загрузок в месяц
 Total Downloads=Всего скачиваний
 
 ; Multi install script
@@ -322,27 +325,27 @@ Setting installed applications to autostart=Настройка автозапу�
 Docker Application Installation finished=
 
 ; Application Cards
-Private dockerHub Conversion=Private (dockerHub Conversion)
-Private Application=
-Go to the project page=
-Go to the support thread=
-Uninstall Application=
-Remove Private Application=
-Remove Application From List=
-Check off to select multiple reinstalls=
-Go to the plugin settings=
-Click to reinstall the application using default values=
-Click to edit the application values=
-Click to reinstall=
-Click to install=
-Install plugin=
-Click to go to the WebUI=
-This application has been marked as being Beta=
-This application template has been deprecated=
-This application is not compatible with your version of Unraid=
-This application template has been blacklisted=
-Search for more applications from %s=
-Click for more information=
+Private dockerHub Conversion=Частное (dockerHub Conversion)
+Private Application=Частное приложение
+Go to the project page=Перейти на страницу проекта
+Go to the support thread=Перейти к теме поддержки
+Uninstall Application=Удалить приложение
+Remove Private Application=Удалить частное приложение
+Remove Application From List=Удалить приложение из списка
+Check off to select multiple reinstalls=Установите флажок, чтобы выбрать несколько переустановок
+Go to the plugin settings=Перейти к настройкам плагина
+Click to reinstall the application using default values=Нажмите, чтобы переустановить приложение со значениями по умолчанию
+Click to edit the application values=Нажмите, чтобы изменить значения приложения
+Click to reinstall=Нажмите, чтобы переустановить
+Click to install=Нажмите, чтобы установить
+Install plugin=Установить плагин
+Click to go to the WebUI=Нажмите, чтобы перейти к веб-интерфейсу
+This application has been marked as being Beta=Это приложение было отмечено как бета-версия
+This application template has been deprecated=Этот шаблон приложения устарел
+This application is not compatible with your version of Unraid=Это приложение несовместимо с вашей версией Unraid
+This application template has been blacklisted=Этот шаблон приложения внесён в чёрный список
+Search for more applications from %s=Искать другие приложения от %s
+Click for more information=Нажмите для получения дополнительной информации
 
 ; Dockerhub searches
 Search For Containers From %s=
