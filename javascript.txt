@@ -1,9 +1,9 @@
-also remove image=
+also remove image=также удалить образ
 Apply=Применить
 Are you sure=Вы уверены?
 Cancel=Отмена
 checking=проверка
-Completely REMOVE=
+Completely REMOVE=Полностью УДАЛИТЬ
 Console=Консоль
 day=день
 days=дней
