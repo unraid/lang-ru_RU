@@ -9,7 +9,7 @@ Archived Notifications=Архивные уведомления
 Are you sure=Вы уверены
 Array has been Reset=Массив **сброшен**
 Array must be Started to change permissions=Чтобы изменить разрешения, массив должен быть **запущен**
-Array must be Stopped to change=Массив должен быть **остановлен** для изменений
+Array must be Stopped to change=Чтобы изменить массив, необходимо его **Остановить**
 Array slots=Слоты массива
 Array=Массив
 Author=Автор
@@ -23,7 +23,7 @@ Check for Updates=Проверить обновления
 click Install Key=нажмите <i>Установить ключ</i>
 collecting diagnostic information this may take several minutes=сбор диагностической информации (это может занять несколько минут)
 Component=Компонент
-Credits=Титры
+Credits=Авторы
 Data slots=
 Delete all notifications=Удалить все уведомления
 Delete notification=Удалить уведомление
@@ -133,7 +133,7 @@ When received, please paste the URL into the Key file URL box and=When received,
 Wrong File Extension=Неверное расширение файла
 You havent sent Limetech your hardware profile yet=Вы ещё не отправили в Limetech свой профиль оборудования
 Your hardware profile was last submitted on=
-Your Trial key has expired=Срок действия вашего *пробного* ключа истек
+Your Trial key has expired=Срок действия вашего *пробного* ключа истёк
 Your Trial key requires an internet connection=Ваш *пробный* ключ требует подключения к Интернету
 
 ; Sysdevs text - added May 18, 2020
@@ -158,7 +158,7 @@ USB Devices=USB-устройства
 Your system has booted with the PCIe ACS Override setting enabled=Ваша система загрузилась с включенной настройкой PCIe ACS Override.
 
 :diagnostics_1_plug:
-Эта утилита используется для устранения неполадок. Она соберёт всю системную информацию,файлы конфигурации и упакует эти файлы в один ZIP-файл, который можно сохранить локально.
+Эта утилита используется для устранения неполадок. Она соберёт всю системную информацию, файлы конфигурации и упакует эти файлы в один ZIP-файл, который можно сохранить локально.
 В дальнейшем этот файл можно будет включить в вашу переписку с Limetech или форумом Unraid.
 
 Это поможет другим быстро получить внутреннюю информацию о вашей системе и обеспечит лучшую поддержку в решении вашей проблемы.

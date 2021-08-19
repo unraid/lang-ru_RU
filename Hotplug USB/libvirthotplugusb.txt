@@ -1,22 +1,22 @@
-Hotplug USB=
-Running VMs=
-Attach=
-Attach the USB device to the selected VM=
-Detach=
-Refresh this page=
-Detach the USB device from the selected VM=
-Result=
-Result of attachdetach operation=
-Note=
-Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=
-If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=
-Detaching Please wait=
-Attaching Please wait=
-No VM Selected=
-No USB devices=
+Hotplug USB=Горячее подключение USB
+Running VMs=Запущенная ВМ
+Attach=Подключить
+Attach the USB device to the selected VM=Подключить USB-устройство к выбранной виртуальной машине.
+Detach=Отключить
+Refresh this page=Обновите эту страницу
+Detach the USB device from the selected VM=Отключить USB-устройство от выбранной виртуальной машины.
+Result=Результат
+Result of attachdetach operation=Результат операции подключения/отключения
+Note=Примечание
+Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=Некоторые USB-устройства требуют отсоединения и подключения несколько раз для правильного обнаружения виртуальными машинами
+If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=Если вы отключили USB-устройство, когда оно было подключено к виртуальной машине, вам придется отсоединить его, а затем снова подключить.
+Detaching Please wait=Отключение, пожалуйста, подождите
+Attaching Please wait=Подключение, пожалуйста, подождите
+No VM Selected=ВМ не выбрана
+No USB devices=Нет USB-устройств
 ;
 ; Help
 ;
 :libvirt_hot_plug:
-> Select the VM for the USB device to be attached/detached and the USB device for the selected VM.
+> Выберите виртуальную машину и USB-устройство, которое нужно подключить/отключить.
 :end

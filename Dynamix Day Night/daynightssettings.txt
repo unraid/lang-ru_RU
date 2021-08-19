@@ -1,31 +1,31 @@
-Automatic theming=Автоматическая Тематизация
-Bing API key=Ключ API Bing
-Bing=
-City name=Название города
-Country name=Имя страны
-Day theme=Дневаная тема
-Geocoding service=Сервис геокодирования
-Google API key=Ключ Google API
-Google=
-MapQuest API key=Ключ API MapQuest
-MapQuest=
-Night theme=Ночная тема
-No geographical coordinates found for the given address=Для данного адреса не найдены географические координаты
-Please adjust=Пожалуйста, отрегулируйте
-Postal code=Почтовый индекс
-See=Посетите
-Street address=Адрес улицы
-this site=этот сайт
-to obtain a Bing API key=чтобы получить ключ API Bing
-to obtain a Google API key=чтобы получить ключ API Google
-to obtain a MapQuest API key=чтобы получить ключ API MapQuest
+Automatic theming=ваыпап
+Bing API key=ывапывап
+Bing=вапывап
+City name=ывапывап
+Country name=ывапыва
+Day theme=ывапыарыв
+Geocoding service=паоап
+Google API key=паорап
+Google=апропро
+MapQuest API key=проапо
+MapQuest=пароп
+Night theme=аппар
+No geographical coordinates found for the given address=апр
+Please adjust=про
+Postal code=апоапро
+See=апроапр
+Street address=апоа
+this site=апапо
+to obtain a Bing API key=апрапр
+to obtain a Google API key=ап
+to obtain a MapQuest API key=паро
 
 :day_night_plug:
-> Введите адресную информацию (улица, город, страна), которая используется для расчета времени восхода и захода солнца в вашем местоположении.
+> Enter your address information (street, city, country) which is used to calculate the sunrise and sunset times of your location.
 >
-> Служба геокодирования используется для преобразования вашего адреса в географические координаты (широта и долгота).<br>
-> Вам необходимо зарегистрироваться в одной из доступных служб и получить уникальный ключ API, чтобы использовать их службу.
+> A geocoding service is used to convert your address to geographical (latitude and longitude) coordinates.<br>
+> You need to register with one of the available services and get a unique API key to make use of their service.
 >
-> **Дневная** тема выбирается между восходом и закатом.<br>
-> **Ночная** тема выбирается между закатом и восходом солнца.
+> The **day** theme is selected between sunrise and sunset<br>
+> The **night** theme is selected between sunset and sunrise
 :end
