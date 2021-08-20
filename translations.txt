@@ -675,4 +675,5 @@ Disk Stats=Статистика дисков
 System Stats=Статистика системы
 Network Stats=Статистика сети
 Stats Settings=Настройка статистики
-;Recycle Bin=Корзина
+Recycle Bin=Корзина
+Fan Auto Control=Автоматическое управление вентилятором
