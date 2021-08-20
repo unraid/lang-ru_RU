@@ -1,0 +1,10 @@
+Click DETECT=Нажмите ОБНАРУЖИТЬ
+Detect=Обнаружить
+Exclude drives=Исключить диски
+Fan control function=Функция управления вентилятором
+High temperature threshold=Порог высокой температуры
+Low temperature threshold=Порог низкой температуры
+Minimum PWM value=Минимальное значение ШИМ
+PWM controller=ШИМ-контроллер
+PWM fan=ШИМ вентилятор
+Refresh interval=Интервал обновления

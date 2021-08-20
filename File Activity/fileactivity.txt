@@ -1,7 +1,7 @@
 File Activity=Файловая активность
-File Activity Monitoring=
-Start File Activity=
-Stop File Activity Monitoring=
+File Activity Monitoring=Мониторинг файловой активности
+Start File Activity=Начать файловую активность
+Stop File Activity Monitoring=Остановить мониторинг активности файлов
 Clear the File Activity log=
 Refresh log=Обновить журнал
 Enable File Activity Monitoring=
@@ -27,7 +27,6 @@ Enable for Cache and Pool=
 :end
 
 :file_activity_enable_ud_plug:
-> Set to 'Yes' to enable File Activity logging for Unassigned Devices if the Unassigned Devices plugin is installed.
 > Установите значение **Да**, чтобы включить ведение журнала активности файлов для неназначенных устройств, если установлен подключаемый модуль 'Неназначенные устройства'.
 :end
 
