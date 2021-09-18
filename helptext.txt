@@ -2233,3 +2233,9 @@ A keepalive timer will hold the connection open, for most situations a timer val
 
 Note that for mobile devices this will use more data and drain your battery faster.
 :end
+
+; New entries (1) - 2021-09-18
+
+:docker_client_additional_requirements_help:
+Any additional requirements the container has.  Supports basic HTML mark-up.
+:end
