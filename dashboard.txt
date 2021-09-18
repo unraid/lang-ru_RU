@@ -1,5 +1,4 @@
 %s used of %s %s %%=%s used of %s (%s %%)
----=
 Active tunnels=
 Activity=
 ago=
@@ -26,7 +25,6 @@ FAN=
 Finding %s error=Finding: **%s** error
 Finding %s errors=Finding: **%s** errors
 General info=
-Go to cache settings=
 Go to CPU pinning settings=
 Go to disk settings=
 Go to Docker settings=

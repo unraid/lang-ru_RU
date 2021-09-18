@@ -60,6 +60,5 @@ Time Machine volume size limit=
 Unknown encryption state=
 Use cache pool for new filesdirectories=Use cache pool (for new files/directories)
 User Shares=
-Volume dbpath=
 Write=
 You cannot use the following within share names=
