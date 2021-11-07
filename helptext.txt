@@ -2239,3 +2239,9 @@ Note that for mobile devices this will use more data and drain your battery fast
 :docker_client_additional_requirements_help:
 Any additional requirements the container has.  Supports basic HTML mark-up.
 :end
+
+; New entries (1) - 2021-11-07
+
+:docker_client_readme_help:
+Link to a readme file or page
+:end
