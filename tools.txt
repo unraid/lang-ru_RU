@@ -161,7 +161,8 @@ This utility is used for troubleshooting purposes. It will collect all of the sy
 Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
 
 This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
-and configuration files are collected::end
+and configuration files are collected:
+:end
 
 :diagnostics_2_plug:
 + */config*
@@ -191,7 +192,8 @@ by Unraid OS; however, your server name, IP address, and user share names* **wil
 *Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
 to the system log.*
 
-*Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*:end
+*Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*
+:end
 
 :newconfig_plug:
 This is a utility to reset the array disk configuration so that all disks appear as "New" disks, as
@@ -203,7 +205,8 @@ the new configuration.
 Use the *'Preserve current assignments'* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
 
 **DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
-effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!:end
+effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
+:end
 
 :newperms_1_plug:
 This is a mandatory one-time action to be taken after upgrading from a pre-5.0 Unraid server release to Unraid v5 or a later release.
@@ -262,7 +265,8 @@ At that point, you may either purchase a Registration key, or request a *Trial* 
 :registration_4_plug:
 To continue using Unraid OS you may purchase a Registration key. Alternately, you may request a *Trial* extension key.
 
-Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.:end
+Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.
+:end
 
 :registration_5_plug:
 It is not possible to use a *Trial* key with an existing Unraid OS installation.
@@ -284,7 +288,8 @@ If this was a *Trial* installation, you may purchase a Registration key.
 :registration_7_plug:
 *Trial* installations are only valid with the originally registered USB Flash device.
 
-To continue using this installation with this USB Flash device, you may purchase a Registration key.:end
+To continue using this installation with this USB Flash device, you may purchase a Registration key.
+:end
 
 :registration_8_plug:
 The Registration key file does not correspond to the USB Flash boot device.
