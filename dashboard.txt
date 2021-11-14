@@ -1,4 +1,9 @@
+%s ago=
 %s used of %s %s %%=%s used of %s (%s %%)
+10 s=
+30 s=
+1 m=
+2 m=
 Active tunnels=
 Activity=
 ago=
@@ -7,6 +12,7 @@ All Apps=
 All VMs=
 Battery charge=
 BIOS dated=
+Click to toggle CPU chart=
 Click to toggle details=
 Completed=
 Counters info=
@@ -53,6 +59,7 @@ Last check incomplete on %s=Last check incomplete on **%s**
 Last checked on %s=Last checked on **%s**
 Maximum size=
 Mode of operation=
+Network traffic=
 Next check scheduled on %s=Next check scheduled on **%s**
 No docker containers defined=
 No running docker containers=
@@ -61,6 +68,7 @@ No shares present=
 No virtual machines defined=
 Nominal power=
 not received=
+Only PNG images are allowed=Only PNG images are allowed!
 Outbound=
 Overall Load=
 Parity disk not present=
@@ -75,16 +83,19 @@ Received packets=
 Runtime left=
 Scheduled parity check is disabled=
 Select Case Model=
+Select time frame=
 Share count %s with %s cache only and %s encrypted=Share count: %s with %s cache only and %s encrypted
 Show details=
 Show Information=
 Shutdown the system=
 SMART error=
+SMART health-check failed=
 SMART=
 sn=s/n
 Start the array=
 Started only=
 Stop the array=
+Temp=
 This will put the system to sleep=
 This will reboot the system=
 This will shutdown the system=
@@ -100,21 +111,4 @@ utilization warning=
 View Running Processes=
 Virtual Machines=
 
-; New entries (3) - 2021-05-08
-%s ago=
-Only PNG images are allowed=Only PNG images are allowed!
-Temp=
-
-; New entries (1) - 2021-05-15
-SMART health-check failed=
-
-; New entries (2) - 2021-05-20
-Click to toggle CPU chart=
-Network traffic=
-
-; New entries (5) - 2021-05-31
-10 s=
-30 s=
-1 m=
-2 m=
-Select time frame=
+; Note: November 14, 2021 - 100 missing translations

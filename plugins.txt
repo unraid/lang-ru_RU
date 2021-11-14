@@ -2,7 +2,10 @@
 anonymous=
 Author=
 Check For Updates=
+Checking connectivty=
+checking=
 Click here to install version %s=
+Delete Plugin=
 DOWNGRADE TO VERSION=
 Enter URL of remote plugin file or local plugin file=
 ERROR=
@@ -13,11 +16,16 @@ Installed Plugins=
 Installing Update=
 need check=
 Next=
+No plugins installed=
 No release notes available=
+No response, aborting=
 Plugin File=
+Plugin File Install Errors=
+Plugin History=
 Plugin Update Check=
 Plugin=
 Release Notes=
+Remove Plugin=
 remove=
 Select local plugin file=
 Stable=
@@ -25,24 +33,8 @@ STALE=
 Support Thread=
 Uninstall=
 Update All Plugins=
+Update Plugin=
 Upgrade=
 View Release Notes=
 
-; New entries (1) - 2021-05-08
-No plugins installed=
-
-; New entries (2) - 2021-05-09
-Checking connectivty=
-No response, aborting=
-
-; New entries (1) - 2021-05-10
-checking=
-
-; New entries (3) - 2021-05-10
-Delete Plugin=
-Remove Plugin=
-Update Plugin=
-
-; New entries (2) - 2021-05-15
-Plugin File Install Errors=
-Plugin History=
+; Note: November 14, 2021 - 37 missing translations

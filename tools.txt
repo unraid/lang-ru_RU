@@ -10,8 +10,10 @@ Are you sure=
 Array has been Reset=Array has been **Reset**
 Array must be Started to change permissions=Array must be **Started** to change permissions
 Array must be Stopped to change=Array must be **Stopped** to change
+Array slots=
 Array=
 Author=
+Beta=
 Blacklisted USB Flash GUID=
 Branch=
 By using this software, you agree with our=
@@ -23,11 +25,13 @@ collecting diagnostic information this may take several minutes=collecting diagn
 Component=
 Credits=
 Data slots=
+Delete all notifications=
 Delete notification=
 Developer=
 Diagnostics=
 Disks=
 Display Settings=
+Downloading=
 End-User License Agreement=
 Enter URL of language pack XML file=
 Error accessing your physical USB Flash boot device=
@@ -42,6 +46,7 @@ Hide Details=
 If you do not receive an email, please check your spam or junk-email folder=
 Importance=
 Important=
+Install Language=
 Install=
 Installed languages=
 Invalid Trial Installation=Invalid *Trial* Installation
@@ -55,6 +60,7 @@ Missing Language=
 Network Settings=
 New Config=
 New Permissions=
+Next=
 No notifications present=
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=No personal information such as user names, passwords, or any other file contents is included in the hardware profile
 normal=
@@ -62,8 +68,10 @@ Only ZIP files are allowed=
 Page Map=
 Parity slots=
 Please check your=
+please configure=
 Please select a language before proceeding=
 Please=
+Pool slots=
 Preserve current assignments=
 previous=
 Privacy Policy=
@@ -84,6 +92,7 @@ Select language file=
 Select language=
 Show Details=
 slots=
+Stable=
 Subject=
 System Devices=
 System Update Check=
@@ -107,6 +116,7 @@ Trial key expires on=***Trial*** key expires on
 Trial=
 Update OS=
 Upgrade Key=
+Uploaded=
 uploading hardware information=
 Uploading=
 Use this to develop language packs=
@@ -114,6 +124,8 @@ Use this to install official language packs=
 User Shares=
 User=
 Vars=
+VFIO-PCI Log=
+View VFIO-PCI Log=
 warning=
 webGUI=
 When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the <i>Key file</i> URL box and
@@ -134,6 +146,7 @@ In use by Unraid=
 Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
 No changes=
 PCI Devices and IOMMU Groups=
+PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
 Reboot to take effect=
 SCSI Devices=
 The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
@@ -149,6 +162,7 @@ Subsequently, this file can be included in your correspondence with Limetech or 
 
 This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
 and configuration files are collected:
+
 :end
 
 :diagnostics_2_plug:
@@ -180,6 +194,9 @@ by Unraid OS; however, your server name, IP address, and user share names* **wil
 to the system log.*
 
 *Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*
+
+
+
 :end
 
 :newconfig_plug:
@@ -193,6 +210,9 @@ Use the *'Preserve current assignments'* selection to populate the desired disk 
 
 **DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
 effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
+
+
+
 :end
 
 :newperms_1_plug:
@@ -205,6 +225,8 @@ directories when transitioning back from Active Directory to non-Active Director
 The utility starts a background process that goes to each of your data disks and cache disks and selected user shares
 and changes file and directory ownership to *nobody/users* (i.e., uid/gid to 99/100), and sets permissions
 as follows:
+
+
 :end
 
 :newperms_2_plug:
@@ -216,6 +238,8 @@ For read/write files:
 
 For readonly files:
   -r--r--r--
+
+
 :end
 
 :newperms_3_plug:
@@ -224,6 +248,8 @@ Clicking **Start** will open another window and start the background process.
 Closing the window before completion will terminate the background process - so don't do that. This process can take a long time if you have many files.
 
 Note that this tool may negatively affect any docker containers if you allow your appdata share to be included.
+
+
 :end
 
 :registration_1_plug:
@@ -234,6 +260,8 @@ Registration keys are bound to your USB Flash boot device serial number (GUID). 
 at least 1GB in size.
 
 Note: USB memory card readers are generally **not** supported because most do not present unique serial numbers.
+
+
 :end
 
 :registration_2_plug:
@@ -247,12 +275,15 @@ Your *Trial* key includes all the functionality and device support of a *Pro* Re
 After your *Trial* key has reached expiration, your server **still functions normally** until the next time you **Stop** the array.
 
 At that point, you may either purchase a Registration key, or request a *Trial* extension.
+
+
 :end
 
 :registration_4_plug:
 To continue using Unraid OS you may purchase a Registration key. Alternately, you may request a *Trial* extension key.
 
 Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.
+
 :end
 
 :registration_5_plug:
@@ -261,6 +292,8 @@ It is not possible to use a *Trial* key with an existing Unraid OS installation.
 You may purchase a Registration key corresponding to this USB Flash device to continue using this installation.
 
 For more information, please [Contact Support](https://lime-technology.com/contact).
+
+
 :end
 
 :registration_6_plug:
@@ -270,12 +303,15 @@ It appears that your Registration key file is corrupted or missing.  The key fil
 If you do not have a backup copy of your Registration key file, [Contact Support](https://lime-technology.com/contact).
 
 If this was a *Trial* installation, you may purchase a Registration key.
+
+
 :end
 
 :registration_7_plug:
 *Trial* installations are only valid with the originally registered USB Flash device.
 
 To continue using this installation with this USB Flash device, you may purchase a Registration key.
+
 :end
 
 :registration_8_plug:
@@ -288,6 +324,8 @@ replaced anytime. Thereafter, a replacement key may be replaced again after one 
 another replacement key sooner, [Contact Support](https://lime-technology.com/contact).
 
 **Note:** Replacing a Registration key results in permanently *blacklisting* the previous USB Flash GUID.
+
+
 :end
 
 :registration_9_plug:
@@ -298,23 +336,8 @@ A USB Flash device may also be *blacklisted* if there is no serial number, or if
 is not unique (this is common with USB card readers).
 
 For more information, please [Contact Support](https://lime-technology.com/contact).
+
+
 :end
 
-; New entries (10) - 2021-05-08
-Array slots=
-Delete all notifications=
-Downloading=
-Install Language=
-please configure=
-Pool slots=
-Uploaded=
-VFIO-PCI Log=
-View VFIO-PCI Log=
-PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
-
-; New entries (2) - 2021-05-10
-Next=
-Stable=
-
-; New entries (1) - 2021-05-20
-Beta=
+; Note: November 14, 2021 - 135 missing translations

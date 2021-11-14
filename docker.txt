@@ -2,6 +2,7 @@ Access Mode=
 Add another Path, Port, Variable, Label or Device=
 Add Configuration=
 Add=
+Additional Requirements=
 Always=
 App to Host=
 Application=
@@ -26,9 +27,10 @@ Container Path=
 Container Port=
 Container Size=
 Container=
-CPU Memory load=
+CPU Memory load=CPU & Memory load
 CPU Pinning=
 Created=
+Crypto Currency=
 Default Value=
 Device=
 Display=
@@ -37,6 +39,7 @@ Docker Containers=
 Docker Hub URL=
 Docker Service failed to start=
 Downloaders=
+Drivers=
 Edit Configuration=
 Exited=
 Extra Parameters=
@@ -64,6 +67,7 @@ Missing parameters=
 Music=
 Network Type=
 No Docker containers installed=
+None Listed=
 of=
 orphan image=
 Other=
@@ -79,6 +83,7 @@ Productivity=
 Project Page=
 Proxy=
 Pulling image=
+Read Me First=
 Read Only - Shared=
 Read Only - Slave=
 Read Only=
@@ -91,6 +96,7 @@ Removing container=
 Removing orphan image=
 Repository=
 Required=
+Reset sorting=
 Resume All=
 Save=
 Select a template=
@@ -111,6 +117,7 @@ Template=
 The command failed=
 The command finished successfully=
 TOTAL DATA PULLED=
+Total size=
 Unknown action=
 Update All=
 update ready=
@@ -125,17 +132,4 @@ Web=
 WebUI=
 Writable=
 
-; New entries (4) - 2021-05-08
-Drivers=
-Reset sorting=
-Total size=
-
-; New entries (1) - 2021-06-12
-Crypto Currency=
-
-; New entries (2) - 2021-09-18
-Additional Requirements=
-None Listed=
-
-; New entries (1) - 2021-11-07
-Read Me First=
+; Note: November 14, 2021 - 130 missing translations

@@ -24,6 +24,7 @@ Ok=
 Pause=
 Proceed=
 Project Page=
+Read Me First=
 Remove container=
 Remove definition=
 Remove image=
@@ -56,12 +57,11 @@ Autostart disabled=
 Missing encryption key=
 Opening encrypted volumes=
 
-; New entries (5) - 2021-05-08
+; docker variables
 Container Path=
 Container Port=
 Container Variable=
 Container Label=
 Container Device=
 
-; New entries (1) - 2021-11-14
-Read Me First=
+; Note: November 14, 2021 - 57 missing translations
