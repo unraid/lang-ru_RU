@@ -26,4 +26,4 @@ Use only lowercase letters, digits, underscores and dashes=Используйт�
 User %s has been deleted=Пользователь %s был удалён
 User name=Имя пользователя
 
-; Note: November 14, 2021 - 7 missing translations
+; Note: November 15, 2021 - 7 missing translations

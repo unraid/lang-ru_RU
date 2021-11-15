@@ -4,4 +4,4 @@ Language=
 Notice %s - Version update %s=Notice [%s] - Version update %s
 Plugin=
 
-; Note: November 14, 2021 - 5 missing translations
+; Note: November 15, 2021 - 4 missing translations
