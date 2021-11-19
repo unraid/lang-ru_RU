@@ -9,6 +9,7 @@ day=
 days=
 disk image and definition=
 Disks=
+Donate=
 Done=
 Edit=
 Execution error=
@@ -24,6 +25,7 @@ Ok=
 Pause=
 Proceed=
 Project Page=
+Read Me First=
 Remove container=
 Remove definition=
 Remove image=
@@ -56,9 +58,11 @@ Autostart disabled=
 Missing encryption key=
 Opening encrypted volumes=
 
-; New entries (5) - 2021-05-08
+; docker variables
 Container Path=
 Container Port=
 Container Variable=
 Container Label=
 Container Device=
+
+; Note: November 16, 2021 - 58 missing translations

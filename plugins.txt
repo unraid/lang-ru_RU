@@ -2,7 +2,10 @@
 anonymous=анонимный
 Author=Автор
 Check For Updates=Проверить обновления
+Checking connectivty=Проверка подключения
+checking=проверка
 Click here to install version %s=Нажмите здесь для установки версии %s
+Delete Plugin=Удалить плагин
 DOWNGRADE TO VERSION=ОТКАТИТЬ НА ВЕРСИЮ
 Enter URL of remote plugin file or local plugin file=Введите удалённый URL файла плагина или ссылку на локальный файл плагина
 ERROR=ОШИБКА
@@ -13,11 +16,16 @@ Installed Plugins=Установленные плагины
 Installing Update=Установка обновления
 need check=требуется проверка
 Next=Далее
+No plugins installed=Плагины не установлены
 No release notes available=Примечания к выпуску отсутствуют
+No response, aborting=Нет ответа, прерывание
 Plugin File=Файл плагина
+Plugin File Install Errors=Ошибки при установке файла плагина
+Plugin History=История плагина
 Plugin Update Check=Проверка обновлений плагинов
 Plugin=Плагин
 Release Notes=Примечания к выпуску
+Remove Plugin=Удалить плагин
 remove=удалить
 Select local plugin file=Выберите локальный файл плагина
 Stable=Стабильный
@@ -25,24 +33,8 @@ STALE=УСТАРЕВШИЙ
 Support Thread=Тред поддержки
 Uninstall=Удаление
 Update All Plugins=Обновить все плагины
+Update Plugin=Обновить плагин
 Upgrade=Модернизация
 View Release Notes=Посмотреть примечания к выпуску
 
-; New entries (1) - 2021-05-08
-No plugins installed=Плагины не установлены
-
-; New entries (2) - 2021-05-09
-Checking connectivty=Проверка подключения
-No response, aborting=Нет ответа, прерывание
-
-; New entries (1) - 2021-05-10
-checking=проверка
-
-; New entries (3) - 2021-05-10
-Delete Plugin=Удалить плагин
-Remove Plugin=Удалить плагин
-Update Plugin=Обновить плагин
-
-; New entries (2) - 2021-05-15
-Plugin File Install Errors=Ошибки при установке файла плагина
-Plugin History=История плагина
+; Note: November 16, 2021 - 37 missing translations
