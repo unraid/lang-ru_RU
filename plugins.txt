@@ -1,48 +1,48 @@
-%s An update is available=%s: An update is available.
-anonymous=
-Author=
-Check For Updates=
-Click here to install version %s=
-DOWNGRADE TO VERSION=
-Enter URL of remote plugin file or local plugin file=
-ERROR=
-Install Plugin=
-Install=
-install=
-Installed Plugins=
-Installing Update=
-need check=
-Next=
-No release notes available=
-Plugin File=
-Plugin Update Check=
-Plugin=
-Release Notes=
-remove=
-Select local plugin file=
-Stable=
-STALE=
-Support Thread=
-Uninstall=
-Update All Plugins=
-Upgrade=
-View Release Notes=
+%s An update is available=%s: Доступно обновление
+anonymous=анонимный
+Author=Автор
+Check For Updates=Проверить обновления
+Click here to install version %s=Нажмите здесь для установки версии %s
+DOWNGRADE TO VERSION=ОТКАТИТЬ НА ВЕРСИЮ
+Enter URL of remote plugin file or local plugin file=Введите удалённый URL файла плагина или ссылку на локальный файл плагина
+ERROR=ОШИБКА
+Install Plugin=Установить плагин
+Install=Установить
+install=установить
+Installed Plugins=Установленные плагины
+Installing Update=Установка обновления
+need check=требуется проверка
+Next=Далее
+No release notes available=Примечания к выпуску отсутствуют
+Plugin File=Файл плагина
+Plugin Update Check=Проверка обновлений плагинов
+Plugin=Плагин
+Release Notes=Примечания к выпуску
+remove=удалить
+Select local plugin file=Выберите локальный файл плагина
+Stable=Стабильный
+STALE=УСТАРЕВШИЙ
+Support Thread=Тред поддержки
+Uninstall=Удаление
+Update All Plugins=Обновить все плагины
+Upgrade=Модернизация
+View Release Notes=Посмотреть примечания к выпуску
 
 ; New entries (1) - 2021-05-08
-No plugins installed=
+No plugins installed=Плагины не установлены
 
 ; New entries (2) - 2021-05-09
-Checking connectivty=
-No response, aborting=
+Checking connectivty=Проверка подключения
+No response, aborting=Нет ответа, прерывание
 
 ; New entries (1) - 2021-05-10
-checking=
+checking=проверка
 
 ; New entries (3) - 2021-05-10
-Delete Plugin=
-Remove Plugin=
-Update Plugin=
+Delete Plugin=Удалить плагин
+Remove Plugin=Удалить плагин
+Update Plugin=Обновить плагин
 
 ; New entries (2) - 2021-05-15
-Plugin File Install Errors=
-Plugin History=
+Plugin File Install Errors=Ошибки при установке файла плагина
+Plugin History=История плагина
