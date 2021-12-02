@@ -374,7 +374,7 @@ Unraid Staff=
 Displaying %s - %s of %s=Displaying %1$s - %2$s (of %3$s)
 
 Updating Content=
-Language=
+Language=Язык
 Switch to this language=
 Country Code=
 Install Language Pack=
