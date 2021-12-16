@@ -13,4 +13,4 @@ Install Applications=
 Something really wrong went on during %s=
 Are you sure you want to delete %s applications from the previously installed list=
 
-; Note: November 15, 2021 - 14 missing translations
+; Note: December 16, 2021 - 14 missing translations
