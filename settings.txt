@@ -707,3 +707,8 @@ Your Unraid Server is reachable from the internet=
 YYYY-MM-DD=
 
 ; Note: November 16, 2021 - 635 missing translations
+
+; New entries (3) - 2021-12-16
+Accumulation duration=
+Accumulation frequency=
+Cumulative parity check=
