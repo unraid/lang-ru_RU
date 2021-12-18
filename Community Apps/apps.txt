@@ -95,7 +95,7 @@ Click to pin this application=
 Click to unpin this application=
 
 ; Branch installations
-Choose A Branch To Install=
+Choose A Branch To Install=Выберите ветвь для установки
 
 ; Multiple application installs
 ; no apps selected
@@ -162,7 +162,7 @@ unknown=
 Last Change To Application Feed=
 Docker Applications=
 Plugin Applications=
-Templates=
+Templates=Шаблоны
 Official Containers=
 Repositories=
 Private Docker Applications=
@@ -207,7 +207,7 @@ Crypto Currency=
 Downloaders=
 Drivers=
 Game Servers=
-Home Automation=
+Home Automation=Домашняя автоматизация
 Media Applications=
 Books=
 Music=
@@ -220,7 +220,7 @@ DNS=
 FTP=
 Management=
 Messenger=
-Proxy=
+Proxy=Прокси
 VOIP=
 VPN=
 Web=
@@ -294,10 +294,10 @@ Show Charts=
 Hide Charts=
 This application is not compatible with your version of Unraid=
 Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
-WebUI=
-Reinstall=
+WebUI=Веб-интерфейс
+Reinstall=Переустановить
 Reinstall From Previous Apps=
-Install=
+Install=Установить
 Project=
 Read Me First=
 Install second instance=
@@ -310,7 +310,7 @@ Donate=
 Currently Installed Version=
 Install The Update=
 ; as in you have the latest version already installed
-Latest Version=
+Latest Version=Последняя версия
 Multi Language Support=
 Support Forum=
 ; as in more than 100000
@@ -346,9 +346,9 @@ Check off to select multiple reinstalls=
 Go to the plugin settings=
 Click to reinstall the application using default values=
 Click to edit the application values=
-Click to reinstall=
-Click to install=
-Click to go to the WebUI=
+Click to reinstall=Нажмите для переустановки
+Click to install=Нажмите для установки
+Click to go to the WebUI=Нажмите для перехода в веб-интерфейс
 This application template has been deprecated=
 This application template has been blacklisted=
 Click info to see the notes regarding this application=
@@ -363,7 +363,7 @@ Docker Hub=
 NOTE You must visit the dockerHub page to gather the information required to install correctly=
 Show CA templates=
 
-Info=
+Info=Информация
 Attention=
 Repository=
 Why we picked it=
