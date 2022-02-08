@@ -25,5 +25,3 @@ Use a password up to 128 characters=Используйте пароль не б�
 Use only lowercase letters, digits, underscores and dashes=Используйте только строчные буквы, цифры, символы подчеркивания и тире
 User %s has been deleted=Пользователь %s был удалён
 User name=Имя пользователя
-
-; Note: November 16, 2021 - 7 missing translations

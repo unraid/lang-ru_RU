@@ -3,6 +3,8 @@
 12 hours=
 24 hours=
 8023ad=802.3ad
+Accumulation duration=
+Accumulation frequency=
 Activate=
 Activated=
 Activating=
@@ -110,6 +112,7 @@ CPU Pinning Docker=Привязка к процессору Docker
 CPU Pinning VM=Привязка к процессору ВМ
 CPU Pinning=Привязка к процессору
 CRAM-MD5=
+Cumulative parity check=
 Current date and time=
 Custom attributes use comma to separate numbers=Custom attributes (use comma to separate numbers)
 Custom banner=
@@ -706,9 +709,4 @@ Your server has been registered=
 Your Unraid Server is reachable from the internet=
 YYYY-MM-DD=
 
-; Note: November 16, 2021 - 635 missing translations
-
-; New entries (3) - 2021-12-16
-Accumulation duration=
-Accumulation frequency=
-Cumulative parity check=
+; Note: February 8, 2022 - 632 missing translations
