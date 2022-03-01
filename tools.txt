@@ -313,4 +313,4 @@ is not unique (this is common with USB card readers).
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
 
-; Note: February 27, 2022 - 127 missing translations
+; Note: March 1, 2022 - 127 missing translations

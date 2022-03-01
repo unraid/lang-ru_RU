@@ -67,4 +67,4 @@ Container Variable=
 Container Label=
 Container Device=
 
-; Note: February 27, 2022 - 47 missing translations
+; Note: March 1, 2022 - 47 missing translations

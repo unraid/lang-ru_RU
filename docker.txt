@@ -132,4 +132,4 @@ Web=
 WebUI=
 Writable=
 
-; Note: February 27, 2022 - 105 missing translations
+; Note: March 1, 2022 - 105 missing translations
