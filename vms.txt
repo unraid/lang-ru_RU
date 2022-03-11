@@ -137,4 +137,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, newer Linux distros
 XML View=
 
-; Note: March 1, 2022 - 123 missing translations
+; Note: March 11, 2022 - 123 missing translations
