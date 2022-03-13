@@ -113,6 +113,8 @@ Information=
 Insufficient free disk space available=
 Interrupted=
 Invalid configuration=
+invalid device=
+invalid devices=
 Invalid expansion=
 Invalid pool name=
 Invalid, missing or expired=
@@ -348,4 +350,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: March 11, 2022 - 274 missing translations
+; Note: March 13, 2022 - 276 missing translations
