@@ -113,6 +113,7 @@ Yes, install them=
 Cookies not enabled Plugins must be separately installed from docker applications=
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=
 Updating Support Links=
+Downloading docker icons=
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=
 
 ; error messages
@@ -134,12 +135,13 @@ This template is set up to use a custom network You may have to adjust the netwo
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=
 
 ; CA Sections Keep the length reasonable
+Home=
 Installed Apps=
 Previous Apps=
 Pinned Apps=
 Favourite Repo=
+Action Centre=
 Recently Added=
-Updated Apps=
 Random Apps=
 Top New Installs=
 Top Trending Apps=
@@ -298,8 +300,8 @@ Ranked #%s=
 Trending %s=
 ; as in As of some date
 As of %s=(As of %s)
-Show Charts=
-Hide Charts=
+Play Video=
+Play Video %s=
 This application is not compatible with your version of Unraid=
 Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
 WebUI=
@@ -326,6 +328,7 @@ Support Forum=
 ; as in more than 100000
 More than %s=
 Remove from Previous Apps=
+Remove=
 See All Apps=
 Favourite=
 Application Type=
@@ -409,4 +412,4 @@ An error occurred - Could not determine configuration=
 ; WebGui
 Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
 
-; Note: April 2, 2022 - 305 missing translations
+; Note: May 7, 2022 - 308 missing translations
