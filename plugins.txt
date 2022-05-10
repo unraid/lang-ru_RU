@@ -2,7 +2,7 @@
 anonymous=анонимный
 Author=Автор
 Check For Updates=Проверить обновления
-Checking connectivty=Проверка подключения
+Checking connectivity=Проверка подключения
 checking=проверка
 Click here to install version %s=Нажмите здесь для установки версии %s
 Delete Plugin=Удалить плагин
