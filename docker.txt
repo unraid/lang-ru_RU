@@ -132,10 +132,4 @@ Web=Веб
 WebUI=Веб-интерфейс
 Writable=Записываемый
 
-; Note: November 16, 2021 - 129 missing translations
-Start Container After Install=Запустить контейнер после установки
-latest=последний
-stable=стабильный
-Password Mask=Маскировка пароля
-Advanced=Расширенный
-Command=Команда
+; Note: May 7, 2022 - 105 missing translations

@@ -6,9 +6,12 @@ Happy Holidays from Andrew, Tracey, and family=
 Please Enjoy Responsibly=
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=
+Docker system failed to start - Only Plugins Available To Be Installed Or Managed=
+Array not started - Only Plugins Available To Be Installed Or Managed=
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=
 Backup Server Active Some icons may not appear, and plugin installations may be affected=
 Debugging enabled This significantly increases the memory used by your browser=
+Browser translation detected Display issues may result=
 
 ; Sorting Options
 Sort By=
@@ -93,6 +96,8 @@ Yes, remove it=
 ; App Pinning
 Click to pin this application=
 Click to unpin this application=
+Pin App=
+Unpin App=
 
 ; Branch installations
 Choose A Branch To Install=Выберите ветвь для установки
@@ -108,6 +113,7 @@ Yes, install them=
 Cookies not enabled Plugins must be separately installed from docker applications=
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=
 Updating Support Links=
+Downloading docker icons=
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=
 
 ; error messages
@@ -129,12 +135,13 @@ This template is set up to use a custom network You may have to adjust the netwo
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=
 
 ; CA Sections Keep the length reasonable
+Home=
 Installed Apps=
 Previous Apps=
 Pinned Apps=
 Favourite Repo=
+Action Centre=
 Recently Added=
-Updated Apps=
 Random Apps=
 Top New Installs=
 Top Trending Apps=
@@ -226,6 +233,7 @@ Proxy=Прокси
 VOIP=
 VPN=
 Web=
+Privacy=
 Productivity=
 Security=Защита
 Spotlight=
@@ -258,6 +266,7 @@ NetworkManagement=Network:Management
 NetworkProxy=Network:Proxy
 NetworkVOIP=Network:VOIP
 NetworkVPN=Network:VPN
+NetworkPrivacy=Network:Privacy
 NetworkWeb=Network:Web
 NetworkOther=Network:Other
 ToolsSystem=Tools:System
@@ -286,14 +295,13 @@ Min OS=
 Max OS=
 Total Downloads=
 Licence=
-30 Day Trend=
 Ranked #%s=
 ; as in Trending up or down arrow
 Trending %s=
 ; as in As of some date
 As of %s=(As of %s)
-Show Charts=
-Hide Charts=
+Play Video=
+Play Video %s=
 This application is not compatible with your version of Unraid=
 Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
 WebUI=Веб-интерфейс
@@ -307,6 +315,8 @@ Install Using The Templates Default Tag=Install Using The Template's Default Tag
 Moderator Comments=Moderator Comments:
 Note not all authors keep up to date on change logs=
 Note not all maintainers keep up to date on change logs=
+Last Update=
+Note All statistics are only gathered every 30 days=
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=
 Currently Installed Version=
@@ -318,6 +328,7 @@ Support Forum=
 ; as in more than 100000
 More than %s=
 Remove from Previous Apps=
+Remove=
 See All Apps=
 Favourite=
 Application Type=
@@ -359,6 +370,7 @@ This application has additional requirements=
 BETA= 
 INSTALLED=
 OFFICIAL=
+UPDATED=
 This is an official container=
 Digitally Signed=
 This container is digitally signed=
@@ -368,6 +380,8 @@ Show CA templates=
 Deprecated=
 Incompatible=
 Blacklisted=
+Template Exists=
+Template already exists in Apps=
 
 Info=Информация
 Attention=
@@ -391,7 +405,11 @@ A note about translations=
 Click here to view the language changelog=
 View Missing Translations=
 
+; dockerHub conversions
+Determine configuration=
+Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  The container will not be started.
+An error occurred - Could not determine configuration=
 ; WebGui
 Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
 
-; Note: January 8, 2022 - 293 missing translations
+; Note: May 7, 2022 - 308 missing translations

@@ -3,5 +3,3 @@ Docker=Docker
 Language=Язык
 Notice %s - Version update %s=Уведомление [%s] - Обновление версии %s
 Plugin=Плагин
-
-; Note: November 16, 2021 - 4 missing translations

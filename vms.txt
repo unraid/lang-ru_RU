@@ -37,13 +37,17 @@ free=
 Graphics Card=
 Graphics ROM BIOS=
 Graphics=
+Guest not running or guest agent not installed=
 Host Passthrough=
 Hyperv tweaks for Windows=
 Hyper-V=
 i440fx will work for most=
 Icon=Значок
 Initial=
+Interfaces=
+Invalid storage path=
 Invalid VM to edit=
+IP Address=
 ISO storage path doesnt exist=ISO storage path doesn't exist
 ISO storage path doesnt exist, please create the user share or empty folder first=ISO storage path doesn't exist, please create the user share (or empty folder) first
 ISO storage path was empty=
@@ -83,6 +87,7 @@ Path to ROM BIOS file=
 Please choose a folder the LibreELEC image will download to=
 Please choose a folder the OpenELEC image will download to=
 Pop-up Blocker is enabled Please add this site to your exception list=Pop-up Blocker is enabled! Please add this site to your exception list
+Prefix=
 Primary=
 Q35 for a newer machine model with PCIE=
 QEMU64=
@@ -137,4 +142,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, newer Linux distros
 XML View=
 
-; Note: November 16, 2021 - 125 missing translations
+; Note: May 7, 2022 - 128 missing translations
