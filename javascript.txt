@@ -47,8 +47,8 @@ Yes, update it=Да, обновить!
 Yes=Да
 
 ; footer messages
-Array Copying=
-Array Clearing=
+Array Copying=Копирование массива
+Array Clearing=Очищение массива
 Array Starting=Запуск массива
 Array Stopping=Остановка массива
 Mounting disks=Монтирование дисков
