@@ -47,6 +47,8 @@ Yes, update it=Да, обновить!
 Yes=Да
 
 ; footer messages
+Array Copying=
+Array Clearing=
 Array Starting=Запуск массива
 Array Stopping=Остановка массива
 Mounting disks=Монтирование дисков
@@ -65,4 +67,4 @@ Container Variable=Переменная контейнера
 Container Label=Ярлык контейнера
 Container Device=Устройство контейнера
 
-; Note: November 16, 2021 - 58 missing translations
+; Note: May 7, 2022 - 47 missing translations

@@ -2,7 +2,7 @@
 anonymous=анонимный
 Author=Автор
 Check For Updates=Проверить обновления
-Checking connectivty=Проверка подключения
+Checking connectivity=Проверка подключения
 checking=проверка
 Click here to install version %s=Нажмите здесь для установки версии %s
 Delete Plugin=Удалить плагин
@@ -36,5 +36,3 @@ Update All Plugins=Обновить все плагины
 Update Plugin=Обновить плагин
 Upgrade=Модернизация
 View Release Notes=Посмотреть примечания к выпуску
-
-; Note: November 16, 2021 - 37 missing translations
