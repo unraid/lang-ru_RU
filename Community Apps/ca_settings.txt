@@ -19,4 +19,4 @@ Enable developer mode=
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=
 Support Thread=
 
-; Note: May 7, 2022 - 20 missing translations
+; Note: May 20, 2022 - 20 missing translations
