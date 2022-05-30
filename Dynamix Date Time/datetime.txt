@@ -7,35 +7,35 @@ Time zone=Часовой пояс
 Use NTP=Использовать NTP
 
 :timezone_plug:
-> Select your applicable time zone from the drop-down list.
+> Выберите подходящий часовой пояс из раскрывающегося списка.
 :end
 
 :datetime_map_plug:
-> The world map highlights the current selected time zone.
+> На карте мира отображается выбранный часовой пояс.
 >
-> Use your mouse to move over the map and click on the country for which you want to set the time zone. The appropriate zone is automatically selected in the drop-down list.
+> Используйте мышь, чтобы перемещаться по карте, и нажмите на страну, для которой вы хотите установить часовой пояс. Соответствующая зона автоматически выбирается в раскрывающемся списке.
 :end
 
 :use_ntp_plug:
-> Select 'Yes' to use Network Time Protocol to keep your server time accurate.
-> We **highly** recommend the use of a network time server, especially if you plan on using Active Directory.
+> Выберите **Да**, чтобы использовать протокол сетевого времени (NTP), чтобы время на сервере было точным.
+> Мы **настоятельно** рекомендуем использовать сетевой сервер времени, особенно если вы планируете использовать Active Directory.
 :end
 
 :ntp_server1_plug:
-> This is the primary NTP server to use.  Enter a FQDN or an IP address.
+> Основной NTP-сервер, который следует использовать. Введите полное доменное имя или IP-адрес.
 :end
 
 :ntp_server2_plug:
-> This is the alternate NTP server to use if NTP Server 1 is down.
+> Альтернативный NTP-сервер, который следует использовать, если NTP-сервер 1 недоступен.
 :end
 
 :ntp_server3_plug:
-> This is the alternate NTP Server to use if NTP Servers 1 and 2 are both down.
+> Альтернативный NTP-сервер, который следует использовать, если NTP-серверы 1 и 2 недоступны.
 :end
 
 :ntp_server4_plug:
-> This is the alternate NTP Server to use if NTP Servers 1, 2, and 3 are all down.
+> Альтернативный NTP-сервер, который следует использовать, если NTP-серверы 1, 2 и 3 недоступны.
 :end
 :current_time_plug:
-> Enter the current time-of-day.  Use format YYYY-MM-DD HH:MM:SS. Greyed out when using NTP.
+> Введите текущее время. Используйте формат ГГГГ-ММ-ДД ЧЧ:ММ:СС. Неактивно при использовании NTP.
 :end

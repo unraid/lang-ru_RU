@@ -8,15 +8,13 @@ Empty=Пусто
 Empty the=Очистить
 Empty All Trash=Очистить всю корзину
 Empty Trash=Пустая корзина
-Enable on Unassigned Devices=
+Enable on Unassigned Devices=Включить на неназначенных устройствах
 Enable Recycle Bin=Включить корзину
 Excluded Directories=Исключённые каталоги
 Excluded Files=Исключённые файлы
-Excluded Shares=
-here=здесь
+Excluded Shares=Исключённые общие ресурсы
 Log Deleted Files=Записывать удаление файлов в журнал
 Recycle Bin=Корзина
-Recycle Bin is empty=Корзина пуста
 Recycle Bin Log=Журнал корзины
 Recycle Bin parameters=Параметры корзины
 Recycle Bin permissions=Разрешения корзины
@@ -31,18 +29,16 @@ Restart the Recycle Bin=Перезапустить корзину
 Share Type=
 SMB Share=
 Start the Recycle Bin=Запустить корзину
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=
 Stop the Recycle Bin=Остановить корзину
-To hide the Recycle Bin folder, set 'Hide Dot Files'
-to 'Yes' in the SMB settings=
+These actions apply to all shares=
 Trash Size=Размер корзины
 Update Recycle Bin Size in Background=Обновлять размер корзины в фоновом режиме
-Yes I want to do this=Да я хочу это сделать
+Recycle Bin is empty=Корзина пуста
 ;
 ; Help
 ;
 :recycle_bin_shares_plug:
-Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period.
-These actions apply to all shares:
 > Recycle Bin Shares:
 >
 > The shares with Recycle Bin contents will be displayed along with the size of the share's Trash Bin.
@@ -56,10 +52,12 @@ These actions apply to all shares:
 
 :recycle_bin_enable_plug:
 > Set to **Yes** to enable the Recycle Bin functionality for deleted files when the server is started.
+>
+> To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
 :end
 
 :recycle_bin_background_plug:
-> Set to **Yes** to enable the Recycle Bin Size to be updated in the background every minute.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to a minute to refresh when this is enabled.
+> Set to **Yes** to enable the Recycle Bin Size to be updated in the background every five minutes.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to five minutes to refresh when this is enabled.
 :end
 
 :recycle_bin_ud_plug:
@@ -90,7 +88,7 @@ These actions apply to all shares:
 :end
 
 :recycle_bin_excluded_dirs_plug:
-> List of directories to exclude from the Recycle Bin separated by commas.  To specify a particular share directory, use 'share/directory'.  Unassigned Devices are specified the same way using 'mountpoint/directory'.  Wild cards '*' and '?' are allowed in the directory name.
+> List of directories to exclude from the Recycle Bin separated by commas.  To specify a particular share directory, use 'share/directory'.  You can specify up to one sub-directory.  Unassigned Devices are specified the same way using 'mountpoint/directory'.  Wild cards '*' and '?' are allowed in the directory name.
 :end
 
 :recycle_bin_excluded_shares_plug:

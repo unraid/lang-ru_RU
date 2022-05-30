@@ -9,6 +9,7 @@ day=день
 days=дней
 disk image and definition=образ диска и определение
 Disks=Диски
+Donate=Пожертвовать
 Done=Готово
 Edit=Изменить
 Execution error=Ошибка выполнения
@@ -24,6 +25,7 @@ Ok=Ок
 Pause=Приостановить
 Proceed=Продолжить
 Project Page=Страница проекта
+Read Me First=Сначала прочитай меня
 Remove container=Удалить контейнер
 Remove definition=Удалить определение
 Remove image=Удалить образ
@@ -45,14 +47,16 @@ Yes, update it=Да, обновить!
 Yes=Да
 
 ; footer messages
+Array Copying=Копирование массива
+Array Clearing=Очистка массива
 Array Starting=Запуск массива
 Array Stopping=Остановка массива
-Mounting disks=
-Spinning up all drives=
+Mounting disks=Монтирование дисков
+Spinning up all drives=Раскрутка всех дисков
 Starting services=Запуск сервисов
 Stopping services=Остановка сервисов
-Unmounting disks=
-Autostart disabled=Автозапуск отключен
+Unmounting disks=Размонтирование дисков
+Autostart disabled=Автозапуск отключён
 Missing encryption key=Отсутствует ключ шифрования
 Opening encrypted volumes=Открытие зашифрованных томов
 

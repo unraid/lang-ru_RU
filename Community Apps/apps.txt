@@ -3,22 +3,23 @@ Cancel=Отмена
 ; My PSAs / banners
 Happy New Year=С Новым Годом
 Happy Holidays from Andrew, Tracey, and family=Поздравления с праздником от Эндрю, Трейси и семьи
-Please Enjoy Responsibly=
+Please Enjoy Responsibly=Пожалуйста, пользуйтесь ответственно
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=
-Community Applications works best when cookies are enabled in your browser Certain features may not be available=
+Docker system failed to start - Only Plugins Available To Be Installed Or Managed=
+Array not started - Only Plugins Available To Be Installed Or Managed=Массив не запущен — для установки или управления доступны только плагины
+Community Applications works best when cookies are enabled in your browser Certain features may not be available=Приложения сообщества работают лучше всего, когда в вашем браузере включены файлы cookie. Некоторые функции могут быть недоступны
 Backup Server Active Some icons may not appear, and plugin installations may be affected=
+Debugging enabled This significantly increases the memory used by your browser=Отладка включена. Это значительно увеличивает объем памяти, используемой вашим браузером
+Browser translation detected Display issues may result=Обнаружен перевод браузера. Могут возникнуть проблемы с отображением
 
 ; Sorting Options
-Sorting options=Параметры сортировки
-Sorting options unavailable=Параметры сортировки недоступны
-Sort By Name Ascending=
-Sort By Name Descending=
-Sort By Downloads=Сортировать по загрузкам
-Sort By Trend=Сортировать по тренду
-Sort By Date Added=Сортировать по дате добавления
-Sort By Number Of Apps=
-Sort By Average Trend=
+Sort By=Сортировать по
+Name Ascending=
+Name Descending=
+Downloads=Загрузкам
+Date Added=Дате добавления
+Number Of Apps=Количеству приложений
 ; Initial disclaimer translations
 Disclaimer=Отказ от ответственности
 All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=
@@ -33,23 +34,21 @@ Community Applications contains both docker containers and plugin applications P
 Plugin Note=Примечание к плагину
 
 ; Multi Install
-Install Plugin Applications=
+Install Plugin Applications=Установить приложения-плагины
 Select all on page=Выбрать всё на странице
 
 ; Searches
-Clear Search=Очистить поиск
 Search=Поиск
 Click Here To Get More Results From DockerHub=
-No Matching Applications Found On Docker Hub=
 No Matching Applications Found=Подходящих приложений не найдено
 
 ; Repository Related
-Removed favourite repository=Удален избранный репозиторий
+%s removed as favourite repository=
 %s set as favourite repository=%s установлен как избранный репозиторий
 Click to remove favourite repository=Нажмите, чтобы удалить избранный репозиторий
 Click to set %s as favourite repository=Нажмите, чтобы установить %s в качестве избранного репозитория
 Search for apps in repository=Поиск приложения в репозитории
-No description present=Нет описания
+No description present=Описание отсутствует
 Go to the forum page=Перейти на страницу форума
 Go to the webpage=Перейти на веб-страницу
 Go to reddit=Перейти на Reddit
@@ -57,9 +56,9 @@ Go to facebook=Перейти на facebook
 Go to discord=Перейти в Discord
 Go to forum profile=Перейти к профилю форума
 Show Profile=Показать профиль
+SHOW MORE=ПОКАЗАТЬ БОЛЬШЕ
+SHOW LESS=ПОКАЗАТЬ МЕНЬШЕ
 Read more=Читать далее
-Favourite Repository=Bзбранный репозиторий
-Set as favourite repository=Сделать избранным репозиторием
 Total Applications=Всего приложений
 Total Known Downloads=Всего известных загрузок
 Total Docker Applications=
@@ -68,16 +67,19 @@ Total Languages=Всего языков
 Average Downloads Per App=Среднее количество загрузок приложения
 Web Page=Веб-страница
 Forum=Форум
-Forum Profile=Профиль форума
+Forum Profile=Профиль на форуме
+Profile=Профиль
 Facebook=
 Reddit=
 Twitter=
 Discord=
 Search Apps=Искать в приложениях
-Profile=Профиль
-
+Registry=
+Details=Подробности
+Added=Добавлен
 ; Install Plugin title of openbox
 Install Plugin=Установить плагин
+BACK=НАЗАД
 
 ; Remove App from previously installed
 Delete Template=Удалить шаблон
@@ -94,6 +96,8 @@ Yes, remove it=Да, удалить
 ; App Pinning
 Click to pin this application=Нажмите, чтобы закрепить это приложение
 Click to unpin this application=Нажмите, чтобы открепить это приложение
+Pin App=Закрепить приложение
+Unpin App=Открепить приложение
 
 ; Branch installations
 Choose A Branch To Install=Выберите ветку для установки
@@ -109,6 +113,7 @@ Yes, install them=Да, установить их
 Cookies not enabled Plugins must be separately installed from docker applications=
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=
 Updating Support Links=Обновление ссылок поддержки
+Downloading docker icons=
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Установка завершена. Если кнопка ГОТОВО не появилась, вам нужно будет нажать красный крестик в правом верхнем углу.
 
 ; error messages
@@ -124,28 +129,30 @@ This plugin has a duplicated name from another plugin %s This will impact your a
 You have been logged out=
 Fatal Flash Drive Error=
 This usually means your flash drive is corrupted or has dropped offline The rest of the Unraid GUI will also be affected Post a new thread in the Unraid forums if this error continues=
-
+Fatal Docker Image Error=
+Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=
+This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=
+One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=
 
 ; CA Sections Keep the length reasonable
-MENU=МЕНЮ
+Home=На главную
 Installed Apps=Установленные приложения
 Previous Apps=Предыдущие приложения
 Pinned Apps=Закрепленные приложения
 Favourite Repo=Избранный репозиторий
-New Apps=Новые приложения
-Updated Apps=Обновленные приложения
+Action Centre=Центр действий
+Recently Added=Недавно добавленные
 Random Apps=Случайные приложения
 Top New Installs=Топ новых установок
-Trending Apps=Популярные приложения
+Top Trending Apps=Самые популярные приложения
+Spotlight Apps=Приложения в центре внимания
 All Apps=Все приложения
-OTHER=ДРУГИЕ
 Statistics=Статистика
 Credits=Авторы
 Support=Служба поддержки
 VERSION=ВЕРСИЯ
 Change Log=Журнал изменений
 Debugging=Отладка
-Repositories=Репозитории
 
 ; Credits
 Development=Разработка
@@ -159,48 +166,47 @@ Copyright=Авторские права
 Translation=Перевод
 
 ; Statistics page
-Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=
-The following applications are blacklisted CA will never allow you to install or reinstall these applications=Следующие приложения занесены в черный список ПС и никогда не позволит вам установить или переустановить эти приложения
-While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=
-This display is informational ONLY=
+
 unknown=неизвестно
 Last Change To Application Feed=Последнее изменение в фиде приложений
-Number Of Docker Applications=
-Number Of Plugin Applications=Количество приложений-плагинов
-Number Of Templates=Количество шаблонов
-Number Of Repositories=Количество репозиториев
-Number Of Private Docker Applications=
-Number Of Invalid Templates=Количество недействительных шаблонов
-Number Of Template Errors=
-Number Of Blacklisted Apps=Количество заблокированных приложений
-Number Of Incompatible Applications=Количество несовместимых приложений
-Number Of Deprecated Applications=Количество устаревших приложений
-Number Of Moderation Entries=Количество записей модерации
+Docker Applications=
+Plugin Applications=Приложения-плагины
+Templates=Шаблоны
+Official Containers=Официальные контейнеры
+Repositories=Репозитории
+Private Docker Applications=
+Invalid Templates=Недействительные шаблоны
+Template Errors=Шаблоны с ошибками
+Blacklisted Apps=Заблокированные приложения
+Incompatible Applications=Несовместимые приложения
+Deprecated Applications=Устаревшие приложения
+Moderation Entries=Записи модерации
 Primary Server=Основной сервер
 Backup Server=Резервный сервер
-
-; Statistics Popup Titles
-Repository List=Список репозиториев
-All Invalid Templates Found=Обнаружены все недопустимые шаблоны
-Template Errors=Ошибки шаблона
-All Moderation Entries=Все записи на модерацию
+Installs not allowed from this page=Установка с этой страницы запрещена
 
 ; Statistics Popup
-No invalid templates found=
+No invalid templates found=Недействительные шаблоны не найдены
 These templates are invalid and the application they are referring to is unknown=
-No templates were automatically fixed=
-All of these errors found have been fixed automatically=
-Note that many of these errors can be avoided by following the directions=
-HERE=
-The following plugins have duplicated filenames and are not able to be installed simultaneously=
+No templates were automatically fixed=Никакие шаблоны не были автоматически исправлены
+All of these errors found have been fixed automatically=Все обнаруженные ошибки были исправлены автоматически
+Note that many of these errors can be avoided by following the directions=Обратите внимание, что многих из этих ошибок можно избежать, следуя инструкциям
+HERE=ЗДЕСЬ
+The following plugins have duplicated filenames and are not able to be installed simultaneously=Следующие плагины имеют повторяющиеся имена файлов и не могут быть установлены одновременно
 The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=
-If any of these entries are incorrect then contact the moderators of CA to discuss=
-Global Repository Comments=
-Applied to all applications=(Applied to all applications)
+If any of these entries are incorrect then contact the moderators of CA to discuss=Если какие-либо из этих записей неверны, свяжитесь с модераторами ПС для обсуждения
+Global Repository Comments=Комментарии к глобальному репозиторию
+Applied to all applications=(Применяется ко всем приложениям)
 Individual Application Moderation=
 
 ; Misc
 Community Applications Changelog=Журнал изменений приложений сообщества
+
+Each month we highlight some of the amazing work from our community=Каждый месяц мы выделяем некоторые удивительные работы нашего сообщества
+Check out these newly added applications from our awesome community=Ознакомьтесь с этими недавно добавленными приложениями от нашего замечательного сообщества
+Check out these up and coming apps=Ознакомьтесь с этими перспективными приложениями
+These apps have the highest percentage of new installs=Эти приложения имеют самый высокий процент новых установок
+An assortment of randomly chosen apps=Набор случайно выбранных приложений
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
@@ -222,13 +228,15 @@ Network Services=Сетевые службы
 DNS=
 FTP=
 Management=Управление
-Messenger=
+Messenger=Мессенджер
 Proxy=Прокси
 VOIP=
 VPN=
 Web=
+Privacy=
 Productivity=Продуктивность
 Security=Безопасность
+Spotlight=
 Tools Utilities=Инструменты / Утилиты
 System=Система
 Themes=Темы
@@ -258,54 +266,58 @@ NetworkManagement=Network:Management
 NetworkProxy=Network:Proxy
 NetworkVOIP=Network:VOIP
 NetworkVPN=Network:VPN
+NetworkPrivacy=Network:Privacy
 NetworkWeb=Network:Web
 NetworkOther=Network:Other
 ToolsSystem=Tools:System
 ToolsThemes=Tools:Themes
 ToolsUtilities=Tools:Utilities
-Other=
 OtherUncategorized=Other:Uncategorized
-and %s more=
+and %s more=и ещё %s
 
 ; App Popup Related
-CLOSE=ЗАКРЫТЬ
+This application template has been blacklisted=Это приложение/шаблон занесён в чёрный список
+This application template has been deprecated=Это приложение/шаблон устарело
 This application has additional requirements=Это приложение имеет дополнительные требования
 Additional Requirements=Дополнительные требования
 Donate To Author=Пожертвовать автору
 Donate To Maintainer=Пожертвовать сопровождающему
+CLOSE=ЗАКРЫТЬ
 Author=Автор
 Maintainer=Сопровождающий
 DockerHub=
 Application Template=Шаблон приложения
-Base OS=Базовая ОС
 DockerHub Stars=
 Added to CA=Дата добавления
 Date Updated=Дата обновления
 Current Version=Текущая версия
-Minimum OS=Минимальная ОС
-Max OS=Максимальная ОС
+Min OS=Мин. ОС
+Max OS=Макс. ОС
 Total Downloads=Всего скачиваний
 Licence=Лицензия
-30 Day Trend=30-дневный тренд
 Ranked #%s=Рейтинг #%s
 ; as in Trending up or down arrow
 Trending %s=В тренде %s
 ; as in As of some date
 As of %s=(По состоянию на %s) 
-This application template has been blacklisted=Это приложение/шаблон занесён в чёрный список
-This application template has been deprecated=Это приложение/шаблон устарело
+Play Video=Проиграть видео
+Play Video %s=Проиграть видео %s
 This application is not compatible with your version of Unraid=Это приложение несовместимо с вашей версией Unraid
 Another browser tab or device has updated the displayed templates Some actions are not available=Другая вкладка браузера или устройство обновили отображаемые шаблоны. Некоторые действия недоступны
-Reinstall default=Переустановить (по умолчанию)
 WebUI=
 Reinstall=Переустановить
+Reinstall From Previous Apps=
 Install=Установить
+Uninstall=Удалить
 Project=Проект
-Update=
+Read Me First=Сначала прочитай меня
+Install second instance=Установить второй экземпляр
 Install Using The Templates Default Tag=Install Using The Template's Default Tag
 Moderator Comments=Комментарии модератора:
 Note not all authors keep up to date on change logs=Обратите внимание, что не все авторы следят за обновлениями журналов.
 Note not all maintainers keep up to date on change logs=Обратите внимание, что не все сопровождающие обновляют журналы изменений.
+Last Update=Последнее обновление
+Note All statistics are only gathered every 30 days=Примечание: вся статистика собирается каждые 30 дней.
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=Пожертвовать
 Currently Installed Version=Текущая установленная версия
@@ -313,13 +325,18 @@ Install The Update=Установить обновление
 ; as in you have the latest version already installed
 Latest Version=Последняя версия
 Multi Language Support=Поддержка нескольких языков
+Support Forum=Форум поддержки
 ; as in more than 100000
 More than %s=Более %s
+Remove from Previous Apps=Удалить из предыдущих приложений
+Remove=Удалить
+See All Apps=Посмотреть все приложения
+Favourite=Избранное
+Application Type=Тип приложения
 
 ; Graphs
 Trend Per Month=Тенденция за месяц
 Downloads Per Month=Загрузок в месяц
-Total Downloads=Всего скачиваний
 
 ; Multi install script
 Installing docker applications %s=
@@ -329,12 +346,16 @@ Setting installed applications to autostart=Настройка автозапу�
 Docker Application Installation finished=
 
 ; Application Cards
-Private dockerHub Conversion=Частное (dockerHub Conversion)
+Actions=Действия
+This application is a driver plugin=Это приложение является драйвером (плагином)
+This is a language pack=Это пакет локализации
+This application is a docker container=
+This application is a plugin=Это приложение является плагином
+This is a spotlight application=
+This is your favourite repository=
+This application is from your favourite repository=
+This application is pinned for later viewing=
 Private Application=Частное приложение
-Go to the project page=Перейти на страницу проекта
-Go to the support thread=Перейти к теме поддержки
-Uninstall Application=Удалить приложение
-Remove Private Application=Удалить частное приложение
 Remove Application From List=Удалить приложение из списка
 Check off to select multiple reinstalls=Установите флажок, чтобы выбрать несколько переустановок
 Go to the plugin settings=Перейти к настройкам плагина
@@ -342,21 +363,40 @@ Click to reinstall the application using default values=Нажмите, чтоб
 Click to edit the application values=Нажмите, чтобы изменить значения приложения
 Click to reinstall=Нажмите, чтобы переустановить
 Click to install=Нажмите, чтобы установить
-Install plugin=Установить плагин
 Click to go to the WebUI=Нажмите, чтобы перейти к веб-интерфейсу
-This application has been marked as being Beta=Это приложение было отмечено как бета-версия
 This application template has been deprecated=Этот шаблон приложения устарел
-This application is not compatible with your version of Unraid=Это приложение несовместимо с вашей версией Unraid
 This application template has been blacklisted=Этот шаблон приложения внесён в чёрный список
-Search for more applications from %s=Искать другие приложения от %s
-Click for more information=Нажмите для получения дополнительной информации
+Click info to see the notes regarding this application=
+This application has additional requirements=Это приложение имеет дополнительные требования
+BETA=БЕТА
+INSTALLED=УСТАНОВЛЕН
+OFFICIAL=ОФИЦИАЛЬНО
+UPDATED=ОБНОВЛЕНИЕ
+This is an official container=Это официальный контейнер
+Digitally Signed=Цифровая подпись
+This container is digitally signed=Этот контейнер подписан цифровой подписью
+Docker Hub=
+NOTE You must visit the dockerHub page to gather the information required to install correctly=
+Show CA templates=
+Deprecated=Устарело
+Incompatible=Несовместимо
+Blacklisted=В чёрном списке
+Template Exists=Шаблон существует
+Template already exists in Apps=Шаблон уже существует в приложениях
+; eg: LinuxServer Repository
+%s Repository=
+; eg: Squid's Repository
+%s's Repository=
 
-; Dockerhub searches
-Search For Containers From %s=
-Search for similar containers=
+Info=Информация
+Attention=Внимание
+Repository=Репозиторий
+Why we picked it=Почему мы выбрали это
+Application Spotlight %s=Приложение в центре внимания %s
+Unraid Staff=Сотрудники Unraid
 
 ; Page Navigation
-Displaying %s - %s of %s=Отображение %1$s - %2$s (из %3$s)
+Displaying %s - %s of %s=Показано %1$s - %2$s (из %3$s)
 
 Updating Content=Обновление содержимого
 Language=Язык
@@ -370,20 +410,9 @@ A note about translations=Примечание о переводах
 Click here to view the language changelog=Щелкните здесь, чтобы просмотреть журнал изменений языка
 View Missing Translations=Просмотреть отсутствующие переводы
 
-; Help Text
-This chooses how to sort the results=
-These icons respectively will Install or Edit an application=
-Clicking these icons will take you to an applications GUI or settings=Clicking these icons will take you to an application's GUI or settings
-This will update an application=
-This will take you to the appropriate support thread for an application=
-This will immediately switch to the language=
-This will take you to the project page for an application=
-Clicking this icon will uninstall the application or delete it from the lists depending upon your current section=
-Clicking these icons will pin or unpin an application for later viewer from the Pinned Apps section=
-Clicking this will display more information about the application NOTE You can also click on the applications icon to display more information=
-Clicking this will display any warnings or extra comments about the application=
-On the previous apps section you can select multiple applications to install simultaneously=
-This is the recommended version to install by the application author themselves=
-For support for this plugin visit=
-To view the policies Community Applications has=
-This sets a favourite repository which will appear first in any search result=
+; dockerHub conversions
+Determine configuration=
+Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  The container will not be started.
+An error occurred - Could not determine configuration=
+; WebGui
+Click Install to download and install the Community Applications plugin=Нажмите **Установить**, чтобы загрузить и установить плагин **Community Applications**.

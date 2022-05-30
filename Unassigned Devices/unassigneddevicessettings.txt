@@ -10,25 +10,28 @@ Disk spin down is managed by Unraid=Снижение скорости враще
 Enable NFS export=Включить NFS экспорт
 Enable SMB Security=Включить безопасность SMB
 Enter Disk Password=Введите пароль к диску
-Force all SMB remote shares to SMB v1=
+Enter Pool Mount Point=
 Legacy Mount Point Compatibility=
 Mount SSDs with discard option=
-must be enabled in SMB Settings to enable SMB v1=
 NFS Security=Безопасность NFS
 NFS Settings=Настройки NFS
-NFS must be enabled to enable NFS Export=
+NFS must be enabled in Settings->NFS to enable NFS Export=
+NFS Version to use when Mounting Remote Shares=
 Rule=Правило
 SMB Security=Безопасность SMB
-Select Disk to change UUID=Выберите диск, чтобы изменить UUID
 Select Disk=Выберите диск
 Set Encrypted Disk Password=
 Set Password=Установить пароль
+Set Pool Mount Point=
+Set the Pool Mount Point for this disk=
 Set the disk Password=Установить пароль для диска
 Specify SMB Version when Mounting Remote Shares=
 Spin down disks=
 The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
 to SMB share config=
 Unassigned Devices=Неназначенные устройства
+Unraid 6.10 or later is required for NFSv4 support=
+Use only when directed for support=
 
 ; Help
 ;
@@ -37,7 +40,7 @@ Unassigned Devices=Неназначенные устройства
 :end
 
 :ud_settings_common_script_plug:
-> If set, this script will run before the device script.  The action is in the environment variable **$ACTION**. Be sure you reference all commands with their full path.
+> If set, this script will run before the device script. The action is in the environment variable **$ACTION**. Be sure you reference all commands with their full path.
 :end
 
 :ud_settings_destructive_plug:
@@ -49,11 +52,7 @@ Unassigned Devices=Неназначенные устройства
 :end
 
 :ud_settings_discard_plug:
-> Mount SSDs that support discard with 'discard' option.  If you are using the SSD Trim Settings to do a periodic trim of SSDs you can set this to **No**.
-:end
-
-:ud_settings_spin_down_plug:
-> Set to **Yes** to set a 15 minute disk spin down timer.  Set to **No** to keep disks spun up.  Unraid version 6.9 and higher manages disk spin down.
+> Mount SSDs that support discard with 'discard' option. If you are using the SSD Trim Settings to do a periodic trim of SSDs you can set this to **No**.
 :end
 
 :ud_settings_symlinks_plug:
@@ -73,11 +72,29 @@ Unassigned Devices=Неназначенные устройства
 > Some remote servers need to have the version specified.
 :end
 
+:ud_settings_debug_level_plug:
+> Setting a Debug Log Level adds additional logging in specific areas of UD for troubleshooting.
+>
+> Set to **None** to turn off debug logging.
+>
+> Set the Debug Log Level to a numeric value to debug a specific area of UD.
+>
+> **Note:** Don't leave the Debug Log Level on for extended periods of time.  It can add a lot of log messages to the syslog.
+:end
+
+:ud_settings_specify_nfs_vers_plug:
+> Set to **NFSv3** to mount all NFS Remote Shares with NFSv3.
+>
+> Set to **NFSv4** to mount all NFS Remote Shares with NFSv4.
+>
+> All NFS remote shares will be mounted with the specified version.
+:end
+
 :ud_settings_smb_security_plug:
 > Set the user level of SMB Security.
 >
-> + Set to **Yes** to enable SMB Security on SMB shares.  Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **Hidden** to enable SMB Security on SMB shares that will not be visible.  Set access by user to allow access and whether or not the user can write to the share.
+> + Set to **Yes** to enable SMB Security on SMB shares. Set access by user to allow access and whether or not the user can write to the share.
+> + Set to **Hidden** to enable SMB Security on SMB shares that will not be visible. Set access by user to allow access and whether or not the user can write to the share.
 > + Set to **No** will share devices, SMB/NFS, and iso Mounts Public with read and write access.
 :end
 
@@ -92,19 +109,23 @@ Unassigned Devices=Неназначенные устройства
 :end
 
 :ud_settings_force_user_plug:
-> There are times when permissions on SMB shares aren't handled as expected.  Turning this feature on can help with those permissions.
+> There are times when permissions on SMB shares aren't handled as expected. Turning this feature on can help with those permissions.
 > This applies to all devices mounted with Unassigned Devices.
-> The down side is that it overrides Linux group permissions.  If you are unsure about whether or not this is necessary, leave it enabled.
+> The down side is that it overrides Linux group permissions. If you are unsure about whether or not this is necessary, leave it enabled.
 :end
 
 :ud_settings_nfs_shares_plug:
-> Set to **Yes** to export NFS shares.  Shares are exported Public with read and write access or Private with the rule you set.  Access is controlled with permission settings on files and folders.
+> Set to **Yes** to export NFS shares. Shares are exported Public with read and write access or Private with the rule you set. Access is controlled with permission settings on files and folders.
+>
+> **Note:** The normal rule used by UD is '*(sec=sys,rw,insecure,anongid=100,anonuid=99,all_squash)'.
 :end
 
 :ud_settings_disk_pass_plug:
-> Select the disk that you want to set a Password.  This is the password for this disk only and does not affect the array password/passphrase.  Leave password blank to use the array password/passphrase for luks encrypted disks.
+> Select the disk that you want to set a Password. This is the password for this disk only and does not affect the array password/passphrase. Leave password blank to use the array password/passphrase for luks encrypted disks.
 :end
 
 :ud_settings_change_uuid_plug:
-> Select the disk that you want to change the UUID.  This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
+> Select the disk that you want to change the UUID. This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk. Drive must be unmounted to change the UUID.
+>
+> **Note:** Don't change the UUID of a pooled disk.
 :end
