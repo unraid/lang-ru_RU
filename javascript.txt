@@ -52,9 +52,14 @@ Array Clearing=
 Array Starting=
 Array Stopping=
 Mounting disks=
+Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=
+Stale configuration=
 Starting services=
 Stopping services=
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Unmounting disks=
 Autostart disabled=
 Missing encryption key=
@@ -67,4 +72,4 @@ Container Variable=
 Container Label=
 Container Device=
 
-; Note: May 29, 2022 - 47 missing translations
+; Note: June 6, 2022 - 52 missing translations
