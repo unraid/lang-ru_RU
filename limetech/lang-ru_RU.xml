@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language>
+<LanguageDefault>true</LanguageDefault>
+<Language>Русский</Language>
+<LanguageLocal>Россия</LanguageLocal>
+<LanguagePack>ru_RU</LanguagePack>
+<Author>Limetech</Author>
+<Name>Русский языковой пакет</Name>
+<TemplateURL>https://raw.githubusercontent.com/sergeylopukhov/limetech/lang-ru_RU.xml</TemplateURL>
+<Icon>https://raw.githubusercontent.com/unraid/language-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
+<Description>
+Это перевод Unraid на русский язык.
+</Description>
+</Language>
