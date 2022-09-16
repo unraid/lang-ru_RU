@@ -70,6 +70,7 @@ Nominal power=Номинальная мощность
 not received=не получено
 Only PNG images are allowed=Разрешены только изображения в формате PNG!
 Outbound=Исходящий
+Output voltage=
 Overall Load=Общая загрузка
 Parity disk not present=Диск чётности отсутствует
 Parity disks not present=Диски чётности отсутствуют
@@ -110,3 +111,5 @@ User count %s with %s unprotected=Количество пользователе�
 utilization warning=предупреждение о чрезмерном использовании
 View Running Processes=Показать запущенные процессы
 Virtual Machines=Виртуальные машины
+
+; Note: September 16, 2022 - 1 missing translations
