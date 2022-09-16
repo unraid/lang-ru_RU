@@ -463,6 +463,7 @@ Oops=
 optional metric lowest is preferred, 0 is no default gateway=optional metric (lowest is preferred, 0 is no default gateway)
 optional metric lowest is preferred=optional metric (lowest is preferred)
 or=
+Output voltage=
 Page view=
 Parity Check=Проверка чётности
 Password=Пароль
@@ -571,6 +572,7 @@ Shutdown VMs=
 shutdown=
 Sign In to Unraidnet required=Sign In to Unraid.net required
 Simple=
+Slave=
 Small=
 Smart=
 SMB Extras=
@@ -760,4 +762,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: June 6, 2022 - 659 missing translations
+; Note: September 16, 2022 - 661 missing translations
