@@ -132,4 +132,4 @@ Web=Веб
 WebUI=Веб-интерфейс
 Writable=Записываемый
 
-; Note: May 7, 2022 - 105 missing translations
+; Note: June 6, 2022 - 105 missing translations

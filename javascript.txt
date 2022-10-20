@@ -52,9 +52,14 @@ Array Clearing=Очищение массива
 Array Starting=Запуск массива
 Array Stopping=Остановка массива
 Mounting disks=Монтирование дисков
+Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Раскрутка всех дисков
+Stale configuration=
 Starting services=Запуск сервисов
 Stopping services=Остановка сервисов
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Unmounting disks=Размонтирование дисков
 Autostart disabled=Автозапуск отключен
 Missing encryption key=Отсутствует ключ шифрования
@@ -67,4 +72,4 @@ Container Variable=Переменная контейнера
 Container Label=Ярлык контейнера
 Container Device=Устройство контейнера
 
-; Note: May 7, 2022 - 47 missing translations
+; Note: June 11, 2022 - 51 missing translations
