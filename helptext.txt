@@ -1492,14 +1492,6 @@ Open the folder for the version of Windows you are installing and then select th
 Three drivers will be found. Select them all, click next, and the vDisks you have assigned will appear.
 :end
 
-:vms_network_bridge_help:
-Select the name of the network bridge you wish to use as default for your VMs,
-the setting 'virbr0' will let libvirt create a virtual bridge that utilizes NAT (network address translation)
-and act as a DHCP server to hand out IP addresses to virtual machines directly.
-More optional selections are present when virtual bridges are created under network settings.
-
-NOTE: You can also specify a network bridge on a per-VM basis.
-:end
 
 :vms_host_shutdown_help:
 When shutting down the server, this defines the action to take upon running VMs. If *Hibernate VMs* is chosen,
@@ -2306,4 +2298,46 @@ This is fairly extreme for Local Access, and in most cases is not needed. It req
 When set to 'Yes' enables SMB Multi Channel support in the server. From
 [microsoft](https://docs.microsoft.com/en-us/azure-stack/hci/manage/manage-smb-multichannel):
 "SMB Multichannel enables file servers to use multiple network connections simultaneously." 
+:end
+
+; New entries (4) - 2023-03-17
+
+:docker_readmore_help:
+Some systems with a lot of docker containers may experience lag using the main Docker page.
+
+Setting this to "No" may help speed up general page usage by disabling the use of readmore-js.
+Instead of chevrons indicating more data for Port and Volume mapping, all data is displayed.
+:end
+
+:docker_custom_network_type_help:
+The **ipvlan** type is best when connection to the physical network is not needed.
+Please read <u><a style="color:blue" href='https://docs.docker.com/network/ipvlan/', target='_blank'>this</a></u> on implementing an ipvlan network.<br>
+
+The **macvlan** type of network allows direct connection to the physical network.
+Please read <u><a style="color:blue" href='https://docs.docker.com/network/macvlan/', target='_blank'>this</a></u> on implementing a macvlan network.<br>
+
+**Note:** Docker uses its own dhcp service, which is the **DHCP Pool** setting.
+When you use multiple Unraid servers, then each server must have a different Docker **DHCP Pool** range configured.
+:end
+
+:mgmt_local_access_urls_help:
+The Local Access URLs shown above are based on your current settings. 
+To adjust URLs or redirects, see the help text for "Use SSL/TLS".
+:end
+
+:vms_network_source_help:
+Select the name of the network you wish to use as default for your VMs.
+You can choose between **'bridges'** created under network settings or
+**'libvirt'** created with virsh command in the terminal.
+The bridge **'virbr0'** and the associated virtual network **'default'** are
+created by libvirt.  
+Both utilizes NAT (network address translation) and act as a DHCP server to hand out IP addresses to virtual machines directly.
+More optional selections are present for bridges under network settings or for libvirt networks with the virsh command in the terminal.
+
+**If your are unsure, choose 'virbr0' as the recommended Unraid default.**
+
+NOTE: You can also specify a network source on a per-VM basis.
+
+**IMPORTANT: Neither Libvirt nor Unraid automatically brings up an interface that is assigned to a Libvirt network.
+Before you use a Libvirt network, please go to Settings -> Network Settings and, if necessary, manually set the associated interface to up.**
 :end
