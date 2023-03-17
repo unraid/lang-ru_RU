@@ -1,4 +1,5 @@
 %s An update is available=%s: Доступно обновление
+Alert Message=
 anonymous=анонимный
 Author=Автор
 Check For Updates=Проверить обновления
@@ -19,13 +20,14 @@ Next=Далее
 No plugins installed=Плагины не установлены
 No release notes available=Примечания к выпуску отсутствуют
 No response, aborting=Нет ответа, прерывание
-Plugin File=Файл плагина
 Plugin File Install Errors=Ошибки при установке файла плагина
+Plugin File=Файл плагина
 Plugin History=История плагина
 Plugin Update Check=Проверка обновлений плагинов
 Plugin=Плагин
 Release Notes=Примечания к выпуску
 Remove Plugin=Удалить плагин
+Remove Selected Plugins=
 remove=удалить
 Select local plugin file=Выберите локальный файл плагина
 Stable=Стабильный
@@ -36,3 +38,5 @@ Update All Plugins=Обновить все плагины
 Update Plugin=Обновить плагин
 Upgrade=Модернизация
 View Release Notes=Посмотреть примечания к выпуску
+
+; Note: March 17, 2023 - 2 missing translations
