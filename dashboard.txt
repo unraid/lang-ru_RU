@@ -94,6 +94,7 @@ Parity disks not present=Диски чётности отсутствуют
 Parity has not been checked yet=Чётность еще не проверена
 Parity Information=
 Parity is degraded=Чётность ухудшена
+Pool=
 Power Status=
 Power=Питание
 Processor Information=
@@ -141,4 +142,4 @@ VPN Connections=
 Warnings=
 ZFS=
 
-; Note: March 17, 2023 - 30 missing translations
+; Note: April 11, 2023 - 31 missing translations
