@@ -1,5 +1,4 @@
 %s An update is available=%s: Доступно обновление
-Alert Message=
 anonymous=анонимный
 Author=Автор
 Check For Updates=Проверить обновления
@@ -27,7 +26,6 @@ Plugin Update Check=Проверка обновлений плагинов
 Plugin=Плагин
 Release Notes=Примечания к выпуску
 Remove Plugin=Удалить плагин
-Remove Selected Plugins=
 remove=удалить
 Select local plugin file=Выберите локальный файл плагина
 Stable=Стабильный
@@ -35,9 +33,11 @@ STALE=УСТАРЕВШИЙ
 Support Thread=Тред поддержки
 Uninstall=Удаление
 Update All Plugins=Обновить все плагины
-Update Incompatible=
 Update Plugin=Обновить плагин
 Upgrade=Модернизация
 View Release Notes=Посмотреть примечания к выпуску
 
-; Note: April 11, 2023 - 3 missing translations
+; Note: April 28, 2023 - 3 missing translations
+Alert Message=
+Remove Selected Plugins=
+Update Incompatible=
