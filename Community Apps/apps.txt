@@ -14,7 +14,6 @@ Are you sure you want to install %s docker and %s plugin applications=Are you su
 ; Repository Related
 ; Install Plugin title of openbox
 
-The sidebar for the app click info will list the details=The sidebar for the app (click info) will list the details
 
 
 ; Remove App from previously installed
@@ -44,14 +43,12 @@ The sidebar for the app click info will list the details=The sidebar for the app
 
 
 ; Statistics Popup
-Applied to all applications=(Applied to all applications)
 
 ; Misc
 
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
-Tools Utilities=Tools / Utilities
 
 ; Categories displayed within a popup or on the card.  Where an entry exists after the "=" it is not translated, but rather how it should look
 MediaAppBooks=MediaApp:Books
@@ -59,14 +56,8 @@ MediaAppMusic=MediaApp:Music
 MediaAppPhotos=MediaApp:Photos
 MediaAppVideo=MediaApp:Video
 MediaAppOther=MediaApp:Other
-MediaServerBooks=MediaServer:Books
-MediaServerMusic=MediaServer:Music
-MediaServerPhotos=MediaServer:Photos
-MediaServerVideo=MediaServer:Video
-MediaServerOther=MediaServer:Other
 NetworkDNS=Network:DNS
 NetworkFTP=Network:FTP
-NetworkManagement=Network:Management
 NetworkProxy=Network:Proxy
 NetworkVOIP=Network:VOIP
 NetworkVPN=Network:VPN
@@ -76,15 +67,11 @@ NetworkOther=Network:Other
 ToolsSystem=Tools:System
 ToolsThemes=Tools:Themes
 ToolsUtilities=Tools:Utilities
-OtherUncategorized=Other:Uncategorized
 
 ; App Popup Related
 ; as in Trending up or down arrow
 ; as in As of some date
 As of %s=(As of %s)
-Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
-Install Using The Templates Default Tag=Install Using The Template's Default Tag
-Moderator Comments=Moderator Comments:
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 ; as in you have the latest version already installed
 ; as in more than 100000
@@ -94,7 +81,6 @@ Moderator Comments=Moderator Comments:
 ; Multi install script
 
 ; Application Cards
-This application is a driver plugin=This application is a driver (plugin)
 ; eg: LinuxServer Repository
 ; eg: Squid's Repository
 
@@ -107,12 +93,10 @@ Language=Язык
 ; Update Checks
 
 ; dockerHub conversions
-Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  The container will not be started.
 ; WebGui
-Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
 
 
-; Note: April 28, 2023 - 338 missing translations
+; Note: April 29, 2023 - 354 missing translations
 Cancel=
 Happy New Year=
 Happy Holidays from Andrew, Tracey, and family=
@@ -190,6 +174,7 @@ Install Plugin=
 Update Plugin=
 Requirements not met=
 The requirements for this upgrade have not been met on your system=
+The sidebar for the app click info will list the details=The sidebar for the app (click info) will list the details
 BACK=
 Delete Template=
 Yes, delete it=
@@ -286,6 +271,7 @@ The following plugins have duplicated filenames and are not able to be installed
 The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=
 If any of these entries are incorrect then contact the moderators of CA to discuss=
 Global Repository Comments=
+Applied to all applications=(Applied to all applications)
 Individual Application Moderation=
 Community Applications Changelog=
 Each month we highlight some of the amazing work from our community=
@@ -321,6 +307,7 @@ Privacy=
 Productivity=
 Security=
 Spotlight=
+Tools Utilities=Tools / Utilities
 System=
 Themes=
 Utilities=
@@ -330,7 +317,14 @@ GameServers=
 HomeAutomation=
 MediaApp=
 MediaServer=
+MediaServerBooks=MediaServer:Books
+MediaServerMusic=MediaServer:Music
+MediaServerPhotos=MediaServer:Photos
+MediaServerVideo=MediaServer:Video
+MediaServerOther=MediaServer:Other
 Network=
+NetworkManagement=Network:Management
+OtherUncategorized=Other:Uncategorized
 and %s more=
 This application template has been blacklisted=This application / template has been blacklisted
 This application template has been deprecated=This application / template has been deprecated
@@ -357,6 +351,7 @@ Trending %s=
 Play Video=
 Play Video %s=
 This application is not compatible with your version of Unraid=
+Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
 WebUI=
 Reinstall=
 Reinstall From Previous Apps=
@@ -365,6 +360,8 @@ Uninstall=
 Project=
 Read Me First=
 Install second instance=
+Install Using The Templates Default Tag=Install Using The Template's Default Tag
+Moderator Comments=Moderator Comments:
 Note not all authors keep up to date on change logs=
 Note not all maintainers keep up to date on change logs=
 Last Update=
@@ -390,6 +387,7 @@ Setting installed applications to autostart=
 Docker Application Installation finished=
 Actions=
 Pending=
+This application is a driver plugin=This application is a driver (plugin)
 This is a language pack=
 This application is a docker container=
 This application is a plugin=
@@ -450,4 +448,6 @@ Checking for plugin updates=
 Checking for language updates=
 Checking %s=
 Determine configuration=
+Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  The container will not be started.
 An error occurred - Could not determine configuration=
+Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
