@@ -1,3 +1,6 @@
+
+
+; Note: April 28, 2023 - 20 missing translations
 Hide Deprecated Applications=
 This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=
 Hide Incompatible Applications=
@@ -18,5 +21,3 @@ Only enable this when advised to from the author of Community Applications=
 Enable developer mode=
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=
 Support Thread=
-
-; Note: June 6, 2022 - 20 missing translations
