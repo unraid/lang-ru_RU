@@ -1,17 +1,14 @@
-Array must be Started to view Shares=Array must be **Started** to view Shares
 Compute=Вычислить
 Excluded disks=Excluded disk(s)
 Included disks=Included disk(s)
-Manual do not automatically split directories=Manual: do not automatically split directories
-Primary storage for new files and folders=Primary storage (for new files and folders)
-Use cache pool for new filesdirectories=Use cache pool (for new files/directories)
 
-; Note: April 28, 2023 - 74 missing translations
+; Note: April 29, 2023 - 78 missing translations
 Add Share=
 All files encrypted=
 All files protected=
 All files unprotected=
 Allocation method=
+Array must be Started to view Shares=Array must be **Started** to view Shares
 Automatically split any directory as required=
 Automatically split only the top five directory levels as required=
 Automatically split only the top four directory levels as required=
@@ -37,6 +34,7 @@ HDD=
 High-water=
 Invalid Characters=
 Invalid share name=
+Manual do not automatically split directories=Manual: do not automatically split directories
 Minimum free space=
 Missing share name=
 Most-free=
@@ -53,6 +51,7 @@ Only=
 Prefer=
 previous user share=
 Primary storage %s=
+Primary storage for new files and folders=Primary storage (for new files and folders)
 Primary storage to Secondary storage=
 Read=
 Recompute=
@@ -78,6 +77,7 @@ There are no exportable disk shares=
 There are no exportable user shares=
 Time Machine volume size limit=
 Unknown encryption state=
+Use cache pool for new filesdirectories=Use cache pool (for new files/directories)
 User Shares=
 Write=
 You cannot use the following within share names=

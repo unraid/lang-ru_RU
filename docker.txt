@@ -1,7 +1,6 @@
 Add=Добавить
 Application=Приложение
 apply update=обновить
-Array must be Started to view Docker containers=Array must be **Started** to view Docker containers
 Autostart=Автозапуск
 By=От
 Check for Updates=Проверить обновления
@@ -15,8 +14,6 @@ Drivers=Драйвера
 force update=обновить принудительно
 FTP=FTP
 Pause All=Приостановить все
-ReadWrite - Shared=Read/Write - Shared
-ReadWrite - Slave=Read/Write - Slave
 Removing container=Удаление контейнера
 Start All=Запустить все
 Stop All=Остановить все
@@ -27,7 +24,7 @@ The command finished successfully=Команда успешно выполнен
 Total size=Общий размер
 update ready=готов к обновлению
 
-; Note: April 28, 2023 - 107 missing translations
+; Note: April 29, 2023 - 110 missing translations
 Access Mode=
 Add another Path, Port, Variable, Label or Device=
 Add Configuration=
@@ -35,6 +32,7 @@ Additional Requirements=
 Always=
 App to Host=
 Are you sure=
+Array must be Started to view Docker containers=Array must be **Started** to view Docker containers
 Back=
 Backup=
 Beta=
@@ -101,6 +99,8 @@ Read Me First=
 Read Only - Shared=
 Read Only - Slave=
 Read Only=
+ReadWrite - Shared=Read/Write - Shared
+ReadWrite - Slave=Read/Write - Slave
 rebuild ready=
 rebuilding=
 Remove template=

@@ -1,33 +1,14 @@
-Array has been Reset=Array has been **Reset**
-Array must be Started to change permissions=Array must be **Started** to change permissions
-Array must be Stopped to change=Array must be **Stopped** to change
 Beta=Бета
-click Install Key=click <i>Install Key</i>
-collecting diagnostic information this may take several minutes=collecting diagnostic information (this may take several minutes)
 Installed languages=Установленные языки
-Invalid Trial Installation=Invalid *Trial* Installation
 Language support added=Поддержка языка добавлена
 Language=Язык
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=No personal information such as user names, passwords, or any other file contents is included in the hardware profile
 Processes=Процессы
 See=Посмотрите
-This release has been withdrawn for use with Trial keys=This release has been withdrawn for use with *Trial* keys
-This will update folder file permissions=This will update folder & file permissions
-To install a registration key, paste the key file URL in the box below and click Install Key=To install a registration key, paste the key file URL in the box below and click **Install Key**
 to select your language=для выбора вашего языка
-Trial key expires on=***Trial*** key expires on
 Use this to install official language packs=Используйте это для установки официальных языковых пакетов
-When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the <i>Key file</i> URL box and
-You havent sent Limetech your hardware profile yet=You haven't sent Limetech your hardware profile yet
-Your Trial key has expired=Your *Trial* key has expired
-Your Trial key requires an internet connection=Your *Trial* key requires an internet connection
 
 ; Sysdevs text - added May 18, 2020
-Function Level Reset FLR supported=Function Level Reset (FLR) supported
-Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
-PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
-The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
-To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
 
 :diagnostics_1_plug:
 This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
@@ -186,7 +167,7 @@ is not unique (this is common with USB card readers).
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
 
-; Note: April 28, 2023 - 151 missing translations
+; Note: April 29, 2023 - 170 missing translations
 A registration replacement key has been created for USB Flash GUID=
 About=
 Alert Message=
@@ -199,6 +180,9 @@ Anonymize diagnostics=
 Anytime=
 Archived Notifications=
 Are you sure=
+Array has been Reset=Array has been **Reset**
+Array must be Started to change permissions=Array must be **Started** to change permissions
+Array must be Stopped to change=Array must be **Stopped** to change
 Array slots=
 Array=
 Author=
@@ -209,6 +193,8 @@ Cache slots=
 Cannot connect to key-server=
 Check for Updates=
 Clear Log=
+click Install Key=click <i>Install Key</i>
+collecting diagnostic information this may take several minutes=collecting diagnostic information (this may take several minutes)
 Component=
 Credits=
 Data slots=
@@ -238,6 +224,7 @@ Importance=
 Important=
 Install Language=
 Install=
+Invalid Trial Installation=Invalid *Trial* Installation
 It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=
 Key file URL=
 Language support deleted=
@@ -299,12 +286,16 @@ Thank you for trying Unraid OS=
 The registered GUID does not match the USB Flash boot device GUID=
 There is a physical problem accessing your USB Flash boot device=
 this may take several minutes=
+This release has been withdrawn for use with Trial keys=This release has been withdrawn for use with *Trial* keys
 This server has %s attached storage device=
 This server has %s attached storage devices=
 This utility is used for troubleshooting purposes=
 This will delete all notification files=
 This will delete the selected notification files=
+This will update folder file permissions=This will update folder & file permissions
 Time=
+To install a registration key, paste the key file URL in the box below and click Install Key=To install a registration key, paste the key file URL in the box below and click **Install Key**
+Trial key expires on=***Trial*** key expires on
 Trial=
 Update OS=
 Upgrade Key=
@@ -322,19 +313,28 @@ warning=
 Warnings Only=
 Warnings=
 webGUI=
+When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the *Key file URL* box and
 Wrong File Extension=
+You havent sent Limetech your hardware profile yet=You haven't sent Limetech your hardware profile yet
 Your hardware profile was last submitted on=
+Your Trial key has expired=Your *Trial* key has expired
+Your Trial key requires an internet connection=Your *Trial* key requires an internet connection
 A reboot is required to apply changes=
 ALERT=
 Bind selected to VFIO at Boot=
 CPU Thread Pairings=
 Changes saved=
+Function Level Reset FLR supported=Function Level Reset (FLR) supported
 In use by Unraid=
+Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
 No changes=
 PCI Devices and IOMMU Groups=
+PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
 Reboot to take effect=
 SCSI Devices=
+The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
 This controller is bound to vfio, connected USB devices are not visible=
 This controller is bound to vfio, connected drives are not visible=
+To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
 USB Devices=
 Your system has booted with the PCIe ACS Override setting enabled=
