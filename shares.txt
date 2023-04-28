@@ -6,7 +6,7 @@ Manual do not automatically split directories=Manual: do not automatically split
 Primary storage for new files and folders=Primary storage (for new files and folders)
 Use cache pool for new filesdirectories=Use cache pool (for new files/directories)
 
-; Note: April 28, 2023 - 73 missing translations
+; Note: April 28, 2023 - 74 missing translations
 Add Share=
 All files encrypted=
 All files protected=
@@ -52,6 +52,7 @@ Not used=
 Only=
 Prefer=
 previous user share=
+Primary storage %s=
 Primary storage to Secondary storage=
 Read=
 Recompute=
