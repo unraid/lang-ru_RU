@@ -813,4 +813,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: April 28, 2023 - 704 missing translations
+; Note: April 28, 2023 - 703 missing translations
