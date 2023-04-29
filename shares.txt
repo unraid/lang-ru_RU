@@ -1,8 +1,3 @@
-Compute=Вычислить
-Excluded disks=Excluded disk(s)
-Included disks=Included disk(s)
-
-; Note: April 29, 2023 - 78 missing translations
 Add Share=
 All files encrypted=
 All files protected=
@@ -20,11 +15,13 @@ Clean Up=
 CLEAN UP=
 Comments=
 Compute All=
+Compute=Вычислить
 Disk Shares=
 Do not use pool names=
 Do not use reserved names=
 Enable Copy-on-write=
 Enter a name for the share=
+Excluded disks=Excluded disk(s)
 Exclusive access=
 Export=
 Fill-up=
@@ -32,6 +29,7 @@ Free=
 has been deleted=
 HDD=
 High-water=
+Included disks=Included disk(s)
 Invalid Characters=
 Invalid share name=
 Manual do not automatically split directories=Manual: do not automatically split directories
@@ -81,3 +79,5 @@ Use cache pool for new filesdirectories=Use cache pool (for new files/directorie
 User Shares=
 Write=
 You cannot use the following within share names=
+
+; Note: April 29, 2023 - 78 missing translations

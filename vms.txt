@@ -1,12 +1,6 @@
 20 EHCI=2.0 (EHCI)
 30 nec XHCI=3.0 (nec XHCI)
 30 qemu XHCI=3.0 (qemu XHCI)
-eg=e.g.
-Virtual Machines=Виртуальные машины
-VNC=VNC
-Windows 7XP=Windows 7/XP
-
-; Note: April 29, 2023 - 170 missing translations
 9p Mode=
 Allocation=
 and if using graphics device passthrough it too needs UEFI=
@@ -36,6 +30,7 @@ Disk devices=
 Download Folder=
 Download, Click and Select virtio drivers image=
 Downloading=
+eg=e.g.
 Eject CD Drive=
 Emulated=
 Enable USB boot=
@@ -159,6 +154,7 @@ video for VNC=
 VirtIO Drivers CDRom Bus=
 VirtIO Drivers ISO=
 Virtiofs Mode=
+Virtual Machines=Виртуальные машины
 Virtual=
 VM Console AutoPort=
 VM Console enable Copypaste=VM Console enable Copy/paste
@@ -173,7 +169,11 @@ VM image deletion error=
 VNC Keyboard=
 VNC Password=
 VNC Video Driver=
+VNC=VNC
 Wasnt able to stop the process=Wasn't able to stop the process
+Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, newer Linux distros
 wsport for virtual console=
 XML View=
+
+; Note: April 29, 2023 - 170 missing translations
