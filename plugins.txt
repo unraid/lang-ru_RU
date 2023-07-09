@@ -37,7 +37,8 @@ Update Plugin=Обновить плагин
 Upgrade=Модернизация
 View Release Notes=Посмотреть примечания к выпуску
 
-; Note: April 28, 2023 - 3 missing translations
+; Note: July 9, 2023 - 4 missing translations
 Alert Message=
+I have read the release notes=
 Remove Selected Plugins=
 Update Incompatible=

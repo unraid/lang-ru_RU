@@ -111,7 +111,7 @@ utilization warning=предупреждение о чрезмерном исп�
 View Running Processes=Показать запущенные процессы
 Virtual Machines=Виртуальные машины
 
-; Note: April 28, 2023 - 31 missing translations
+; Note: July 9, 2023 - 34 missing translations
 5 m=
 Abort background operation=
 Abort background process=
@@ -135,7 +135,10 @@ Pool=
 Power Status=
 Processor Information=
 Shares Information=
+ShowHide All Content=Show/Hide All Content
+ShowHide Content=Show/Hide Content
 This may leave an unknown state=
+Tile Management=
 Unassigned Devices=
 Unlock sortable items=
 UPS Model=
