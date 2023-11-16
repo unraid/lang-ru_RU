@@ -10,7 +10,7 @@
 %s seconds ago=%s сек. назад
 %s week ago=%s нед. назад
 %s weeks ago=%s нед. назад
-aborted=
+aborted=прервано
 Absolute=
 Acknowledge=
 Active=Активен
