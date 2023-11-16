@@ -19,8 +19,8 @@ Next=Далее
 No plugins installed=Плагины не установлены
 No release notes available=Примечания к выпуску отсутствуют
 No response, aborting=Нет ответа, прерывание
-Plugin File=Файл плагина
 Plugin File Install Errors=Ошибки при установке файла плагина
+Plugin File=Файл плагина
 Plugin History=История плагина
 Plugin Update Check=Проверка обновлений плагинов
 Plugin=Плагин
@@ -36,3 +36,9 @@ Update All Plugins=Обновить все плагины
 Update Plugin=Обновить плагин
 Upgrade=Модернизация
 View Release Notes=Посмотреть примечания к выпуску
+
+; Note: July 9, 2023 - 4 missing translations
+Alert Message=
+I have read the release notes=
+Remove Selected Plugins=
+Update Incompatible=

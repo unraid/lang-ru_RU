@@ -7,8 +7,8 @@ Always=Всегда
 App to Host=От приложения к хосту
 Application=Приложение
 apply update=обновить
-Array must be Started to view Docker containers=Массив должен быть **Запущен** для просмотра контейнеров Docker
 Are you sure=Вы уверены
+Array must be Started to view Docker containers=Массив должен быть **Запущен** для просмотра контейнеров Docker
 Autostart=Автозапуск
 Back=Назад
 Backup=Резервирование
@@ -59,6 +59,7 @@ Icon URL=URL-адрес значка
 Image ID=ID образа
 Key=Ключ
 Label=Ярлык
+Lock sortable items=
 Management=Управление
 MediaApp=Медиа-приложение
 MediaServer=Медиа-сервер
@@ -119,8 +120,9 @@ The command finished successfully=Команда успешно выполнен
 TOTAL DATA PULLED=ВСЕГО ПОЛУЧЕНО
 Total size=Общий размер
 Unknown action=Неизвестное действие
+Unlock sortable items=
 Update All=Обновить все
-update ready=готово к обновлению
+update ready=готов к обновлению
 Value=Значение
 Variable=Переменная
 Video=Видео
@@ -132,4 +134,4 @@ Web=Веб
 WebUI=Веб-интерфейс
 Writable=Записываемый
 
-; Note: June 6, 2022 - 105 missing translations
+; Note: April 29, 2023 - 110 missing translations

@@ -146,7 +146,14 @@ This usually means your flash drive is corrupted or has dropped offline The rest
 Fatal Docker Image Error=
 Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=
 This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=
+This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=
+Not Enough Memory=
+Community Applications and Unraid OS have a minimum required installed memory of 4G CA cannot run without those mimimums being met=
+Installation already in progress=
+Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=
+%s is incompatible with your OS version Please update the OS to proceed=
+%s is incompatible with your OS version Either uninstall %s or update the OS=
 
 ; CA Sections Keep the length reasonable
 Home=
@@ -221,6 +228,7 @@ Check out these newly added applications from our awesome community=
 Check out these up and coming apps=
 These apps have the highest percentage of new installs=
 An assortment of randomly chosen apps=
+Featured Applications=
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
@@ -308,6 +316,7 @@ Current Version=
 Min OS=
 Max OS=
 Total Downloads=
+Popularity=
 Licence=
 Ranked #%s=
 ; as in Trending up or down arrow
@@ -383,7 +392,7 @@ This application template has been deprecated=
 This application template has been blacklisted=
 Click info to see the notes regarding this application=
 This application has additional requirements=
-BETA= 
+BETA=
 INSTALLED=
 OFFICIAL=
 UPDATED=
@@ -441,4 +450,4 @@ An error occurred - Could not determine configuration=
 Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
 
 
-; Note: September 16, 2022 - 328 missing translations
+; Note: April 29, 2023 - 354 missing translations

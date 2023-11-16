@@ -1,3 +1,6 @@
+
+
+; Note: April 28, 2023 - 14 missing translations
 Search for %s=
 DockerHub Search for %s=
 Are you sure you want to delete %s from the list of previously installed applications=
@@ -12,5 +15,3 @@ Install Application=
 Install Applications=
 Something really wrong went on during %s=
 Are you sure you want to delete %s applications from the previously installed list=
-
-; Note: June 6, 2022 - 14 missing translations
