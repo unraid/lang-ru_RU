@@ -1277,4 +1277,4 @@ A reboot will be required=
 %s second=
 %s seconds=
 
-; Note: December 17, 2023 - 1095 missing translations
+; Note: December 17, 2023 - 1094 missing translations
