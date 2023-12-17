@@ -2451,3 +2451,17 @@ If set to 'Yes' the bash history will persist reboots, set to 'No' to disable.
 
 **Note:** Disabling and Enabling will remove the entire bash history.
 :end
+
+; New entries (2) - 2023-12-17
+
+:ssd_default_warning_temperature_help:
+*Warning SSD temperature* sets the default warning threshold for all SSD devices temperature. Exceeding this threshold will result in a warning notification.
+
+A value of zero will disable the warning threshold (including notifications).
+:end
+
+:ssd_default_critical_temperature_help:
+*Critical disk temperature* sets the default critical threshold for all SSD devices temperature. Exceeding this threshold will result in an alert notification.
+
+A value of zero will disable the critical threshold (including notifications).
+:end
