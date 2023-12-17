@@ -191,7 +191,6 @@ Pool name already exists=
 Pool of %s devices=
 Pool Status=
 Power=
-Power=
 Preclear in progress=
 previous device=
 Printable Characters Only=
@@ -396,4 +395,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: December 17, 2023 - 388 missing translations
+; Note: December 17, 2023 - 385 missing translations
