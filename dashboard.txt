@@ -22,6 +22,9 @@ BIOS dated=BIOS датирован
 Check free space=
 Click to toggle CPU chart=Нажмите, чтобы переключить диаграмму ЦПУ
 Click to toggle details=Нажмите, чтобы переключить подробности
+Clock is unsynchronized with no NTP servers=
+Clock synchronized with %s NTP server=
+Clock synchronized with %s NTP servers=
 Clone=
 Close Tile=
 Completed=Завершенный
@@ -172,4 +175,4 @@ W=
 Warnings=
 ZFS=
 
-; Note: December 25, 2023 - 61 missing translations
+; Note: December 25, 2023 - 64 missing translations
