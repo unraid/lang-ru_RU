@@ -301,6 +301,7 @@ Generate Key=
 Generate Keypair=
 Global Share Settings=
 Global SMART Settings=
+GRUB Configuration=
 Header custom background color=
 Header custom meta text color=
 Header custom secondary text color=
@@ -859,4 +860,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: December 17, 2023 - 831 missing translations
+; Note: December 25, 2023 - 832 missing translations
