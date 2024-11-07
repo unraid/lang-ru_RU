@@ -2451,3 +2451,74 @@ If set to 'Yes' the bash history will persist reboots, set to 'No' to disable.
 
 **Note:** Disabling and Enabling will remove the entire bash history.
 :end
+
+; New entries (2) - 2023-12-17
+
+:ssd_default_warning_temperature_help:
+*Warning SSD temperature* sets the default warning threshold for all SSD devices temperature. Exceeding this threshold will result in a warning notification.
+
+A value of zero will disable the warning threshold (including notifications).
+:end
+
+:ssd_default_critical_temperature_help:
+*Critical disk temperature* sets the default critical threshold for all SSD devices temperature. Exceeding this threshold will result in an alert notification.
+
+A value of zero will disable the critical threshold (including notifications).
+:end
+
+; New entries (8) - 2023-12-28
+
+:syslog_shutdown_flash_help:
+This setting is YES by default and enables the system to copy the syslog file to the USB device on shutdown or reboot.
+
+After rebooting, the syslog from this run will be visible on Tools > Syslog > syslog-previous;
+it will also be included in diagnostics as logs/syslog-previous.txt
+:end
+
+:WOL_enable_help:
+If set to yes Unraidwold daemon is set to run.
+:end
+
+:WOL_docker_help:
+If set to yes when wake on lan packets are received checks are carrried out for dockers otherwise dockers will be ignored.
+:end
+
+:WOL_run_VM_help:
+If set to yes when wake on lan packets are received checks are carrried out for virtual machines otherwise virtual machines will be ignored.
+:end
+
+:WOL_run_LXC_help:
+If set to yes when wake on lan packets are received checks are carrried out for LXC otherwise LXC will be ignored. The LXC plugin needs to be installed for LXC to be processed.
+:end
+
+:WOL_interface_help:
+Specify the interface to the daemon to bind to. Some interfaces may not be able to recieve etherframe packets. Recommend to bind to a physical interface.
+:end
+
+:WOL_promiscuous_mode_help:
+Enable to set the NIC not to filer packets.
+:end
+
+:WOL_log_file_help:
+Default is to log to syslog but if you want a different log location set the file name.
+:end
+
+; New entries (2) - 2024-02-10
+
+:WOL_intro_help:
+This page allows the setup to start/resume and stop VMs, Containters(Docker and LXC) using WOL magic packets
+
+It does setup wake up of the Unraid server.
+
+The process will look for the defined mac address defined within the service(VM or container) with the exception of dockers. Dockers do not have a mac address until they are running so you will need to define a user mac address to allow you to start them
+
+If the service is paused a WOL Packet will resume. 
+
+For each service you can set: enable, disable or enable and shutdown
+
+When the enable and shutdown is set if the service is running when the next WOL packet is recieved a shutdown will be performed.
+:end
+
+:WOL_run_shutdown_help:
+If set to yes when wake on lan packets are received checks are carrried out and if enabled for service and that service is running the entity will be shutdown. System has to be set to Enabled and Shutdwon for it to be action.
+:end
