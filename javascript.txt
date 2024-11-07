@@ -1,29 +1,12 @@
+also remove image=также удалить образ
 Apply=Применить
 Are you sure=Вы уверены?
 Cancel=Отмена
+checking=проверка
 Completely REMOVE=Полностью УДАЛИТЬ
+Console=Консоль
 day=день
 days=дней
-Log for=Журнал для:
-log=журнал
-Logs=Журналы
-No=Нет
-Proceed=Продолжить
-Update container=Обновить контейнер
-Update=Обновить
-Updating the container=Обновление контейнера
-Yes, delete it=Да, удалить!
-Yes, update it=Да, обновить!
-Yes=Да
-
-; footer messages
-
-; docker variables
-
-; Note: April 29, 2023 - 52 missing translations
-also remove image=также удалить образ
-checking=проверка
-Console=Консоль
 disk image and definition=образ диска и определение
 Disks=Диски
 Donate=Пожертвовать
@@ -32,10 +15,15 @@ Edit=Изменить
 Execution error=Ошибка выполнения
 Force Stop=Остановить принудительно
 Hibernate=Перевести в спящий режим
+Log for=Журнал для:
+log=журнал
+Logs=Журналы
 More Info=Больше информации
-OK=OK
+No=Нет
 Ok=Ok
+OK=OK
 Pause=Приостановить
+Proceed=Продолжить
 Project Page=Страница проекта
 Read Me First=Прочти меня
 Remove container=Удалить контейнер
@@ -48,9 +36,17 @@ Resume=Возобновить
 Start=Запустить
 Stop=Остановить
 Support=Поддержка
+Update container=Обновить контейнер
+Update=Обновить
 Updating all Containers=Обновление всех контейнеров
+Updating the container=Обновление контейнера
 VNC Remote=Удалённый доступ VNC
 WebUI=Веб-интерфейс
+Yes, delete it=Да, удалить!
+Yes, update it=Да, обновить!
+Yes=Да
+
+; footer messages
 Array Copying=Копирование массива
 Array Clearing=Очищение массива
 Array Starting=Запуск массива
@@ -68,6 +64,8 @@ Unmounting disks=Размонтирование дисков
 Autostart disabled=Автозапуск отключен
 Missing encryption key=Отсутствует ключ шифрования
 Opening encrypted volumes=Открытие зашифрованных томов
+
+; docker variables
 Container Path=Путь к контейнеру
 Container Port=Порт контейнера
 Container Variable=Переменная контейнера

@@ -59,7 +59,7 @@ Icon URL=URL-адрес значка
 Image ID=ID образа
 Key=Ключ
 Label=Ярлык
-Lock sortable items=
+Lock sortable items=Заблокировать сортируемые элементы
 Management=Управление
 MediaApp=Медиа-приложение
 MediaServer=Медиа-сервер
@@ -120,7 +120,7 @@ The command finished successfully=Команда успешно выполнен
 TOTAL DATA PULLED=ВСЕГО ПОЛУЧЕНО
 Total size=Общий размер
 Unknown action=Неизвестное действие
-Unlock sortable items=
+Unlock sortable items=Разблокировать сортируемые элементы
 Update All=Обновить все
 update ready=готов к обновлению
 Value=Значение
@@ -133,5 +133,3 @@ Was this container created using this plugin=Был ли этот контейн
 Web=Веб
 WebUI=Веб-интерфейс
 Writable=Записываемый
-
-; Note: April 29, 2023 - 110 missing translations
