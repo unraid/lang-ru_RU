@@ -19,7 +19,7 @@ Deprecated OS version No further updates to Community Applications will be issue
 Sort By=
 Name Ascending=
 Name Descending=
-Downloads=
+Downloads=Загрузки
 Date Added=
 Number Of Apps=
 ; Initial disclaimer translations
@@ -242,7 +242,7 @@ Featured Applications=
 Backup=
 Cloud=
 Crypto Currency=
-Downloaders=
+Downloaders=Загрузчики
 Drivers=
 Game Servers=
 Home Automation=Домашняя автоматизация

@@ -40,7 +40,7 @@ Diagnostics=Диагностика
 Disks=Диски
 Display Settings=Настройки отображения
 Downgrade OS=
-Downloading=Скачивание
+Downloading=Загрузка
 Driver=
 Edit Modprobe config=
 End-User License Agreement=
@@ -352,5 +352,3 @@ is not unique (this is common with USB card readers).
 
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
-
-; Note: December 17, 2023 - 186 missing translations
