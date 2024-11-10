@@ -226,5 +226,3 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, newer Linux distros
 wsport for virtual console=
 XML View=Просмотр XML
-
-; Note: December 17, 2023 - 219 missing translations

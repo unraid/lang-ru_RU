@@ -167,7 +167,7 @@ Default appdata storage location=
 Default critical disk temperature threshold=
 Default critical disk utilization threshold=
 Default critical SSD temperature threshold=
-Default file system=
+Default file system for Array disks=
 Default ISO storage path=
 Default network bridge=Сетевой мост по умолчанию
 Default network source=
@@ -216,6 +216,7 @@ Docker LOG maximum file size=
 Docker LOG number of files=
 Docker LOG rotation=
 Docker only=
+Docker PID Limit=
 Docker service=
 Docker Stop Timeout=
 Docker update notification=
@@ -722,6 +723,7 @@ Turn off UPS after shutdown=
 Type new passphrase=
 UDP=
 Unable to register this Unraid Server=
+
 ; Keep the original plugin name in settings
 Unassigned Devices=Unassigned Devices
 Unlimited=
@@ -859,5 +861,3 @@ to the Unraid server at=
 Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
-
-; Note: December 25, 2023 - 832 missing translations
