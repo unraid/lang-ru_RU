@@ -3,7 +3,6 @@
 ; PART 1 - text strings
 
 ; Parity Check Settings Page
-
 Parity Check Tuning=
 automatic=
 Basic=
@@ -49,7 +48,9 @@ You require a parity disk present for this option to be relevant=
 
 ; Parity Problems Assistant page
 Parity Problems Assistant=
+
 ; page intro text
+
 :parityProblems_intro_plug:
 The **Parity Problems Assistant** is part of the **Parity Check Tuning** plugin.<p/>
 The current status is **EXPERIMENTAL** and it is always possible that this assistant may be removed in the future).
@@ -63,6 +64,7 @@ If you think you have rectified whatever caused the problems to occur then you c
 This can be much faster than having to run a full parity check or read check to see if you have resolved the issue or to run a disk extended SMART test to test the actual disk.<p/>
 **IMPORTANT**:  This assistant should never be used as an alternative to running a full parity check once you think the problem has been resolved.
 :end
+
 ; fields
 Click to show Error Sectors from syslog=
 End point for check=
@@ -78,7 +80,6 @@ Start point for check=
 Write Corrections to Parity=
 
 ; PHP file messages
-
 Analyze results from an array operation=
 Array being shutdown due to drive overheating=
 Array operation will not be restarted=
@@ -110,9 +111,9 @@ Usage=
 where action is one of=
 
 ; Notifications
-
 aborted due to Unclean shutdown=
 array stopping so progress will be lost=
+
 ; The type of array operation (parity check, clear, rebuild) will be appended to the following text
 Automatic unRaid=
 Average Speed=
@@ -133,7 +134,6 @@ Unclean shutdown detected=
 will be started=
 
 ; Swal warnings
-
 A crontab entry should have 5 space-separated values defining the minutes, hour, day of the month, month, day of the week=
 At the moment there is no mechanism to stop this file from growing forever so it is up to you to manage this manually=
 Are you sure you have not got these the wrong way around=
@@ -165,7 +165,6 @@ This might affect array integrity=
 Unusually large value=
 
 ; Syslog messages (with debug logging disabled)
-
 %s Cancelled=
 Array not started so no action taken=
 as drives now cooled down=
@@ -173,8 +172,8 @@ Following drives overheated=
 Only able to start a Read-Check due to number of disabled drives=
 
 ; Syslog messages (with debug logging enabled)
-; (probably not worth translating these as they are mainly of use to the plugin developer)
 
+; (probably not worth translating these as they are mainly of use to the plugin developer)
 appears to be a regular scheduled check=
 %s cancel request sent %s=
 already running=
@@ -215,8 +214,8 @@ warm=
 with all array drives below temperature threshold for a Pause=
 
 ; Syslog messages (with testing logging enabled)
-; (almost certainly not worth translating these as they are mainly of use to the plugin developer)
 
+; (almost certainly not worth translating these as they are mainly of use to the plugin developer)
 analyze previous progress before starting new one=
 Array not started so no action taken=
 Drive %s%s appears to be critical=
@@ -226,11 +225,11 @@ Shutdown not actioned as running in TESTING mode=
 updated cron settings are in %s=
 
 ; PART 2 - TEXT Blocks ant HELP text
-
 End point for check=
 Method used to specify start and stop points=
 
 ; Help text on settings page
+
 ; These could perhaps be left in English to keep translation task easier)
 
 :parity_tune_explain_plug:
@@ -277,9 +276,7 @@ Method used to specify start and stop points=
 :end
 
 :parity_tune_frequency_plug:
-> The frequency at which parity check increments should be run.
->
->In normal operation it is expected that the **Daily** option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up **Custom** schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility.
+> The frequency at which parity check increments should be run.<br><br>In normal operation it is expected that the <strong>Daily</strong> option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up <strong>Custom</strong> schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility
 :end
 
 :parity_tune_resume_plug:
@@ -315,7 +312,6 @@ Method used to specify start and stop points=
 >**IMPORTANT**: Until this operation completes your array is not fully protected so it is assumed that most people will want this option left at **No**.
 > Do not select **Yes** unless you are absolutely certain that is what you want.
 :end
-
 
 :parity_tune_clear_plug:
 > Should disk Clear operations be run using increments.<br><br>A disk Clear operation occurs when you add a new drive (that has not been pre-cleared (using the Pre-Clear plugin) to an array that is parity protected.  The Clear process writes zeroes to every sector on the new disk so that it can be added to the array without affecting the existing parity. Until the Clear operation has completed you are not able to format the disk in unRaid and start using it for storing data.

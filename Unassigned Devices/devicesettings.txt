@@ -50,9 +50,8 @@ User Script=
 APFS Volume=
 ZFS Volume=
 
-;
 ; Help
-;
+
 :ud_edit_script_device_settings_plug:
 > Select the options for this device and mount point.
 :end

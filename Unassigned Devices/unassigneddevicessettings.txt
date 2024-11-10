@@ -56,7 +56,7 @@ Windows may require a valid User to be defined even for Public shares=
 Working=
 
 ; Help
-;
+
 :ud_settings_plus_plug:
 > **Note:** The 'Unassigned Devices Plus' plugin must be installed in order to mount HFS+ and exFAT disk formats, and enable destructive mode.
 :end

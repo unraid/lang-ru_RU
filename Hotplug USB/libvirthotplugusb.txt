@@ -14,9 +14,9 @@ Detaching Please wait=
 Attaching Please wait=
 No VM Selected=
 No USB devices=
-;
+
 ; Help
-;
+
 :libvirt_hot_plug:
 > Select the VM for the USB device to be attached/detached and the USB device for the selected VM.
 :end

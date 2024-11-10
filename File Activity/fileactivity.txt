@@ -7,9 +7,9 @@ Refresh Page=
 Enable File Activity Monitoring=
 Enable for Unassigned Devices=
 Enable for Cache and Pool Disks=
-;
+
 ; Help
-;
+
 :file_activity_loggging_plug:
 > File Activity Monitoring:
 >
@@ -33,4 +33,3 @@ Enable for Cache and Pool Disks=
 :file_activity_enable_cache_plug:
 > Set to **Yes** to enable File Activity monitoring for the Cache and Pool Disks.  Pool disks only apply in Unraid 6.9.
 :end
-

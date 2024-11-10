@@ -31,9 +31,9 @@ Network Highlight Color=
 Login Highlight Color=
 emhttp Highlight Color=
 Other Highlight Color=
-;
+
 ; Help
-;
+
 :enhanced_syslog_show_all_lines_plug:
 > Set to **Yes** to show all lines in the enhanced log.  Set to **No** to show only highlighted lines.
 :end

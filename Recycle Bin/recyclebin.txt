@@ -38,9 +38,9 @@ Stop the Recycle Bin=
 These actions apply to all shares=
 Trash Size=
 Update Recycle Bin Size in Background=
-;
+
 ; Help
-;
+
 :recycle_bin_shares_plug:
 > Recycle Bin Shares:
 >

@@ -123,7 +123,6 @@ Search for Servers, or enter the Server name or IP address manually=
 Search for Shares or enter the Share name manually=
 Searching=
 Select the Root Share=
-Serial Number (Mount Point)
 Shares=
 Share Type=
 share for=
@@ -187,7 +186,7 @@ ZFS Volume=
 > You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i>or <i class='fa fa-circle orb grey-orb'></i>indicator.  Applies to version 6.9 RC2 and later only.
 >
 > Click on the <i class="fa fa-gears"></i> icon to go to the Device Settings configuration.  This is where you configure a device script and certain device characteristics.
-> 
+>
 > Click on the <i class="icon-nvme"></i> or <i class="fa fa-hdd-o"></i> icon to display syslog entries specific to this disk device.
 >
 > **Mount Point icons:**

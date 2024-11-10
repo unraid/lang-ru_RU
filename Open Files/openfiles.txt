@@ -13,9 +13,9 @@ No open files=
 Kill=
 Command timed out=
 Cannot get list of open files=
-;
+
 ; Help
-;
+
 :open_files_help_plug:
 > Click on the **Kill** button to stop the process that is holding the files open.
 >  A dialog box will open showing you the progress of killing the process holding those files open.
