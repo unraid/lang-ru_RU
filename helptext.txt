@@ -1241,7 +1241,7 @@ Select **Strict** to enable *exclusive* use of a myunraid.net SSL
 certificate for https access (see **Provision** below).  Note that a DNS
 server must be reachable.
 
-**Redirects:** When accessing `http://<server-ip-address>` or `http://<server-name>.<localTLD>`, the 
+**Redirects:** When accessing `http://<server-ip-address>` or `http://<server-name>.<localTLD>`, the
 behavior will change depending on the value of the Use SSL/TLS setting:
 
 * If Use SSL/TLS is set to **Strict**, you will be redirected to `https://<lan-ip>.<hash>.myunraid.net`
@@ -1296,7 +1296,7 @@ Enter your local Top Level Domain. May be blank.
 :end
 
 :mgmt_local_access_urls_help:
-The Local Access URLs shown above are based on your current settings. 
+The Local Access URLs shown above are based on your current settings.
 To adjust URLs or redirects, see the help text for "Use SSL/TLS".
 :end
 
@@ -1532,7 +1532,7 @@ It is recommended that you use a share located on the cache drive to prevent arr
 :end
 
 :syslog_remote_system_identifier_help:
-Select the identifier for the remote system (used in the logfile name). 
+Select the identifier for the remote system (used in the logfile name).
 
 * "IP Address" uses the IP address (IPv4 or IPv6) of the sending system.
 * "Hostname (from syslog message)" uses the hostname included in each syslog message.
@@ -1691,7 +1691,7 @@ Select the name of the network you wish to use as default for your VMs.
 You can choose between **'bridges'** created under network settings or
 **'libvirt'** created with virsh command in the terminal.
 The bridge **'virbr0'** and the associated virtual network **'default'** are
-created by libvirt.  
+created by libvirt.
 Both utilizes NAT (network address translation) and act as a DHCP server to hand out IP addresses to virtual machines directly.
 More optional selections are present for bridges under network settings or for libvirt networks with the virsh command in the terminal.
 
@@ -1714,7 +1714,7 @@ NOTE: It's recommended to shut down guest VMs from within the VM.
 :end
 
 :vms_console_help:
-For setting the console options to show on context menus. Web will show only inbuild web clients(VNC and SPICE), 
+For setting the console options to show on context menus. Web will show only inbuild web clients(VNC and SPICE),
 Virtual Manager Remote Viewer will only show the Remote Viewer option. Both will show both Web and Remote Viewer.
 :end
 
@@ -2318,6 +2318,7 @@ For more information, see this link: <a href="https://docs.docker.com/engine/ref
 :end
 
 ; sysdevs help - added May 18, 2020
+
 :sysdevs_iommu_groups_help:
 This displays a list of IOMMU groups available on your system along with the output of the `lspci` command for each IOMMU group.  The numeric identifiers are used to configure PCI pass-through.
 
@@ -2347,6 +2348,7 @@ Note that linux groups ATA, SATA and SAS devices with true SCSI devices.
 :end
 
 ; unraid.net help - added March 11, 2021
+
 :unraidnet_wanpanel_help:
 WAN Port is the external TCP port number setup on your router to NAT/Port Forward traffic from the internet to this
 Unraid server SSL port for secure web traffic.
@@ -2407,7 +2409,7 @@ The *tunnel network pool* must be a unique network not already existing on the s
 :end
 
 :wg_local_tunnel_network_pool_X_help:
-WireGuard tunnels need an internal IP address. Assign a network pool using the default IPv4 network, 
+WireGuard tunnels need an internal IP address. Assign a network pool using the default IPv4 network,
 the default IPv6 network, or assign your own network pool from which automatic assignment can be done for both this server and any peers.
 
 The *tunnel network pool* must be a unique network not already existing on the server or any of the peers.
@@ -2548,7 +2550,7 @@ It does not setup wake up of the Unraid server.
 
 The process will look for the defined mac address defined within the service(VM or container) with the exception of dockers. Dockers do not have a mac address until they are running so you will need to define a user mac address to allow you to start them
 
-If the service is paused a WOL Packet will resume. 
+If the service is paused a WOL Packet will resume.
 
 For each service you can set: enable, disable or enable and shutdown
 
