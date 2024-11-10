@@ -1,6 +1,3 @@
-
-
-; Note: April 28, 2023 - 14 missing translations
 Search for %s=
 DockerHub Search for %s=
 Are you sure you want to delete %s from the list of previously installed applications=
