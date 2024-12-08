@@ -408,4 +408,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: December 8, 2024 - 400 missing translations
+; Note: December 8, 2024 - 399 missing translations
