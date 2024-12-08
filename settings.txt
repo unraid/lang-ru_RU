@@ -167,7 +167,7 @@ Default appdata storage location=
 Default critical disk temperature threshold=
 Default critical disk utilization threshold=
 Default critical SSD temperature threshold=
-Default file system=
+Default file system for Array disks=
 Default ISO storage path=
 Default network bridge=
 Default network source=
@@ -216,6 +216,7 @@ Docker LOG maximum file size=
 Docker LOG number of files=
 Docker LOG rotation=
 Docker only=
+Docker PID Limit=
 Docker service=
 Docker Stop Timeout=
 Docker update notification=
@@ -860,4 +861,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: December 25, 2023 - 832 missing translations
+; Note: December 8, 2024 - 833 missing translations
