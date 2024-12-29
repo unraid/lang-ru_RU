@@ -23,8 +23,8 @@ Check free space=
 checking=
 Click to toggle CPU chart=Нажмите, чтобы переключить диаграмму ЦПУ
 Click to toggle details=Нажмите, чтобы переключить подробности
-Clock is synchronized using NTP, time offset is %s %s=
-Clock is synchronized using PTP, time offset is %s %s=
+Clock is synchronized using %s NTP servers, time offset is %s %s=
+Clock is synchronized using %s PTP server, time offset is %s %s=
 Clock is unsynchronized with no NTP servers=
 Clock is unsynchronized with no PTP servers=
 Clock is unsynchronized, free-running clock=
@@ -74,6 +74,7 @@ Go to UPS settings=Перейти к настройкам ИБП
 Go to User settings=Перейти в настройки пользователей
 Go to VM settings=Перейти в настройки виртуальных машин
 Go to VPN settings=Перейти в настройки VPN
+grandmaster=
 Handshake=Рукопожатие
 has=имеет
 healthy=в порядке
@@ -95,6 +96,7 @@ Last checked on %s=Последняя проверка в **%s**
 Legend=
 Lock sortable items=
 Log filesystem=
+master=
 Maximum size=Макс. размер
 Memory dump=
 Memory Utilization=
@@ -196,4 +198,4 @@ W=
 Warnings=
 ZFS=
 
-; Note: December 28, 2024 - 84 missing translations
+; Note: December 29, 2024 - 86 missing translations
