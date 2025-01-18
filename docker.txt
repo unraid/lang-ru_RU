@@ -155,3 +155,5 @@ Was this container created using this plugin=Был ли этот контейн
 Web=Веб
 WebUI=Веб-интерфейс
 Writable=Записываемый
+
+; Note: December 28, 2024 - 131 missing translations

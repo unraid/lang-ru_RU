@@ -256,7 +256,7 @@ Unraid OS uses these default options when creating a multiple-device pool:
 
 `-dconvert=raid1 -mconvert=raid1`
 
-For more complete documentation, please refer to the btrfs-balance [Manpage](https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-balance)
+For more complete documentation, please refer to the btrfs-balance [Manpage](https://man7.org/linux/man-pages/man8/btrfs-balance.8.html)
 
 *Note: raid5 and raid6 are generally still considered **experimental** by the Linux community*
 :end
@@ -1250,7 +1250,7 @@ Select **Strict** to enable *exclusive* use of a myunraid.net SSL
 certificate for https access (see **Provision** below).  Note that a DNS
 server must be reachable.
 
-**Redirects:** When accessing `http://<server-ip-address>` or `http://<server-name>.<localTLD>`, the
+**Redirects:** When accessing `http://<server-ip-address>` or `http://<server-name>.<localTLD>`, the 
 behavior will change depending on the value of the Use SSL/TLS setting:
 
 * If Use SSL/TLS is set to **Strict**, you will be redirected to `https://<lan-ip>.<hash>.myunraid.net`
@@ -1305,7 +1305,7 @@ Enter your local Top Level Domain. May be blank.
 :end
 
 :mgmt_local_access_urls_help:
-The Local Access URLs shown above are based on your current settings.
+The Local Access URLs shown above are based on your current settings. 
 To adjust URLs or redirects, see the help text for "Use SSL/TLS".
 :end
 
@@ -1563,12 +1563,11 @@ It is recommended that you use a share located on the cache drive to prevent arr
 :end
 
 :syslog_remote_system_identifier_help:
-Select the identifier for the remote system (used in the logfile name).
+Select the identifier for the remote system (used in the logfile name). 
 
 * "IP Address" uses the IP address (IPv4 or IPv6) of the sending system.
 * "Hostname (from syslog message)" uses the hostname included in each syslog message.
 * "Hostname (from DNS reverse lookup)" performs a DNS reverse lookup for the sending IP and uses the result.
-
 :end
 
 :syslog_local_rotation_help:
@@ -1722,7 +1721,7 @@ Select the name of the network you wish to use as default for your VMs.
 You can choose between **'bridges'** created under network settings or
 **'libvirt'** created with virsh command in the terminal.
 The bridge **'virbr0'** and the associated virtual network **'default'** are
-created by libvirt.
+created by libvirt.  
 Both utilizes NAT (network address translation) and act as a DHCP server to hand out IP addresses to virtual machines directly.
 More optional selections are present for bridges under network settings or for libvirt networks with the virsh command in the terminal.
 
@@ -1745,7 +1744,7 @@ NOTE: It's recommended to shut down guest VMs from within the VM.
 :end
 
 :vms_console_help:
-For setting the console options to show on context menus. Web will show only inbuild web clients(VNC and SPICE),
+For setting the console options to show on context menus. Web will show only inbuild web clients(VNC and SPICE), 
 Virtual Manager Remote Viewer will only show the Remote Viewer option. Both will show both Web and Remote Viewer.
 :end
 
@@ -2357,7 +2356,7 @@ For more information see <a href="https://tailscale.com/kb/1153/enabling-https" 
 :end
 
 :docker_tailscale_be_exitnode_help:
-Enable this if other machines on your Tailnet should route their Internet traffic through this container, this is most useful for containers that connect to commercial VPN services.
+Enable this if other machines on your Tailnet should route their Internet traffic through this container, this is most useful for containers that connect to commercial VPN services. 
 Be sure to authorize this Exit Node in your <a href="https://login.tailscale.com/admin/machines" target="_blank">Tailscale Machines Admin Panel</a>.
 For more details, see the Tailscale documentation on <a href="https://tailscale.com/kb/1103/exit-nodes" target="_blank">Exit Nodes</a>.
 :end
@@ -2386,7 +2385,7 @@ For more details, see the <a href="https://tailscale.com/kb/1193/tailscale-ssh" 
 :end
 
 :docker_tailscale_serve_mode_help:
-Enabling <b>Serve</b> will automatically reverse proxy the primary web service from this container and make it available on your Tailnet using https with a valid certificate!
+Enabling <b>Serve</b> will automatically reverse proxy the primary web service from this container and make it available on your Tailnet using https with a valid certificate! 
 
 Note that when accessing the <b>Tailscale WebUI</b> url, no additional authentication layer is added beyond restricting it to your Tailnet - the container is still responsible for managing usernames/passwords that are allowed to access it. Depending on your configuration, direct access to the container may still be possible as well.
 
@@ -2405,7 +2404,7 @@ For more details, see the Tailscale Documentation: <a href="https://tailscale.co
 :docker_tailscale_serve_port_help:
 This field should specify the port for the primary web service this container offers. Note: it should specify the port in the container, not a port that was remapped on the host.
 
-The system attempted to determine the correct port automatically. If it used the wrong value then there is likely an issue with the "Web UI" field for this container, visible by switching from "Basic View" to "Advanced View" in the upper right corner of this page.
+The system attempted to determine the correct port automatically. If it used the wrong value then there is likely an issue with the "Web UI" field for this container, visible by switching from "Basic View" to "Advanced View" in the upper right corner of this page. 
 
 In most cases this port is all you will need to specify in order to Serve the website in this container, although additional options are available below for more complex containers.
 
@@ -2484,7 +2483,6 @@ For more information, see this link: <a href="https://docs.docker.com/engine/ref
 :end
 
 ; sysdevs help - added May 18, 2020
-
 :sysdevs_iommu_groups_help:
 This displays a list of IOMMU groups available on your system along with the output of the `lspci` command for each IOMMU group.  The numeric identifiers are used to configure PCI pass-through.
 
@@ -2514,7 +2512,6 @@ Note that linux groups ATA, SATA and SAS devices with true SCSI devices.
 :end
 
 ; unraid.net help - added March 11, 2021
-
 :unraidnet_wanpanel_help:
 WAN Port is the external TCP port number setup on your router to NAT/Port Forward traffic from the internet to this
 Unraid server SSL port for secure web traffic.
@@ -2575,7 +2572,7 @@ The *tunnel network pool* must be a unique network not already existing on the s
 :end
 
 :wg_local_tunnel_network_pool_X_help:
-WireGuard tunnels need an internal IP address. Assign a network pool using the default IPv4 network,
+WireGuard tunnels need an internal IP address. Assign a network pool using the default IPv4 network, 
 the default IPv6 network, or assign your own network pool from which automatic assignment can be done for both this server and any peers.
 
 The *tunnel network pool* must be a unique network not already existing on the server or any of the peers.
@@ -2716,7 +2713,7 @@ It does not setup wake up of the Unraid server.
 
 The process will look for the defined mac address defined within the service(VM or container) with the exception of dockers. Dockers do not have a mac address until they are running so you will need to define a user mac address to allow you to start them
 
-If the service is paused a WOL Packet will resume.
+If the service is paused a WOL Packet will resume. 
 
 For each service you can set: enable, disable or enable and shutdown
 

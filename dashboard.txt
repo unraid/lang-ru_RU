@@ -197,3 +197,5 @@ VPN Connections=Подключения VPN
 W=Вт
 Warnings=Предупреждения
 ZFS=ZFS
+
+; Note: December 29, 2024 - 86 missing translations

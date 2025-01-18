@@ -1,6 +1,5 @@
 %s ago=%s назад
 %s is out of range minimum 1 maximum 65535=%s is out of range (minimum 1 maximum 65535)
-
 ; Keep the original plugin name in settings
 12 hours=
 24 hours=
@@ -950,3 +949,5 @@ to the Unraid server at=
 Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
+
+; Note: December 28, 2024 - 918 missing translations

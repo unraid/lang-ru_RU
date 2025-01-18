@@ -412,3 +412,5 @@ Sleeping=
 System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
+
+; Note: December 28, 2024 - 405 missing translations

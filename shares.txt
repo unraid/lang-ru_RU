@@ -90,3 +90,5 @@ User Shares=Общие ресурсы пользователя
 Warning: Configured Pool=Предупреждение: Настроенный пул
 Write=Записать
 You cannot use the following within share names=Вы не можете использовать эти символы в именах общих ресурсов
+
+; Note: December 28, 2024 - 89 missing translations

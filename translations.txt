@@ -1250,3 +1250,5 @@ Open a bug report=
 %s seconds=
 %s year=
 %s years=
+
+; Note: December 28, 2024 - 1070 missing translations
