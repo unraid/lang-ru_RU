@@ -1,6 +1,3 @@
-
-
-; Note: May 10, 2023 - 22 missing translations
 Hide Deprecated Applications=
 This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=
 Hide Incompatible Applications=
@@ -13,6 +10,9 @@ Allow CA to check for updates to applications=
 This setting enables CA to check for updates to applications Note that Community Applications will always check for updates to itself=
 Disable Mouse Wheel Page Changes=
 This setting disables using left or right on a mouse wheel to change the page=
+Mouse wheel threshold=
+If you tilt the mouse wheel left or right, the browser returned value will change Set the threshold to the value returned Note that different browsers and operating systems may return different values=
+This is a global value for all devices If it causes issues, then disable Mouse Wheel Page Changes=
 Allow CA to send any emergency notifications=
 This setting allows CA to periodically scan your system and alert you to the presence of=
 1 Known malware and security vulnerabilities within applications=
@@ -22,4 +22,4 @@ Save CA debugging information=
 Only enable this when advised to from the author of Community Applications=
 Enable developer mode=
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=
-Support Thread=
+Support Thread=Тред поддержки
