@@ -1,3 +1,4 @@
+Display Events=
 File Activity=
 File Activity Monitoring=
 Start File Activity=
@@ -32,4 +33,8 @@ Enable for Cache and Pool Disks=
 
 :file_activity_enable_cache_plug:
 > Set to **Yes** to enable File Activity monitoring for the Cache and Pool Disks.  Pool disks only apply in Unraid 6.9.
+:end
+
+:file_activity_display_events_plug:
+> This is the number of file events shown on disks and shares from the File Activity log for each share or disk.
 :end
