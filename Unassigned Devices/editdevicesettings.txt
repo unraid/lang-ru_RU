@@ -1,51 +1,3 @@
-Abort Device Script=
-Attach=
-Attach This Disk=
-Attaching=
-Automount=
-Click to select file or click Default button for the Device Script File=
-Default=
-Delete Device Script File=
-Detach=
-Detach This Disk=
-Detaching=
-Device Script=
-Device Script content=
-Disable Mount and Unmount Button=
-Disable Mount Button=
-Disk Name=
-Disk Serial=
-Edit Device Script=
-Enter Device Script File Name=
-Enter and Edit the Device Script that runs when a udev or operator event occurs=
-Enter the User Script File Name=
-Enter the User Script that will be using this device=
-Enter the volume to mount on this apfs partition=
-Load the default Device Script=
-Run in background=
-Mark this Device as passed through to a VM or Docker=
-Mount Device Read only=
-Mount Device when Plugged in or Array is Started=
-Mount ISO File when Array is Started=
-Mount Point=
-Mount Remote Share Read only=
-Mount Remote SMB or NFS Share when Array is Started=
-Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=
-Passed Through=
-Read Only=
-Run Device Script File in the background=
-Save your Device Script File=
-Save your Device Script File changes=
-Share Device with SMB and NFS=
-Share Remote Mount with SMB and NFS=
-Show all partitions on this device by default=
-Show Partitions=
-Source=
-Unassigned Devices Settings=
-Undo your changes since last Save=
-User Script=
-Volume=
-ZFS Volume=
 
 ;
 ; Help
@@ -100,3 +52,53 @@ Unassigned Devices show the running status of the User Script that will be using
 >
 > Click **Done** to exit this page.
 :end
+
+; Note: April 21, 2025 - 48 missing translations
+Abort Device Script=
+Attach=
+Attach This Disk=
+Attaching=
+Automount=
+Click to select file or click Default button for the Device Script File=
+Default=
+Delete Device Script File=
+Detach=
+Detach This Disk=
+Detaching=
+Device Script=
+Device Script content=
+Disable Mount and Unmount Button=
+Disable Mount Button=
+Disk Name=
+Disk Serial=
+Edit Device Script=
+Enter Device Script File Name=
+Enter and Edit the Device Script that runs when a udev or operator event occurs=
+Enter the User Script File Name=
+Enter the User Script that will be using this device=
+Enter the volume to mount on this apfs partition=
+Load the default Device Script=
+Run in background=
+Mark this Device as passed through to a VM or Docker=
+Mount Device Read only=
+Mount Device when Plugged in or Array is Started=
+Mount ISO File when Array is Started=
+Mount Point=
+Mount Remote Share Read only=
+Mount Remote SMB or NFS Share when Array is Started=
+Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=
+Passed Through=
+Read Only=
+Run Device Script File in the background=
+Save your Device Script File=
+Save your Device Script File changes=
+Share Device with SMB and NFS=
+Share Remote Mount with SMB and NFS=
+Show all partitions on this device by default=
+Show Partitions=
+Source=
+Unassigned Devices Settings=
+Undo your changes since last Save=
+User Script=
+Volume=
+ZFS Volume=

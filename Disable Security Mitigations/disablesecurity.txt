@@ -1,3 +1,6 @@
+
+
+; Note: April 21, 2025 - 11 missing translations
 Disabling Spectre, Meltdown and Zombieload MDS mitigations may improve your CPU speed But these are security risks for certain workloads, and disabling the mitigations is purely all at your own risk=
 Mitigations currently disabled=
 Mitigations currently enabled=

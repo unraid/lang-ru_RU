@@ -78,8 +78,9 @@ Version 6.11.4 and later=
 You can check CPU frequencies on the command line with=
 You may actually cause more problems than you solve if there are problems with your Unraid configuration=
 
+;
 ; Help
-
+;
 :tips_tweaks_general_plug:
 > Some General Recommendations:
 >
@@ -191,6 +192,7 @@ You may actually cause more problems than you solve if there are problems with y
 > The 'governor' choices are: 'ondemand', 'performance', 'powersave', 'conservative', and 'schedutil'.
 :end
 
+
 :tips_tweaks_power_save_cpu_governor_plug:
 > Select the Power Saving CPU Scaling Governor you want to use.
 >
@@ -208,6 +210,7 @@ You may actually cause more problems than you solve if there are problems with y
 > Set to 'Yes' to enable scheduled CPU Power Saving mode based on the times set below for Normal and Power Saving modes.
 :end
 
+
 :tips_tweaks_cpu_state_plug:
 > Enter the time you want to set the governor to selected Power Saving mode in 24 hour format hh:mm.
 :end
@@ -215,6 +218,7 @@ You may actually cause more problems than you solve if there are problems with y
 :tips_tweaks_performance_plug:
 > Enter the time you want to set the governor to Normal CPU Scaling Governor in 24 hour format hh:mm.
 :end
+
 
 :tips_tweaks_syslog_archive_plug:
 > Set to 'Yes' to enable the capture and archive of syslogs and run a diagnostics on shutdown.  Logs and diagnostics are saved to /boot/logs/.
@@ -230,3 +234,6 @@ You may actually cause more problems than you solve if there are problems with y
 >
 > Note: Be careful with the processes you kill here.  You could lose data!
 :end
+
+
+; Note: April 21, 2025 - 79 missing translations

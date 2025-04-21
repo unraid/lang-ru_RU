@@ -1,39 +1,6 @@
-Configuration=
-Colors=
-Syslog Colors=
-Custom Match=
-Custom Syslog Match Strings=
-Syslog Filter=
-Syslog Configuration=
-Syslog Filter Strings=
-Show All Lines in Log=
-Number of Lines to Display=
-Enable Error Highlighting=
-Enable Minor Issues Highlighting=
-Enable Lime Tech Highlighting=
-Enable Array Highlighting=
-Enable System Highlighting=
-Enable File System Highlighting=
-Enable Drive Related Highlighting=
-Enable Network Highlighting=
-Enable Login Highlighting=
-Enable emhttp Highlighting=
-Enable Other Highlighting=
-Color Selection Chart=
-Error Highlight Color=
-Minor Issues Highlight Color=
-Lime Tech Highlight Color=
-Array Highlight Color=
-System Highlight Color=
-File System Highlight Color=
-Drive Related Highlight Color=
-Network Highlight Color=
-Login Highlight Color=
-emhttp Highlight Color=
-Other Highlight Color=
-
+;
 ; Help
-
+;
 :enhanced_syslog_show_all_lines_plug:
 > Set to **Yes** to show all lines in the enhanced log.  Set to **No** to show only highlighted lines.
 :end
@@ -136,7 +103,7 @@ Other Highlight Color=
 
 :enhanced_log_custom_plug:
 > Enter any custom events you want highlighted in the log.  Any custom events you enter will be processed after the built in events.
-> The events are entered as: "search string", "event"
+> The events are entered as: "search string", "event" 
 > Case is ignored in the search string and wild cards are allowed.
 > Examples:
 > "found.*chip" will match any string with 'found' and 'chip' with any text in between,
@@ -161,3 +128,38 @@ Other Highlight Color=
 > Click the **Apply** button to Apply the Syslog filter. Click **Reset** to
 > undo any changes you make before you have saved the Syslog filter. Click **Done** to exit this page.
 :end
+
+; Note: April 21, 2025 - 33 missing translations
+Configuration=
+Colors=
+Syslog Colors=
+Custom Match=
+Custom Syslog Match Strings=
+Syslog Filter=
+Syslog Configuration=
+Syslog Filter Strings=
+Show All Lines in Log=
+Number of Lines to Display=
+Enable Error Highlighting=
+Enable Minor Issues Highlighting=
+Enable Lime Tech Highlighting=
+Enable Array Highlighting=
+Enable System Highlighting=
+Enable File System Highlighting=
+Enable Drive Related Highlighting=
+Enable Network Highlighting=
+Enable Login Highlighting=
+Enable emhttp Highlighting=
+Enable Other Highlighting=
+Color Selection Chart=
+Error Highlight Color=
+Minor Issues Highlight Color=
+Lime Tech Highlight Color=
+Array Highlight Color=
+System Highlight Color=
+File System Highlight Color=
+Drive Related Highlight Color=
+Network Highlight Color=
+Login Highlight Color=
+emhttp Highlight Color=
+Other Highlight Color=

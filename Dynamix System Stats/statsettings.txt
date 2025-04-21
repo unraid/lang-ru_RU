@@ -1,42 +1,6 @@
-30 seconds=
-1 minute=
-2 minutes=
-5 minutes=
-10 minutes=
-30 minutes=
-1 hour=
-2 hours=
-Bits per second=
-Bytes per second=
-CPU graph scaling=
 Disk Stats=Статистика по дискам
-Ethernet interface=
-Four=
-Header menu=
-Initial graphing mode=
-Initial real-time sliding window=
-Last day=
-Last 2 days=
-Last 3 days=
-Last week=
-Last 2 weeks=
-Last 3 weeks=
-Last month=
-Network graph display unit=
-Opening page=
-Pair=
-Placement of Stats menu=
-Position of disk utilization percentage=
-Real-time=
-Show disk size=
-Since start=
-Single=
 Storage=Хранилище
-System graphs view per row=
 System Stats=Системная статистика
-Three=
-Tools menu=
-Viewable system graphs=
 
 :stats_utilization_plug:
 > The disk utilization percentage number can be positioned either at the start (left) or at the end (right) of the bar.
@@ -83,3 +47,41 @@ Viewable system graphs=
 >
 > This setting sets the initial duration of the sliding window, it can be changed on the system stats page itself.
 :end
+
+; Note: April 21, 2025 - 36 missing translations
+30 seconds=
+1 minute=
+2 minutes=
+5 minutes=
+10 minutes=
+30 minutes=
+1 hour=
+2 hours=
+Bits per second=
+Bytes per second=
+CPU graph scaling=
+Ethernet interface=
+Four=
+Header menu=
+Initial graphing mode=
+Initial real-time sliding window=
+Last day=
+Last 2 days=
+Last 3 days=
+Last week=
+Last 2 weeks=
+Last 3 weeks=
+Last month=
+Network graph display unit=
+Opening page=
+Pair=
+Placement of Stats menu=
+Position of disk utilization percentage=
+Real-time=
+Show disk size=
+Since start=
+Single=
+System graphs view per row=
+Three=
+Tools menu=
+Viewable system graphs=

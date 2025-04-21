@@ -1,10 +1,3 @@
-Current date and time=
-Hide map=
-New date and time=
-NTP server=
-Show map=
-Time zone=
-Use NTP=
 
 :timezone_plug:
 > Select your applicable time zone from the drop-down list.
@@ -36,7 +29,15 @@ Use NTP=
 :ntp_server4_plug:
 > This is the alternate NTP Server to use if NTP Servers 1, 2, and 3 are all down.
 :end
-
 :current_time_plug:
 > Enter the current time-of-day.  Use format YYYY-MM-DD HH:MM:SS. Greyed out when using NTP.
 :end
+
+; Note: April 21, 2025 - 7 missing translations
+Current date and time=
+Hide map=
+New date and time=
+NTP server=
+Show map=
+Time zone=
+Use NTP=

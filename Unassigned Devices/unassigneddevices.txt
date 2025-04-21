@@ -261,3 +261,5 @@ ZFS Volume=
 >
 > Be careful using the /dev/sdX or devX designation because they can change after a reboot.  It's best to use the values passed into the UD script for sdX (DEVICE) and devX (UD_DEVICE).
 :end
+
+; Note: April 21, 2025 - 177 missing translations

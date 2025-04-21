@@ -1,3 +1,6 @@
+
+
+; Note: April 21, 2025 - 22 missing translations
 Do you want to pause all running preclear sessions=
 Do you want to proceed=
 Do you want to resume all running preclear sessions=

@@ -1,3 +1,6 @@
+
+
+; Note: April 21, 2025 - 12 missing translations
 Select File=
 Error reading file=
 No Backup File Found=

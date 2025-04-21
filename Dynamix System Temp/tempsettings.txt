@@ -1,17 +1,3 @@
-Array fan speed=
-Available drivers=
-Click DETECT=
-Detect=
-Load drivers=
-Mainboard temperature=
-No drivers detected=
-Not used=
-Perl must be installed to do automated driver detection=**Perl** must be installed to do automated driver detection
-Processor temperature=
-Rescan=
-Save=
-Sensors=
-Unload drivers=
 
 :temp_drivers_plug:
 > Use 'detect' to search for available drivers using the 'sensors-detect' script. After detection proceed with saving the list.<br>
@@ -40,3 +26,19 @@ Unload drivers=
 :temp_rescan_plug:
 > 'Rescan' refreshes the selection list and can be used when new probes are available, e.g. a new fan probe has been installed.
 :end
+
+; Note: April 21, 2025 - 14 missing translations
+Array fan speed=
+Available drivers=
+Click DETECT=
+Detect=
+Load drivers=
+Mainboard temperature=
+No drivers detected=
+Not used=
+Perl must be installed to do automated driver detection=**Perl** must be installed to do automated driver detection
+Processor temperature=
+Rescan=
+Save=
+Sensors=
+Unload drivers=

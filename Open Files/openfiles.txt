@@ -1,3 +1,14 @@
+;
+; Help
+;
+:open_files_help_plug:
+> Click on the **Kill** button to stop the process that is holding the files open.
+>  A dialog box will open showing you the progress of killing the process holding those files open.
+>
+> Click on **Process**, **Process ID**, **Files That May Prevent Shutdown**, or **File Name and Path** to change the sort order.
+:end
+
+; Note: April 21, 2025 - 15 missing translations
 Enable Kill Button=
 Process=
 Kill Process=
@@ -13,12 +24,3 @@ No open files=
 Kill=
 Command timed out=
 Cannot get list of open files=
-
-; Help
-
-:open_files_help_plug:
-> Click on the **Kill** button to stop the process that is holding the files open.
->  A dialog box will open showing you the progress of killing the process holding those files open.
->
-> Click on **Process**, **Process ID**, **Files That May Prevent Shutdown**, or **File Name and Path** to change the sort order.
-:end

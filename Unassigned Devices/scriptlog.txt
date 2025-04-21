@@ -1,1 +1,4 @@
+
+
+; Note: April 21, 2025 - 1 missing translations
 Script Log=

@@ -1,28 +1,3 @@
-Adaptive=
-Cache pressure of directories on system=
-Check HELP for filter example=
-Disk Idle Timer=
-Folder caching function=
-for adaptive depth=
-Important - check HELP if disks spin up=
-Included folders=
-Memory available to the cache_dirs script increase if it dies=Memory available to the cache_dirs script (increase if it dies)
-Logging=
-Maximum interval between folder scans=
-Maximum level depth=
-Minimum interval between folder scans=
-Minimum level depth=
-or see=
-Run scan of each disk in a separate thread=
-Timeout during disk-idle period=
-Timeout during initial startup or less-idle period=
-Timeout when all directories have been cached=
-Scan user shares mntuser=Scan user shares (/mnt/user)
-Suspend during Mover process=Suspend during 'Mover' process
-unlimited=
-Unraid forum=
-Use Adaptive depth=
-User defined options=
 
 :cachedirs_info_plug:
 > Folder Caching Info
@@ -139,3 +114,30 @@ User defined options=
 >
 > Note that the single quotes around argument to -a is important. Double-quotes do not work in the current version, so unfortunately its not currently possible to filter with '-name "*Old" -prune'.
 :end
+
+; Note: April 21, 2025 - 25 missing translations
+Adaptive=
+Cache pressure of directories on system=
+Check HELP for filter example=
+Disk Idle Timer=
+Folder caching function=
+for adaptive depth=
+Important - check HELP if disks spin up=
+Included folders=
+Memory available to the cache_dirs script increase if it dies=Memory available to the cache_dirs script (increase if it dies)
+Logging=
+Maximum interval between folder scans=
+Maximum level depth=
+Minimum interval between folder scans=
+Minimum level depth=
+or see=
+Run scan of each disk in a separate thread=
+Timeout during disk-idle period=
+Timeout during initial startup or less-idle period=
+Timeout when all directories have been cached=
+Scan user shares mntuser=Scan user shares (/mnt/user)
+Suspend during Mover process=Suspend during 'Mover' process
+unlimited=
+Unraid forum=
+Use Adaptive depth=
+User defined options=

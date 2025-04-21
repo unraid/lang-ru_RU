@@ -1,3 +1,6 @@
+
+
+; Note: April 21, 2025 - 19 missing translations
 Docker Auto Update Settings=
 Plugin Auto Update Settings=
 Autoupdate ON=

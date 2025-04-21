@@ -1,3 +1,6 @@
+
+
+; Note: April 21, 2025 - 10 missing translations
 Click DETECT=
 Detect=
 Exclude drives=

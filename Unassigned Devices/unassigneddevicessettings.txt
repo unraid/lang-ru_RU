@@ -1,62 +1,6 @@
-Add=
-Auto Mount USB Devices=
-Case-sensitive names=
-Change Disk UUID=
-Change UUID=
-Change Disk UUID=
-Command times=
-Common Script=
-Common Settings=
-Destructive Mode=
-Disabled=
-Disk spin down is managed by Unraid=
-Enable NFS export=
-Enable SMB Security=
-Enable Time Machine=
-Enter Disk Password=
-Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the **Result** text area
-Enter Pool Mount Point=
-Legacy Mount Point Compatibility=
-Mount SSDs with discard option=
-NFS Security=
-NFS Settings=
-NFS must be enabled in Settings->NFS to enable NFS Export=
-NFS Version to use when Mounting Remote Shares=
-Public=
-Private=
-Private Hidden=
-Refresh and Update=
-Remote Share Mount Wait Time=
-Rule=
-Select Disk=
-See Help=
-Set Encrypted Disk Password=
-Set Password=
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
-Set the disk Password=
-SMB Settings=
-SMB Sharing=
-Specify SMB Version when Mounting Remote Shares=
-Spin down disks=
-Test=
-Testing=
-Test the Remote Server=
-The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
-This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=
-Time Machine volume size limit=
-to SMB share config=
-Udev and Hotplug=
-Unassigned Devices=
-Unraid 6.10 or later is required for NFSv4 support=
-Upgrade ZFS Pool=
-Use only when directed for support because the messages can flood the log=
-Warning=
-Windows may require a valid User to be defined even for Public shares=
-Working=
 
 ; Help
-
+;
 :ud_settings_plus_plug:
 > **Note:** The 'Unassigned Devices Plus' plugin must be installed in order to mount HFS+ and exFAT disk formats, and enable destructive mode.
 :end
@@ -212,3 +156,61 @@ Working=
 
 > By ensuring that NFS is enabled, configured with the correct permissions, and exported directories are allowed for your client IP, showmount should list the available exports.
 :end
+
+; Note: April 21, 2025 - 56 missing translations
+Add=
+Auto Mount USB Devices=
+Case-sensitive names=
+Change Disk UUID=
+Change UUID=
+Change Disk UUID=
+Command times=
+Common Script=
+Common Settings=
+Destructive Mode=
+Disabled=
+Disk spin down is managed by Unraid=
+Enable NFS export=
+Enable SMB Security=
+Enable Time Machine=
+Enter Disk Password=
+Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the **Result** text area
+Enter Pool Mount Point=
+Legacy Mount Point Compatibility=
+Mount SSDs with discard option=
+NFS Security=
+NFS Settings=
+NFS must be enabled in Settings->NFS to enable NFS Export=
+NFS Version to use when Mounting Remote Shares=
+Public=
+Private=
+Private Hidden=
+Refresh and Update=
+Remote Share Mount Wait Time=
+Rule=
+Select Disk=
+See Help=
+Set Encrypted Disk Password=
+Set Password=
+Set Pool Mount Point=
+Set the Pool Mount Point for this disk=
+Set the disk Password=
+SMB Settings=
+SMB Sharing=
+Specify SMB Version when Mounting Remote Shares=
+Spin down disks=
+Test=
+Testing=
+Test the Remote Server=
+The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=
+Time Machine volume size limit=
+to SMB share config=
+Udev and Hotplug=
+Unassigned Devices=
+Unraid 6.10 or later is required for NFSv4 support=
+Upgrade ZFS Pool=
+Use only when directed for support because the messages can flood the log=
+Warning=
+Windows may require a valid User to be defined even for Public shares=
+Working=
