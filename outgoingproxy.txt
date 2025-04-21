@@ -1,3 +1,4 @@
+
 :outgoing_proxy_enable_plug:
 > Select the Proxy to use.  Only online Proxies will be selectable.
 >
@@ -21,6 +22,7 @@
 :outgoing_proxy_user_plug:
 > Outgoing Proxy User Name for this Proxy
 :end
+
 
 ; Note: December 29, 2024 - 9 missing translations
 Enable Outgoing Proxy=

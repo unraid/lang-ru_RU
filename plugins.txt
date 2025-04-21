@@ -40,3 +40,6 @@ Update Incompatible=Обновить несовместимые
 Update Plugin=Обновить плагин
 Upgrade=Модернизация
 View Release Notes=Посмотреть примечания к выпуску
+
+; Note: April 21, 2025 - 1 missing translations
+cannot check=
