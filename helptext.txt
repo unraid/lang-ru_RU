@@ -2751,3 +2751,8 @@ Enable to set the NIC not to filer packets.
 :WOL_log_file_help:
 Default is to log to syslog but if you want a different log location set the file name.
 :end
+; New entries (2) - 2025-05-31
+
+:nfs_client_max_protocol_help:
+Select the max NFS Protocol version you want to use to mount your remote shares.
+:end
