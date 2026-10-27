@@ -1,15 +1,12 @@
-
-
-; Note: April 21, 2025 - 12 missing translations
-Select File=
-Error reading file=
-No Backup File Found=
-Select a file to edit=
-note editing a binary file could have unintended consequences=
-No file selected=
-Backup File=
-Editing=
-Generally, it is not recommended to change the format=
-Credits=
-No Backup File Found=
-File Format=
+Select File=Выберите файл
+Error reading file=Ошибка чтения файла
+No Backup File Found=Резервный файл не найден
+Select a file to edit=Выберите файл для редактирования
+note editing a binary file could have unintended consequences=примечание: редактирование бинарного файла может иметь непредвиденные последствия
+No file selected=Файл не выбран
+Backup File=Резервный файл
+Editing=Редактирование
+Generally, it is not recommended to change the format=Как правило, не рекомендуется изменять формат
+Credits=Благодарности
+No Backup File Found=Резервный файл не найден
+File Format=Формат файла

@@ -1,17 +1,14 @@
-
-
-; Note: April 21, 2025 - 14 missing translations
-Search for %s=
-DockerHub Search for %s=
-Are you sure you want to delete %s from the list of previously installed applications=
-Are you sure you want to uninstall %s=
-Are you sure you want to remove the private application %s by %s=
-Removing %s=
-Uninstalling %s=
-Install %s Selected Application=
-Install %s Selected Applications=
-Are you sure you want to install %s docker and %s plugin applications=
-Install Application=
-Install Applications=
-Something really wrong went on during %s=
-Are you sure you want to delete %s applications from the previously installed list=
+Search for %s=Поиск %s
+DockerHub Search for %s=Поиск на DockerHub: %s
+Are you sure you want to delete %s from the list of previously installed applications=Вы уверены, что хотите удалить %s из списка ранее установленных приложений?
+Are you sure you want to uninstall %s=Вы уверены, что хотите удалить %s?
+Are you sure you want to remove the private application %s by %s=Вы уверены, что хотите удалить приватное приложение %s от %s?
+Removing %s=Удаление %s
+Uninstalling %s=Удаление %s
+Install %s Selected Application=Установить %s выбранное приложение
+Install %s Selected Applications=Установить %s выбранных приложений
+Are you sure you want to install %s docker and %s plugin applications=Вы уверены, что хотите установить %s docker-приложений и %s приложений-плагинов?
+Install Application=Установить приложение
+Install Applications=Установить приложения
+Something really wrong went on during %s=Во время %s что-то действительно пошло не так
+Are you sure you want to delete %s applications from the previously installed list=Вы уверены, что хотите удалить %s приложений из списка ранее установленных?

@@ -1,22 +1,19 @@
-
-
-; Note: April 21, 2025 - 19 missing translations
-Docker Auto Update Settings=
-Plugin Auto Update Settings=
-Autoupdate ON=
-Autoupdate OFF=
-Send Notifications On Update=
-Delay in days before updating applications=
-Auto Update All Plugins=
-Update Check Frequency=
-Support=
-Day Of Week=
-Day Of Month=
-Hour=
-Minute=
-Custom cron expression=
-Credits=
-Docker Must Be Enabled For This Module To Operate=
-Time to wait for graceful stop before killing=
-Update All Docker Applications=
-Do not overlap with autoupdate=
+Docker Auto Update Settings=Настройки автообновления Docker
+Plugin Auto Update Settings=Настройки автообновления плагинов
+Autoupdate ON=Автообновление включено
+Autoupdate OFF=Автообновление выключено
+Send Notifications On Update=Отправлять уведомления при обновлении
+Delay in days before updating applications=Задержка в днях перед обновлением приложений
+Auto Update All Plugins=Автообновление всех плагинов
+Update Check Frequency=Частота проверки обновлений
+Support=Поддержка
+Day Of Week=День недели
+Day Of Month=День месяца
+Hour=Час
+Minute=Мин.
+Custom cron expression=Пользовательское расписание cron
+Credits=Благодарности
+Docker Must Be Enabled For This Module To Operate=Для работы этого модуля Docker должен быть включён
+Time to wait for graceful stop before killing=Время ожидания корректной остановки перед принудительным завершением
+Update All Docker Applications=Обновить все Docker-приложения
+Do not overlap with autoupdate=Не должно пересекаться с автообновлением
